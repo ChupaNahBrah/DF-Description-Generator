@@ -38,4 +38,4 @@ All runtime data is stored in a singleton `GlobalState` object for efficient acc
 
 ## Sample Output
 
-The image is of multiple Giant elephants. The Giant elephants are suffering
+"The image is of multiple Giant elephants. The Giant elephants are suffering"
