@@ -18,10 +18,9 @@ sentence_generator/
 │
 ├── data/
 │ ├── loader.py # Loads all data into a global runtime state
-│ └── resources/ # JSON files: subjects, descriptions, weights
+│ └── filters.py # Tag and category-based filtering utilities
 │
-├── util/
-  └── filters.py # Tag and category-based filtering utilities
+├── resources/ # JSON files: subjects, descriptions, weights
 </pre>
 All runtime data is stored in a singleton `GlobalState` object for efficient access across modules.
 
