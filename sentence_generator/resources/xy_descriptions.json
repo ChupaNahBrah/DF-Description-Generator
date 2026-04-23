@@ -1,0 +1,207 @@
+[
+  {
+    "text": "is admiring the",
+    "required_tags_x": [
+      "humanoid"
+    ],
+    "required_tags_y": [],
+    "desc_id": 32
+  },
+  {
+    "text": "is being flayed by the",
+    "required_tags_x": [
+      "organic"
+    ],
+    "required_tags_y": [
+      "creature"
+    ],
+    "desc_id": 33
+  },
+  {
+    "text": "is being mutilated by the",
+    "required_tags_x": [
+      "creature"
+    ],
+    "required_tags_y": [
+      "creature"
+    ],
+    "desc_id": 34
+  },
+  {
+    "text": "is burning the",
+    "required_tags_x": [
+      "humanoid"
+    ],
+    "required_tags_y": [],
+    "desc_id": 35
+  },
+  {
+    "text": "is contemplating the",
+    "required_tags_x": [
+      "humanoid"
+    ],
+    "required_tags_y": [],
+    "desc_id": 36
+  },
+  {
+    "text": "is cooking the",
+    "required_tags_x": [
+      "humanoid"
+    ],
+    "required_tags_y": [],
+    "desc_id": 37
+  },
+  {
+    "text": "is devouring the",
+    "required_tags_x": [
+      "creature"
+    ],
+    "required_tags_y": [],
+    "desc_id": 38
+  },
+  {
+    "text": "is embracing the",
+    "required_tags_x": [
+      "limbed"
+    ],
+    "required_tags_y": [],
+    "desc_id": 39
+  },
+  {
+    "text": "is engraving the",
+    "required_tags_x": [
+      "humanoid"
+    ],
+    "required_tags_y": [],
+    "disallowed_tags_y": ["organic"],
+    "desc_id": 40
+  },
+  {
+    "text": "is fighting with the",
+    "required_tags_x": [
+      "creature"
+    ],
+    "required_tags_y": [
+      "creature"
+    ],
+    "desc_id": 41
+  },
+  {
+    "text": "is greeting the",
+    "required_tags_x": [
+      "humanoid"
+    ],
+    "required_tags_y": [
+      "creature"
+    ],
+    "desc_id": 42
+  },
+  {
+    "text": "is hanging from the",
+    "required_tags_x": [],
+    "required_tags_y": [],
+    "desc_id": 43
+  },
+  {
+    "text": "is hiding the",
+    "required_tags_x": [],
+    "required_tags_y": [],
+    "desc_id": 44
+  },
+  {
+    "text": "is impaled on the",
+    "required_tags_x": [
+      "organic",
+      "shape"
+    ],
+    "required_tags_y": [
+      "pointy"
+    ],
+    "desc_id": 45
+  },
+  {
+    "text": "is massacring the",
+    "required_tags_x": [
+      "creature"
+    ],
+    "required_tags_y": [
+      "creature"
+    ],
+    "desc_id": 46
+  },
+  {
+    "text": "is praying to the",
+    "required_tags_x": [
+      "limbed"
+    ],
+    "required_tags_y": [],
+    "desc_id": 47
+  },
+  {
+    "text": "is prostrating itself before the",
+    "required_tags_x": [
+      "limbed"
+    ],
+    "required_tags_y": [],
+    "desc_id": 48
+  },
+  {
+    "text": "is raising the",
+    "required_tags_x": [
+      "limbed"
+    ],
+    "required_tags_y": [],
+    "desc_id": 49
+  },
+  {
+    "text": "is refusing the",
+    "required_tags_x": [
+      "humanoid"
+    ],
+    "required_tags_y": [],
+    "desc_id": 50
+  },
+  {
+    "text": "is shooting the",
+    "required_tags_x": [
+      "humanoid"
+    ],
+    "required_tags_y": [],
+    "desc_id": 51
+  },
+  {
+    "text": "is speaking with the",
+    "required_tags_x": [
+      "humanoid"
+    ],
+    "required_tags_y": [
+      "creature"
+    ],
+    "desc_id": 52
+  },
+  {
+    "text": "is striking down the",
+    "required_tags_x": [
+      "limbed"
+    ],
+    "required_tags_y": [],
+    "desc_id": 53
+  },
+  {
+    "text": "is surrounded by the",
+    "required_tags_x": [],
+    "required_tags_y": [],
+    "y_min_quantity": 2,
+    "desc_id": 54
+  },
+  {
+    "text": "is torturing the",
+    "required_tags_x": [
+      "humanoid"
+    ],
+    "required_tags_y": [
+      "creature"
+    ],
+    "desc_id": 55
+  }
+]

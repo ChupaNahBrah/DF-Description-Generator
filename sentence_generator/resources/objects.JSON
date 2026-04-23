@@ -1,0 +1,2058 @@
+[
+  {
+    "id": 689,
+    "singular": "Altar",
+    "plural": "Altars",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 690,
+    "singular": "Amulet",
+    "plural": "Amulets",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 691,
+    "singular": "Anvil",
+    "plural": "Anvils",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 692,
+    "singular": "Armor stand",
+    "plural": "Armor stands",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 693,
+    "singular": "Ballista arrow",
+    "plural": "Ballista arrows",
+    "tags": [
+      "meltable",
+      "pointy"
+    ],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 694,
+    "singular": "Ballista",
+    "plural": "Ballistas",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 695,
+    "singular": "Bars",
+    "plural": "Bars",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 696,
+    "singular": "Body part",
+    "plural": "Body parts",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 697,
+    "singular": "Branch",
+    "plural": "Branches",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 698,
+    "singular": "Cage",
+    "plural": "Cages",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 699,
+    "singular": "Catapult",
+    "plural": "Catapults",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 700,
+    "singular": "Chain",
+    "plural": "Chains",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 701,
+    "singular": "Cheese wheel",
+    "plural": "Cheese wheels",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 702,
+    "singular": "Codex",
+    "plural": "Codices",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 703,
+    "singular": "Coin",
+    "plural": "Coins",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 704,
+    "singular": "Corpse",
+    "plural": "Corpses",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 705,
+    "singular": "Crown",
+    "plural": "Crowns",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 706,
+    "singular": "Cut gems",
+    "plural": "Cut gems",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 707,
+    "singular": "Drink",
+    "plural": "Drinks",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 708,
+    "singular": "Giant axe blade",
+    "plural": "Giant axe blades",
+    "tags": [
+      "meltable",
+      "pointy"
+    ],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 709,
+    "singular": "Glob",
+    "plural": "Globs",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 710,
+    "singular": "Goblet",
+    "plural": "Goblets",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 711,
+    "singular": "Large gem",
+    "plural": "Large gems",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 712,
+    "singular": "Large serrated disc",
+    "plural": "Large serrated discs",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 713,
+    "singular": "Menacing spike",
+    "plural": "Menacing spikes",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 714,
+    "singular": "Pick",
+    "plural": "Picks",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 715,
+    "singular": "Powder",
+    "plural": "Powders",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 716,
+    "singular": "Raw fish",
+    "plural": "Raw fish",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 717,
+    "singular": "Remains",
+    "plural": "Remains",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 718,
+    "singular": "Ring",
+    "plural": "Rings",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 719,
+    "singular": "Rough Gems",
+    "plural": "Rough gems",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 720,
+    "singular": "Scepter",
+    "plural": "Scepters",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 721,
+    "singular": "Scroll",
+    "plural": "Scrolls",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 722,
+    "singular": "Sock",
+    "plural": "Socks",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 723,
+    "singular": "Spiked ball",
+    "plural": "Spiked balls",
+    "tags": [
+      "meltable",
+      "pointy"
+    ],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 724,
+    "singular": "Statue",
+    "plural": "Statues",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 725,
+    "singular": "Throne",
+    "plural": "Thrones",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 726,
+    "singular": "Totem",
+    "plural": "Totems",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 727,
+    "singular": "Wagon",
+    "plural": "Wagons",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_general"
+  },
+  {
+    "id": 728,
+    "singular": "Baguette cut gem",
+    "plural": "Baguette cut gems",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_cutGems"
+  },
+  {
+    "id": 729,
+    "singular": "Briolette cut gem",
+    "plural": "Briolette cut gems",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_cutGems"
+  },
+  {
+    "id": 730,
+    "singular": "Cushion cut gem",
+    "plural": "Cushion cut gems",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_cutGems"
+  },
+  {
+    "id": 731,
+    "singular": "Emerald cut gem",
+    "plural": "Emerald cut gems",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_cutGems"
+  },
+  {
+    "id": 732,
+    "singular": "Marquise cut gem",
+    "plural": "Marquise cut gems",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_cutGems"
+  },
+  {
+    "id": 733,
+    "singular": "Octagon cut gem",
+    "plural": "Octagon cut gems",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_cutGems"
+  },
+  {
+    "id": 734,
+    "singular": "Oval cut gem",
+    "plural": "Oval cut gems",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_cutGems"
+  },
+  {
+    "id": 735,
+    "singular": "Pear cut gem",
+    "plural": "Pear cut gems",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_cutGems"
+  },
+  {
+    "id": 736,
+    "singular": "Point cut gem",
+    "plural": "Point cut gems",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_cutGems"
+  },
+  {
+    "id": 737,
+    "singular": "Radiant cut gem",
+    "plural": "Radiant cut gems",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_cutGems"
+  },
+  {
+    "id": 738,
+    "singular": "Rose cut gem",
+    "plural": "Rose cut gems",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_cutGems"
+  },
+  {
+    "id": 739,
+    "singular": "Round brilliant cut gem",
+    "plural": "Round brilliant cut gems",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_cutGems"
+  },
+  {
+    "id": 740,
+    "singular": "Single cut gem",
+    "plural": "Single cut gems",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_cutGems"
+  },
+  {
+    "id": 741,
+    "singular": "Square brilliant cut gem",
+    "plural": "Square brilliant cut gems",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_cutGems"
+  },
+  {
+    "id": 742,
+    "singular": "Square cut gem",
+    "plural": "Square cut gems",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_cutGems"
+  },
+  {
+    "id": 743,
+    "singular": "Table cut gem",
+    "plural": "Table cut gems",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_cutGems"
+  },
+  {
+    "id": 744,
+    "singular": "Tapered baguette cut gem",
+    "plural": "Tapered baguette cut gems",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_cutGems"
+  },
+  {
+    "id": 745,
+    "singular": "Trillion cut gem",
+    "plural": "Trillion cut gems",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_cutGems"
+  },
+  {
+    "id": 746,
+    "singular": "Axe",
+    "plural": "Axes",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 747,
+    "singular": "Arrow",
+    "plural": "Arrows",
+    "tags": [
+      "meltable",
+      "pointy"
+    ],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 748,
+    "singular": "Battle axe",
+    "plural": "Battle axes",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 749,
+    "singular": "Blow dart",
+    "plural": "Blow darts",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 750,
+    "singular": "Blowgun",
+    "plural": "Blowguns",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 751,
+    "singular": "Bolt",
+    "plural": "Bolts",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 752,
+    "singular": "Bow",
+    "plural": "Bows",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 753,
+    "singular": "Breastplate",
+    "plural": "Breastplates",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 754,
+    "singular": "Buckler",
+    "plural": "Bucklers",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 755,
+    "singular": "Chausse",
+    "plural": "Chausses",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 756,
+    "singular": "Crossbow",
+    "plural": "Crossbows",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 757,
+    "singular": "Flail",
+    "plural": "Flails",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 758,
+    "singular": "Gauntlet",
+    "plural": "Gauntlets",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 759,
+    "singular": "Great axe",
+    "plural": "Great axes",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 760,
+    "singular": "Greaves",
+    "plural": "Greaves",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 761,
+    "singular": "Halberd",
+    "plural": "Halberds",
+    "tags": [
+      "meltable",
+      "pointy"
+    ],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 762,
+    "singular": "Helm",
+    "plural": "Helms",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 763,
+    "singular": "High boot",
+    "plural": "High boots",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 764,
+    "singular": "Large dagger",
+    "plural": "Large daggers",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 765,
+    "singular": "Leather armor",
+    "plural": "Leather armor",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 766,
+    "singular": "Leggings",
+    "plural": "Leggings",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 767,
+    "singular": "Long sword",
+    "plural": "Long swords",
+    "tags": [
+      "meltable",
+      "pointy"
+    ],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 768,
+    "singular": "Low boot",
+    "plural": "Low boots",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 769,
+    "singular": "Mace",
+    "plural": "Maces",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 770,
+    "singular": "Mail shirt",
+    "plural": "Mail shirts",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 771,
+    "singular": "Maul",
+    "plural": "Mauls",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 772,
+    "singular": "Maul",
+    "plural": "Mauls",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 773,
+    "singular": "Morningstar",
+    "plural": "Morningstars",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 774,
+    "singular": "Pike",
+    "plural": "Pikes",
+    "tags": [
+      "meltable",
+      "pointy"
+    ],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 775,
+    "singular": "Scimitar",
+    "plural": "Scimitars",
+    "tags": [
+      "meltable",
+      "pointy"
+    ],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 776,
+    "singular": "Scourge",
+    "plural": "Scourges",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 777,
+    "singular": "Shield",
+    "plural": "Shields",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 778,
+    "singular": "Short sword",
+    "plural": "Short sword",
+    "tags": [
+      "meltable",
+      "pointy"
+    ],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 779,
+    "singular": "Spear",
+    "plural": "Spears",
+    "tags": [
+      "meltable",
+      "pointy"
+    ],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 780,
+    "singular": "Training axe",
+    "plural": "Training axes",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 781,
+    "singular": "Training spear",
+    "plural": "Training spears",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 782,
+    "singular": "Training sword",
+    "plural": "Training swords",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 783,
+    "singular": "Two-handed sword",
+    "plural": "Two-handed sword",
+    "tags": [
+      "meltable",
+      "pointy"
+    ],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 784,
+    "singular": "War hammer",
+    "plural": "War hammers",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 785,
+    "singular": "Whip",
+    "plural": "Whips",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_gear"
+  },
+  {
+    "id": 786,
+    "singular": "Bracelet",
+    "plural": "Bracelets",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_clothing"
+  },
+  {
+    "id": 787,
+    "singular": "Braies",
+    "plural": "Braies",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_clothing"
+  },
+  {
+    "id": 788,
+    "singular": "Cap",
+    "plural": "Caps",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_clothing"
+  },
+  {
+    "id": 789,
+    "singular": "Cape",
+    "plural": "Capes",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_clothing"
+  },
+  {
+    "id": 790,
+    "singular": "Cloak",
+    "plural": "Cloaks",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_clothing"
+  },
+  {
+    "id": 791,
+    "singular": "Coat",
+    "plural": "Coats",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_clothing"
+  },
+  {
+    "id": 792,
+    "singular": "Dress",
+    "plural": "Dresses",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_clothing"
+  },
+  {
+    "id": 793,
+    "singular": "Earring",
+    "plural": "Earrings",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_clothing"
+  },
+  {
+    "id": 794,
+    "singular": "Face veil",
+    "plural": "Face veils",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_clothing"
+  },
+  {
+    "id": 795,
+    "singular": "Glove",
+    "plural": "Gloves",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_clothing"
+  },
+  {
+    "id": 796,
+    "singular": "Head veil",
+    "plural": "Head veils",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_clothing"
+  },
+  {
+    "id": 797,
+    "singular": "Headscarf",
+    "plural": "Headscarves",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_clothing"
+  },
+  {
+    "id": 798,
+    "singular": "Hood",
+    "plural": "Hoods",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_clothing"
+  },
+  {
+    "id": 799,
+    "singular": "Loin cloth",
+    "plural": "Loin cloth",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_clothing"
+  },
+  {
+    "id": 800,
+    "singular": "Long skirt",
+    "plural": "Long skirts",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_clothing"
+  },
+  {
+    "id": 801,
+    "singular": "Mask",
+    "plural": "Masks",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_clothing"
+  },
+  {
+    "id": 802,
+    "singular": "Mitten",
+    "plural": "Mittens",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_clothing"
+  },
+  {
+    "id": 803,
+    "singular": "Robe",
+    "plural": "Robes",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_clothing"
+  },
+  {
+    "id": 804,
+    "singular": "Sandal",
+    "plural": "Sandals",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_clothing"
+  },
+  {
+    "id": 805,
+    "singular": "Shirt",
+    "plural": "Shirts",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_clothing"
+  },
+  {
+    "id": 806,
+    "singular": "Shoe",
+    "plural": "Shoes",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_clothing"
+  },
+  {
+    "id": 807,
+    "singular": "Short skirt",
+    "plural": "Short skirt",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_clothing"
+  },
+  {
+    "id": 808,
+    "singular": "Skirt",
+    "plural": "Skirts",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_clothing"
+  },
+  {
+    "id": 809,
+    "singular": "Thong",
+    "plural": "Thongs",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_clothing"
+  },
+  {
+    "id": 810,
+    "singular": "Trousers",
+    "plural": "Trousers",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_clothing"
+  },
+  {
+    "id": 811,
+    "singular": "Tunic",
+    "plural": "Tunics",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_clothing"
+  },
+  {
+    "id": 812,
+    "singular": "Turban",
+    "plural": "Turbans",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_clothing"
+  },
+  {
+    "id": 813,
+    "singular": "Vest",
+    "plural": "Vests",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_clothing"
+  },
+  {
+    "id": 814,
+    "singular": "Adet instrument",
+    "plural": "Adet instruments",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_instruments"
+  },
+  {
+    "id": 815,
+    "singular": "Aso instrument",
+    "plural": "Aso instruments",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_instruments"
+  },
+  {
+    "id": 816,
+    "singular": "Asu instrument",
+    "plural": "Asu instruments",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_instruments"
+  },
+  {
+    "id": 817,
+    "singular": "Cifano instrument",
+    "plural": "Cifano instruments",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_instruments"
+  },
+  {
+    "id": 818,
+    "singular": "Conar instrument",
+    "plural": "Conar instruments",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_instruments"
+  },
+  {
+    "id": 819,
+    "singular": "Cujom instrument",
+    "plural": "Cujom instruments",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_instruments"
+  },
+  {
+    "id": 820,
+    "singular": "Dana instrument",
+    "plural": "Dana instruments",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_instruments"
+  },
+  {
+    "id": 821,
+    "singular": "Emat instrument",
+    "plural": "Emat instruments",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_instruments"
+  },
+  {
+    "id": 822,
+    "singular": "Emoth instrument",
+    "plural": "Emoth instruments",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_instruments"
+  },
+  {
+    "id": 823,
+    "singular": "Fanemi instrument",
+    "plural": "Fanemi instruments",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_instruments"
+  },
+  {
+    "id": 824,
+    "singular": "Gishdist instrument",
+    "plural": "Gishdist instruments",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_instruments"
+  },
+  {
+    "id": 825,
+    "singular": "Imadu instrument",
+    "plural": "Imadu instruments",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_instruments"
+  },
+  {
+    "id": 826,
+    "singular": "Kalan instrument",
+    "plural": "Kalan instruments",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_instruments"
+  },
+  {
+    "id": 827,
+    "singular": "Kavud instrument",
+    "plural": "Kavud instruments",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_instruments"
+  },
+  {
+    "id": 828,
+    "singular": "Kilrud instrument",
+    "plural": "Kilrud instruments",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_instruments"
+  },
+  {
+    "id": 829,
+    "singular": "Lic instrument",
+    "plural": "Lic instruments",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_instruments"
+  },
+  {
+    "id": 830,
+    "singular": "Mafol instrument",
+    "plural": "Mafol instruments",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_instruments"
+  },
+  {
+    "id": 831,
+    "singular": "Nawara instrument",
+    "plural": "Nawara instruments",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_instruments"
+  },
+  {
+    "id": 832,
+    "singular": "Noram instrument",
+    "plural": "Noram instruments",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_instruments"
+  },
+  {
+    "id": 833,
+    "singular": "Ogra instrument",
+    "plural": "Ogra instruments",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_instruments"
+  },
+  {
+    "id": 834,
+    "singular": "Ohu instrument",
+    "plural": "Ohu instruments",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_instruments"
+  },
+  {
+    "id": 835,
+    "singular": "Quinefa instrument",
+    "plural": "Quinefa instruments",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_instruments"
+  },
+  {
+    "id": 836,
+    "singular": "Stetar instrument",
+    "plural": "Stetar instruments",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_instruments"
+  },
+  {
+    "id": 837,
+    "singular": "Stren instrument",
+    "plural": "Stren instruments",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_instruments"
+  },
+  {
+    "id": 838,
+    "singular": "Thetal instrument",
+    "plural": "Thetal instruments",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_instruments"
+  },
+  {
+    "id": 839,
+    "singular": "Thos instrument",
+    "plural": "Thos instruments",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_instruments"
+  },
+  {
+    "id": 840,
+    "singular": "Timik instrument",
+    "plural": "Timik instruments",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_instruments"
+  },
+  {
+    "id": 841,
+    "singular": "Toga instrument",
+    "plural": "Toga instruments",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_instruments"
+  },
+  {
+    "id": 842,
+    "singular": "Tomen instrument",
+    "plural": "Tomen instruments",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_instruments"
+  },
+  {
+    "id": 843,
+    "singular": "Zarut instrument",
+    "plural": "Zarut instruments",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_instruments"
+  },
+  {
+    "id": 844,
+    "singular": "Shagog instrument",
+    "plural": "Shagog instruments",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_instruments"
+  },
+  {
+    "id": 845,
+    "singular": "Animal trap",
+    "plural": "Animal traps",
+    "tags": [
+      "meltable",
+      "pointy"
+    ],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 846,
+    "singular": "Backpack",
+    "plural": "Backpacks",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 847,
+    "singular": "Bag",
+    "plural": "Bags",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 848,
+    "singular": "Barrel",
+    "plural": "Barrels",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 849,
+    "singular": "Bed",
+    "plural": "Beds",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 850,
+    "singular": "Bin",
+    "plural": "Bins",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 851,
+    "singular": "Blocks",
+    "plural": "Blocks",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 852,
+    "singular": "Boning knife",
+    "plural": "Boning knives",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 853,
+    "singular": "Bookbinding",
+    "plural": "Bookbindings",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 854,
+    "singular": "Bookcase",
+    "plural": "Bookcases",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 855,
+    "singular": "Bowl",
+    "plural": "Bowls",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 856,
+    "singular": "Box",
+    "plural": "Boxes",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 857,
+    "singular": "Bucket",
+    "plural": "Buckets",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 858,
+    "singular": "Cabinet",
+    "plural": "Cabinets",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 859,
+    "singular": "Carving fork",
+    "plural": "Carving forks",
+    "tags": [
+      "meltable",
+      "pointy"
+    ],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 860,
+    "singular": "Carving knife",
+    "plural": "Carving knives",
+    "tags": [
+      "meltable",
+      "pointy"
+    ],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 861,
+    "singular": "Cauldron",
+    "plural": "Cauldrons",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 862,
+    "singular": "Cloth",
+    "plural": "Cloth",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 863,
+    "singular": "Coffin",
+    "plural": "Coffins",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 864,
+    "singular": "Crutch",
+    "plural": "Crutches",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 865,
+    "singular": "Die",
+    "plural": "Dice",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 866,
+    "singular": "Display case",
+    "plural": "Display cases",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 867,
+    "singular": "Door",
+    "plural": "Doors",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 868,
+    "singular": "Egg",
+    "plural": "Eggs",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 869,
+    "singular": "Enormous corkscrew",
+    "plural": "Enormous corkscrews",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 870,
+    "singular": "Figurine",
+    "plural": "Figurines",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 871,
+    "singular": "Fish",
+    "plural": "Fish",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 872,
+    "singular": "Flask",
+    "plural": "Flasks",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 873,
+    "singular": "Floodgate",
+    "plural": "Floodgates",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 874,
+    "singular": "Hatch cover",
+    "plural": "Hatch covers",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 875,
+    "singular": "Helve",
+    "plural": "Helves",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 876,
+    "singular": "Hive",
+    "plural": "Hives",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 877,
+    "singular": "Honeycomb",
+    "plural": "Honeycomb",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 878,
+    "singular": "Jug",
+    "plural": "Jugs",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 879,
+    "singular": "Ladle",
+    "plural": "Ladles",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 880,
+    "singular": "Large pot",
+    "plural": "Large pots",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 881,
+    "singular": "Log",
+    "plural": "Logs",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 882,
+    "singular": "Meat cleaver",
+    "plural": "Meat cleavers",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 883,
+    "singular": "Mechanism",
+    "plural": "Mechanisms",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 884,
+    "singular": "Millstone",
+    "plural": "Millstones",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 885,
+    "singular": "Minecart",
+    "plural": "Minecarts",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 886,
+    "singular": "Mini-forge",
+    "plural": "Mini-forges",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 887,
+    "singular": "Mortar",
+    "plural": "Mortars",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 888,
+    "singular": "Nest box",
+    "plural": "Nest boxes",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 889,
+    "singular": "Pedestal",
+    "plural": "Pedestals",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 890,
+    "singular": "Pestle",
+    "plural": "Pestles",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 891,
+    "singular": "Pipe section",
+    "plural": "Pipe sections",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 892,
+    "singular": "Pouch",
+    "plural": "Pouches",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 893,
+    "singular": "Prepared meal",
+    "plural": "Prepared meals",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 894,
+    "singular": "Puzzlebox",
+    "plural": "Puzzleboxes",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 895,
+    "singular": "Quern",
+    "plural": "Querns",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 896,
+    "singular": "Quire",
+    "plural": "Quires",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 897,
+    "singular": "Scroll Roller",
+    "plural": "Scroll Rollers",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 898,
+    "singular": "Seeds",
+    "plural": "Seeds",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 899,
+    "singular": "Sheet",
+    "plural": "Sheets",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 900,
+    "singular": "Slab",
+    "plural": "Slabs",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 901,
+    "singular": "Slicing knife",
+    "plural": "Slicing knives",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 902,
+    "singular": "Small rock",
+    "plural": "Small rocks",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 903,
+    "singular": "Splint",
+    "plural": "Splints",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 904,
+    "singular": "Stepladder",
+    "plural": "Stepladders",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 905,
+    "singular": "Stones",
+    "plural": "Stones",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 906,
+    "singular": "Table",
+    "plural": "Tables",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 907,
+    "singular": "Tanned hide",
+    "plural": "Tanned hides",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 908,
+    "singular": "Thread",
+    "plural": "Threads",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 909,
+    "singular": "Toy axe",
+    "plural": "Toy axes",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 910,
+    "singular": "Toy boat",
+    "plural": "Toy boats",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 911,
+    "singular": "Toy hammer",
+    "plural": "Toy hammers",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 912,
+    "singular": "Traction bench",
+    "plural": "Traction benches",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 913,
+    "singular": "Weapon rack",
+    "plural": "Weapon racks",
+    "tags": [
+      "meltable"
+    ],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 914,
+    "singular": "Wheelbarrow",
+    "plural": "Wheelbarrows",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  },
+  {
+    "id": 915,
+    "singular": "Window",
+    "plural": "Windows",
+    "tags": [],
+    "category": "items",
+    "subcategory": "items_mundane"
+  }
+]

@@ -1,0 +1,699 @@
+creatures_land_civilized
+Dwarf,Dwarves,organic,creature,limbed,humanoid
+Elf,Elves,organic,creature,limbed,humanoid
+Goblin,Goblins,organic,creature,limbed,humanoid
+Human,Humans,organic,creature,limbed,humanoid
+Kobold,Kobolds,organic,creature,limbed,humanoid
+
+creatures_underground_civilized
+Amphibian man,Amphibian men,organic,creature,limbed,humanoid
+Antman,Antmen,organic,creature,limbed,humanoid,pointy
+Bat man,Bat men,organic,creature,limbed,humanoid
+Cave fish man,Cave fish men,organic,creature,limbed,humanoid
+Cave swallow man,Cave swallow men,organic,creature,limbed,humanoid
+Olm man,Olm men,organic,creature,limbed,humanoid
+Reptile man,Reptile men,organic,creature,limbed,humanoid
+Rodent man,Rodent men,organic,creature,limbed,humanoid
+Serpent man,Serpent men,organic,creature,limbed,humanoid
+
+creatures_land
+Aardvark,Aardvarks,organic,creature,limbed
+Aardvark man,Aardvark men,organic,creature,limbed,humanoid
+Adder,Adders,organic,creature
+Adder man,Adder men,organic,creature,limbed,humanoid
+Alligator,Alligators,organic,creature,limbed
+Alpaca,Alpacas,organic,creature,limbed
+Anaconda,Anacondas,organic,creature
+Anaconda man,Anaconda men,organic,creature,limbed,humanoid
+Anole,Anoles,organic,creature
+Anole man,Anole men,organic,creature,limbed,humanoid
+Armadillo,Armadillos,organic,creature,limbed
+Armadillo man,Armadillo men,organic,creature,limbed,humanoid
+Aye-aye,Aye-ayes,organic,creature
+Aye-aye man,Aye-aye men,organic,creature,limbed,humanoid
+Badger,Badgers,organic,creature,limbed
+Badger man,Badger men,organic,creature,limbed,humanoid
+Bark scorpion man,Bark scorpion men,organic,creature,limbed,humanoid,pointy
+Barn owl,Barn owls,organic,creature,limbed
+Barn owl man,Barn owl men,organic,creature,limbed,humanoid
+Beak dog,Beak dog,organic,creature
+Beetle man,Beetle men,organic,creature,limbed,humanoid,pointy
+Bilou,Bilous,organic,creature,limbed,humanoid
+Black bear,Black bears,organic,creature,limbed
+Black bear man,Black bear men,organic,creature,limbed,humanoid
+Black mamba,Black mambas,organic,creature
+Black mamba man,Black mamba men,organic,creature,limbed,humanoid
+Black-crested gibbon,Black-crested gibbons,organic,creature,limbed,humanoid
+Black-handed gibbon,Black-handed gibbons,organic,creature,limbed,humanoid
+Blizzard man,Blizzard men,organic,creature,limbed,humanoid
+Blue peafowl,Blue peafowl,organic,creature
+Bluejay man,Bluejay men,organic,creature,limbed,humanoid
+Bobcat,Bobcats,organic,creature,limbed
+Bobcat man,Bobcat men,organic,creature,limbed,humanoid
+Bonobo,Bonobos,organic,creature,limbed,humanoid
+Brown recluse spider man,Brown recluse spider men,organic,creature,limbed,humanoid
+Bushmaster,Bushmasters,organic,creature
+Bushmaster man,Bushmaster men,organic,creature,limbed,humanoid
+Bushtit man,Bushtit men,organic,creature,limbed,humanoid
+Buzzard,Buzzards,organic,creature
+Buzzard man,Buzzard men,organic,creature,limbed,humanoid
+Capuchin,Capuchins,organic,creature,limbed,humanoid
+Capuchin man,Capuchin men,organic,creature,limbed,humanoid
+Capybara,Capybaras,organic,creature,limbed
+Capybara man,Capybara men,organic,creature,limbed,humanoid
+Cardinal man,Cardinal men,organic,creature,limbed,humanoid
+Cassowary,Cassowaries,organic,creature,limbed
+Cassowary man,Cassowary men,organic,creature,limbed,humanoid
+Cat,Cats,organic,creature
+Cavy,Cavies,organic,creature
+Chameleon man,Chameleon men,organic,creature,limbed,humanoid
+Cheetah,Cheetahs,organic,creature,limbed
+Cheetah man,Cheetah men,organic,creature,limbed,humanoid
+Chicken,Chickens,organic,creature
+Chimpanzee,Chimpanzees,organic,creature,limbed,humanoid
+Chinchilla,Chinchillas,organic,creature,limbed
+Chinchilla man,Chinchilla men,organic,creature,limbed,humanoid
+Chipmunk man,Chipmunk men,organic,creature,limbed,humanoid
+Coati,Coatis,organic,creature
+Coati man,Coati men,organic,creature,limbed,humanoid
+Cockatiel man,Cockatiel men,organic,creature,limbed,humanoid
+Copperhead snake,Copperhead snakes
+Copperhead snake man,Copperhead snake men,organic,creature,limbed,humanoid
+Cougar,Cougars,organic,creature,limbed
+Cougar man,Cougar men,organic,creature,limbed,humanoid
+Cow,Cows,organic,creature,limbed
+Coyote,Coyotes,organic,creature,limbed
+Coyote man,Coyote men,organic,creature,limbed,humanoid
+Crow man,Crow men,organic,creature,limbed,humanoid
+Dark gnome,Dark gnomes,organic,creature,limbed,humanoid
+Deer,Deer,organic,creature,limbed,pointy
+Deer man,Deer men,organic,creature,limbed,humanoid,pointy
+Desert tortoise,Desert tortoises,organic,creature,limbed
+Desert tortoise man,Desert tortoise men,organic,creature,limbed,humanoid
+Dingo,Dingos,organic,creature,limbed
+Dingo man,Dingo men,organic,creature,limbed,humanoid
+Dog,Dogs,organic,creature,limbed
+Donkey,Donkeys,organic,creature
+Duck,Ducks,organic,creature,limbed
+Eagle,Eagles,organic,creature,limbed
+Eagle man,Eagle men,organic,creature,limbed,humanoid
+Echidna,Echidnas,organic,creature
+Echidna man,Echidna men,organic,creature,limbed,humanoid
+Elephant,Elephants,organic,creature,limbed
+Elephant man,Elephant men,organic,creature,limbed,humanoid
+Elk,Elk,organic,creature,limbed,pointy
+Elk man,Elk men,organic,creature,limbed,humanoid.pointy
+Emu,Emus,organic,creature,limbed
+Emu man,Emu men,organic,creature,limbed,humanoid
+Firefly man,Firefly men,organic,creature,limbed,humanoid
+Fly man,Fly men,organic,creature,limbed,humanoid
+Flying squirrel man,Flying squirrel men,organic,creature,limbed,humanoid
+Fox,Foxes,organic,creature,limbed
+Fox man,Fox men,organic,creature,limbed,humanoid
+Gazelle,Gazelles,organic,creature,limbed,pointy
+Gazelle man,Gazelle men,organic,creature,limbed,humanoid
+Giant aardvark,Giant aardvarks,organic,creature,limbed
+Giant adder,Giant adders,organic,creature
+Giant anaconda,Giant anacondas,organic,creature
+Giant anole,Giant anoles,organic,creature
+Giant armadillo,Giant armadillos,organic,creature,limbed
+Giant aye-aye,Giant aye-ayes,organic,creature
+Giant badger,Giant badgers,organic,creature,limbed
+Giant bark scorpion,Giant bark scorpions,organic,creature,limbed,pointy
+Giant barn owl,Giant barn owls,organic,creature,limbed
+Giant beetle,Giant beetles,organic,creature,limbed,pointy
+Giant black bear,Giant black bears,organic,creature,limbed
+Giant black mamba,Giant black mambas,organic,creature
+Giant bluejay,Giant bluejays,organic,creature,limbed
+Giant bobcat,Giant bobcats,organic,creature,limbed
+Giant brown recluse spider,Giant brown recluse spiders,organic,creature
+Giant bushmaster,Giant bushmasters,organic,creature
+Giant bushtit,Giant bushtits,organic,creature
+Giant buzzard,Giant buzzards,organic,creature,limbed
+Giant capuchin,Giant capuchins,organic,creature,limbed,humanoid
+Giant capybara,Giant capybaras,organic,creature,limbed
+Giant cardinal,Giant cardinals,organic,creature,limbed,pointy
+Giant cassowary,Giant cassowaries,organic,creature,limbed,pointy
+Giant chameleon,Giant chameleons,organic,creature,limbed
+Giant cheetah,Giant cheetahs,organic,creature,limbed
+Giant chinchilla,Giant chinchillas,organic,creature,limbed
+Giant chipmunk,Giant chipmunks,organic,creature,limbed
+Giant coati,Giant coatis,organic,creature,limbed,humanoid
+Giant cockatiel,Giant cockatiels,organic,creature,limbed,pointy
+Giant copperhead snake,Giant copperhead snakes
+Giant cougar,Giant cougars,organic,creature,limbed
+Giant coyote,Giant coyotes,organic,creature,limbed
+Giant crow,Giant crows,organic,creature,limbed
+Giant deer,Giant deer,organic,creature,limbed,pointy
+Giant desert scorpion,Giant desert scorpions,organic,creature,limbed,pointy
+Giant desert tortoise,Giant desert tortoises,organic,creature,limbed
+Giant dingo,Giant dingos,organic,creature,limbed
+Giant eagle,Giant eagles,organic,creature,limbed,pointy
+Giant echidna,Giant echidnas,organic,creature
+Giant elephant,Giant elephants,organic,creature,limbed,pointy
+Giant elk,Giant elk,organic,creature,limbed,pointy
+Giant emu,Giant emu,organic,creature,limbed
+Giant firefly,Giant fireflies,organic,creature
+Giant fly,Giant flies,organic,creature
+Giant flying squirrel,Giant flying squirrels,organic,creature,limbed
+Giant fox,Giant foxes,organic,creature,limbed
+Giant gazelle,Giant gazelles,organic,creature,limbed,pointy
+Giant gila monster,Giant gila monsters,organic,creature
+Giant giraffe,Giant giraffes,organic,creature,limbed
+Giant grackle,Giant grackles,organic,creature,limbed,pointy
+Giant grasshopper,Giant grasshoppers,organic,creature
+Giant gray langur,Giant gray langurs,organic,creature.limbed,humanoid
+Giant gray squirrel,Giant gray squirrels,organic,creature,limbed
+Giant great horned owl,Giant great horned owls,organic,creature,limbed
+Giant green tree frog,Giant green tree frogs,organic,creature
+Giant grey parrot,Giant grey parrots,organic,creature,limbed
+Giant grizzly bear,Giant grizzly bears,organic,creature,limbed
+Giant groundhog,Giant groundhogs,organic,creature,limbed
+Giant hamster,Giant hamsters,organic,creature,limbed
+Giant hare,Giant hares,organic,creature,limbed
+Giant hedgehog,Giant hedgehogs,organic,creature,limbed,pointy
+Giant hippo,Giant hippos,organic,creature,limbed
+Giant hoary marmot,Giant hoary marmots,organic,creature,limbed,humanoid
+Giant honey badger,Giant honey badgers,organic,creature,limbed
+Giant hornbill,Giant hornbills,organic,creature
+Giant hyena,Giant hyenas,organic,creature,limbed
+Giant ibex,Giant ibex,organic,creature,limbed,pointy
+Giant iguana,Giant iguanas,organic,creature,limbed
+Giant impala,Giant impalas,organic,creature,pointy
+Giant jackal,Giant jackals,organic,creature,limbed
+Giant jaguar,Giant jaguars,organic,creature,limbed
+Giant jumping spider,Giant jumping spiders,organic,creature,limbed,pointy
+Giant kakapo,Giant kakapos,organic,creature
+Giant kangaroo,Giant kangaroo,organic,creature,limbed
+Giant kea,Giant keas,organic,creature
+Giant kestrel,Giant kestrels,organic,creature
+Giant king cobra,Giant king cobras,organic,creature
+Giant kingsnake,Giant kingsnakes,organic,creature
+Giant kiwi,Giant kiwis,organic,creature,limbed,pointy
+Giant koala,Giant koalas,organic,creature,limbed,humanoid
+Giant leopard,Giant leopards,organic,creature,limbed
+Giant leopard gecko,Giant leopard geckos
+Giant lion,Giant lions,organic,creature,limbed
+Giant lion tamarin,Giant lion tamarins,organic,creature,limbed
+Giant lizard,Giant lizards,organic,creature
+Giant lorikeet,Giant lorikeets,organic,creature
+Giant louse,Giant louse,organic,creature
+Giant lynx,Giant lynx,organic,creature,limbed
+Giant magpie,Giant magpies,organic,creature,limbed,pointy
+Giant mandrill,Giant mandrills,organic,creature,limbed,humanoid
+Giant mantis,Giant mantises,organic,creature
+Giant masked lovebird,Giant masked lovebirds,organic,creature,limbed,pointy
+Giant monarch butterfly,Giant monarch butterflies,organic,creature
+Giant mongoose,Giant mongeese,organic,creature,limbed
+Giant monitor lizard,Giant monitor lizards,organic,creature
+Giant moose,Giant moose,organic,creature,limbed
+Giant mosquito,Giant mosquitos,organic,creature,limbed,pointy
+Giant moth,Giant moths,organic,creature
+Giant mountain goat,Giant mountain goats,organic,creature,limbed
+Giant muskox,Giant muskoxen,organic,creature,limbed
+Giant ocelot,Giant ocelots,organic,creature,limbed
+Giant one-humped camel,Giant one-humped camels,organic,creature,limbed
+Giant opossum,Giant opossums,organic,creature,limbed
+Giant oriole,Giant orioles,organic,creature,limbed,pointy
+Giant osprey,Giant ospreys,organic,creature,limbed,pointy
+Giant ostrich,Giant ostriches,organic,creature,limbed
+Giant pangolin,Giant pangolins,organic,creature,limbed
+Giant parakeet,Giant parakeet,organic,creature,limbed,pointy
+Giant peach-faced lovebird,Giant peach-faced lovebirds,organic,creature,limbed,pointy
+Giant peregrine falcon,Giant peregrine falcons
+Giant polar bear,Giant polar bears,organic,creature,limbed
+Giant porcupine,Giant porcupines,organic,creature,limbed,pointy
+Giant python,Giant pythons,organic,creature
+Giant raccoon,Giant raccoons,organic,creature,limbed
+Giant rattlesnake,Giant rattlesnakes,organic,creature
+Giant raven,Giant ravens,organic,creature,limbed,pointy
+Giant red panda,Giant red pandas,organic,creature,limbed
+Giant red squirrel,Giant red squirrels,organic,creature,limbed
+Giant rhesus macaque,Giant rhesus macaques,organic,creature,limbed,humanoid
+Giant rhinoceros,Giant rhinoceros,organic,creature,limbed,pointy
+Giant roach,Giant roaches,organic,creature,limbed
+Giant skink,Giant skinks,organic,creature
+Giant skunk,Giant skunks,organic,creature,limbed
+Giant sloth,Giant sloths,organic,creature,limbed,humanoid
+Giant sloth bear,Giant sloth bears,organic,creature,limbed
+Giant slug,Giant slugs,organic,creature
+Giant snail,Giant snails,organic,creature
+Giant snowy owl,Giant snowy owls,organic,creature,limbed
+Giant sparrow,Giant sparrows,organic,creature,limbed
+Giant spider monkey,Giant spider monkeys,organic,creature,limbed,humanoid
+Giant stoat,Giant stoats,organic,creature,limbed
+Giant tapir,Giant tapir,organic,creature,limbed
+Giant thrips,Giant thrips,organic,creature
+Giant tick,Giant ticks,organic,creature,limbed,pointy
+Giant tiger,Giant tigers,organic,creature,limbed
+Giant tortoise,Giant tortoises,organic,creature,limbed
+Giant tortoise man,Giant tortoise men,organic,creature,limbed,humanoid
+Giant two-humped camel,Giant two-humped camels,organic,creature,limbed
+Giant vulture,Giant vultures,organic,creature,limbed,pointy
+Giant warthog,Giant warthogs,organic,creature,limbed,pointy
+Giant weasel,Giant weasels,organic,creature,limbed
+Giant white stork,Giant white storks,organic,creature,limbed,pointy
+Giant wild boar,Giant wild boar,organic,creature,limbed,pointy
+Giant wolf,Giant wolves,organic,creature,limbed
+Giant wolverine,Giant wolverines,organic,creature,limbed
+Giant wombat,Giant wombats,organic,creature,limbed
+Giant wren,Giant wrens,organic,creature,limbed,pointy
+Gigantic panda,Gigantic pandas,organic,creature,limbed
+Gigantic tortoise,Gigantic tortoises,organic,creature,limbed
+Gila monster,Gila monsters,organic,creature
+Gila monster man,Gila monster men,organic,creature,limbed,humanoid
+Giraffe,Giraffes,organic,creature,limbed
+Giraffe man,Giraffe men,organic,creature,limbed,humanoid
+Goose,Geese,organic,creature,limbed
+Gorilla,Gorillas,organic,creature,limbed,humanoid
+Grackle man,Grackle men,organic,creature,limbed,humanoid
+Grasshopper man,Grasshopper men,organic,creature,limbed,humanoid
+Gray gibbon,Gray gibbons,organic,creature,limbed,humanoid
+Gray langur,Gray langurs,organic,creature,limbed,humanoid
+Gray langur man,Gray langur men,organic,creature,limbed,humanoid
+Gray squirrel man,Gray squirrel men,organic,creature,limbed,humanoid
+Great horned owl,Great horned owls,organic,creature,limbed
+Great horned owl man,Great horned owl men,organic,creature,limbed,humanoid
+Green tree frog man,Green tree frog men,organic,creature,limbed,humanoid
+Grey parrot,Grey parrots,organic,creature,limbed
+Grey parrot man,Grey parrot men,organic,creature,limbed,humanoid
+Grimeling,Grimelings,organic,creature,limbed,humanoid
+Grizzly bear,Grizzly bears,organic,creature,limbed
+Grizzly bear man,Grizzly bear men,organic,creature,limbed,humanoid
+Groundhog,Groundhogs,organic,creature
+Groundhog man,Groundhog men,organic,creature,limbed,humanoid
+Guineafowl,Guineafowl,organic,creature
+Hamster man,Hamster men,organic,creature,limbed,humanoid
+Hare,Hares,organic,creature
+Hare man,Hare men,organic,creature,limbed,humanoid
+Hedgehog man,Hedgehog men,organic,creature,limbed,humanoid
+Hoary marmot,Hoary marmots,organic,creature
+Hoary marmot man,Hoary marmot men,organic,creature,limbed,humanoid
+Honey badger,Honey badgers,organic,creature,limbed
+Honey badger man,Honey badger men,organic,creature,limbed,humanoid
+Hornbill,Hornbills,organic,creature
+Hornbill man,Hornbill men,organic,creature,limbed,humanoid
+Horse,Horses,organic,creature
+Hyena,Hyenas,organic,creature,limbed
+Hyena man,Hyena men,organic,creature,limbed,humanoid
+Ibex,Ibex,organic,creature,limbed,pointy
+Ibex man,Ibex men,organic,creature,limbed,humanoid
+Ice wolf,Ice wolves,organic,creature,limbed
+Iguana,Iguanas,organic,creature
+Iguana man,Iguana men,organic,creature,limbed,humanoid
+Impala,Impalas,organic,creature,pointy
+Impala man,Impala men,organic,creature,limbed,humanoid
+Jackal,Jackals,organic,creature,limbed
+Jackal man,Jackal men,organic,creature,limbed,humanoid
+Jaguar,Jaguars,organic,creature,limbed
+Jaguar man,Jaguar men,organic,creature,limbed,humanoid
+Jumping spider man,Jumping spider men,organic,creature,limbed,humanoid
+Kakapo,Kakapos,organic,creature
+Kakapo man,Kakapo men,organic,creature,limbed,humanoid
+Kangaroo,Kangaroo,organic,creature,limbed
+Kangaroo man,Kangaroo men,organic,creature,limbed,humanoid
+Kea,Keas,organic,creature
+Kea man,Kea men,organic,creature,limbed,humanoid
+Kestrel,Kestrels,organic,creature
+Kestrel man,Kestrel men,organic,creature,limbed,humanoid
+King cobra,King cobras,organic,creature
+King cobra man,King cobra men,organic,creature,limbed,humanoid
+Kingsnake,Kingsnakes,organic,creature
+Kingsnake man,Kingsnake men,organic,creature,limbed,humanoid
+Kiwi,Kiwis,organic,creature
+Kiwi man,Kiwi men,organic,creature,limbed,humanoid
+Koala,Koalas,organic,creature,limbed,humanoid
+Koala man,Koala men,organic,creature,limbed,humanoid
+Leopard,Leopards,organic,creature,limbed
+Leopard man,Leopard men,organic,creature,limbed,humanoid
+Leopard gecko man,Leopard gecko men,organic,creature,limbed,humanoid
+Lion,Lions,organic,creature,limbed
+Lion man,Lion men,organic,creature,limbed,humanoid
+Lion tamarin man,Lion tamarin men,organic,creature,limbed,humanoid
+Lizard man,Lizard men,organic,creature,limbed,humanoid
+Llama,Llama,organic,creature,limbed
+Lorikeet man,Lorikeet men,organic,creature,limbed,humanoid
+Louse man,Louse men,organic,creature,limbed,humanoid
+Lynx,Lynx,organic,creature,limbed
+Lynx man,Lynx men,organic,creature,limbed,humanoid
+Magpie man,Magpie men,organic,creature,limbed,humanoid
+Mandrill,Mandrills,organic,creature,limbed,humanoid
+Mandrill man,Mandrill men,organic,creature,limbed,humanoid
+Mantis man,Mantis men,organic,creature,limbed,humanoid
+Masked lovebird man,Masked lovebird men,organic,creature,limbed,humanoid
+Monarch butterfly man,Monarch butterfly men,organic,creature,limbed,humanoid
+Mongoose,Mongeese,organic,creature,limbed
+Mongoose man,Mongoose men,organic,creature,limbed,humanoid
+Monitor lizard,Monitor lizards,organic,creature
+Monitor lizard man,Monitor lizard men,organic,creature,limbed,humanoid
+Moose,Moose,organic,creature,limbed
+Moose man,Moose men,organic,creature,limbed,humanoid
+Mosquito man,Mosquito men,organic,creature,limbed,humanoid
+Moth man,Moth men,organic,creature,limbed,humanoid
+Mountain gnome,Mountain gnomes,organic,creature,limbed,humanoid
+Mountain goat,Mountain goats,organic,creature,limbed
+Mountain goat man,Mountain goat men,organic,creature,limbed,humanoid
+Mule,Mules,organic,creature
+Muskox,Muskoxen,organic,creature,limbed
+Muskox man,Muskox men,organic,creature,limbed,humanoid
+Ocelot,Ocelots,organic,creature
+Ocelot man,Ocelot men,organic,creature,limbed,humanoid
+Ogre,Ogres,organic,creature,limbed,humanoid
+One-humped camel,One-humped camels,organic,creature,limbed
+One-humped camel man,One-humped camel men,organic,creature,limbed,humanoid
+Opossum,Opossums,organic,creature,limbed
+Opossum man,Opossum men,organic,creature,limbed,humanoid
+Orangutan,Orangutans,organic,creature,limbed,humanoid
+Oriole man,Oriole men,organic,creature,limbed,humanoid
+Osprey,Ospreys,organic,creature,limbed
+Osprey man,Osprey men,organic,creature,limbed,humanoid
+Ostrich,Ostriches,organic,creature,limbed
+Ostrich man,Ostrich men,organic,creature,limbed,humanoid
+Panda,Pandas,organic,creature,limbed
+Panda man,Panda men,organic,creature,limbed,humanoid
+Pangolin,Pangolins,organic,creature,limbed
+Pangolin man,Pangolin men,organic,creature,limbed,humanoid
+Parakeet man,Parakeet men,organic,creature,limbed,humanoid
+Peach-faced lovebird man,Peach-faced lovebird men,organic,creature,limbed,humanoid
+Peregrine falcon,Peregrine falcons,organic,creature,limbed
+Peregrine falcon man,Peregrine falcon men,organic,creature,limbed,humanoid
+Pig,Pigs,organic,creature,limbed
+Pileated gibbon,Pileated gibbons,organic,creature,limbed,humanoid
+Polar bear,Polar bears,organic,creature,limbed
+Polar bear man,Polar bear men,organic,creature,limbed,humanoid
+Porcupine,Porcupines,organic,creature,limbed,pointy
+Porcupine man,Porcupine men,organic,creature,limbed,humanoid
+Python,Pythons,organic,creature
+Python man,Python men,organic,creature,limbed,humanoid
+Rabbit,Rabbits,organic,creature
+Raccoon,Raccoons,organic,creature,limbed
+Raccoon man,Raccoon men,organic,creature,limbed,humanoid
+Rat man,Rat men,organic,creature,limbed,humanoid
+Rattlesnake,Rattlesnakes,organic,creature
+Rattlesnake man,Rattlesnake men,organic,creature,limbed,humanoid
+Raven,Ravens,organic,creature,limbed
+Raven man,Raven men,organic,creature,limbed,humanoid
+Red panda,Red pandas,organic,creature,limbed
+Red panda man,Red panda men,organic,creature,limbed,humanoid
+Red squirrel man,Red squirrel men,organic,creature,limbed,humanoid
+Reindeer,Reindeer,organic,creature,limbed
+Rhesus macaque,Rhesus macaque,organic,creature,limbed,humanoid
+Rhesus macaque man,Rhesus macaque men,organic,creature,limbed,humanoid
+Rhinoceros,Rhinoceros,organic,creature,limbed,pointy
+Rhinoceros man,Rhinoceros men,organic,creature,limbed,humanoid
+Roach man,Roach men,organic,creature,limbed,humanoid
+Saltwater crocodile,Saltwater crocodiles,organic,creature
+Saltwater crocodile man,Saltwater crocodile men,organic,creature,limbed,humanoid
+Sheep,Sheep,organic,creature,limbed
+Siamang,Siamangs,organic,creature,limbed,humanoid
+Silvery gibbon,Silvery gibbon,organic,creature,limbed,humanoid
+Skink man,Skink men,organic,creature,limbed,humanoid
+Skunk,Skunks,organic,creature,limbed
+Skunk man,Skunk men,organic,creature,limbed,humanoid
+Sloth,Sloths,organic,creature,limbed
+Sloth bear,Sloth bears,organic,creature,limbed
+Sloth bear man,Sloth bear men,organic,creature,limbed,humanoid
+Sloth man,Sloth men,organic,creature,limbed,humanoid
+Slug man,Slug men,organic,creature,limbed,humanoid
+Snail man,Snail men,organic,creature,limbed,humanoid
+Snowy owl,Snowy owls,organic,creature,limbed
+Snowy owl man,Snowy owl men,organic,creature,limbed,humanoid
+Sparrow man,Sparrow men,organic,creature,limbed,humanoid
+Spider monkey,Spider monkeys,organic,creature,limbed,humanoid
+Spider monkey man,Spider monkey men,organic,creature,limbed,humanoid
+Stoat,Stoatsr,organic,creature,
+Stoat man,Stoat men,organic,creature,limbed,humanoid
+Strangler,Stranglers,organic,creature,limbed,humanoid
+Tapir,Tapir,organic,creature,limbed
+Tapir man,Tapir men,organic,creature,limbed,humanoid
+Thrips man,Thrips men,organic,creature,limbed,humanoid
+Tick man,Tick men,organic,creature,limbed,humanoid
+Tiger,Tigers,organic,creature,limbed
+Tiger man,Tiger men,organic,creature,limbed,humanoid
+Toad man,Toad men,organic,creature,limbed,humanoid
+Turkey,Turkeys,organic,creature,limbed
+Two-humped camel,Two-humped camels
+Two-humped camel man,Two-humped camel men,organic,creature,limbed,humanoid
+Unicorn,Unicorns,organic,creature,limbed,pointy
+Vulture,Vultures,organic,creature
+Vulture man,Vulture men,organic,creature,limbed,humanoid
+Warthog,Warthogs,organic,creature
+Warthog man,Warthog men,organic,creature,limbed,humanoid
+Water buffalo,Water buffalo,organic,creature,pointy
+Weasel,Weasels,organic,creature,limbed
+Weasel man,Weasel men,organic,creature,limbed,humanoid
+White stork,White storks,organic,creature,limbed
+White stork man,White stork men,organic,creature,limbed,humanoid
+White-browed gibbon,White-browed gibbons
+White-handed gibbon,White-handed gibbons
+Wild boar,Wild boar,organic,creature,limbed
+Wild boar man,Wild boar men,organic,creature,limbed,humanoid
+Wolf,Wolves,organic,creature,limbed
+Wolf man,Wolf men,organic,creature,limbed,humanoid
+Wolverine,Wolverines,organic,creature,limbed
+Wolverine man,Wolverine men,organic,creature,limbed,humanoid
+Wombat,Wombats,organic,creature,limbed
+Wombat man,Wombat men,organic,creature,limbed,humanoid
+Worm man,Worm men,organic,creature,limbed,humanoid
+Wren man,Wren men,organic,creature,limbed,humanoid
+Yak,Yaks,organic,creature,pointy
+
+creatures_underground
+Amethyst man,Amethyst men,organic,creature,limbed,humanoid
+Blind cave bear,Blind cave bears,organic,creature,limbed
+Blind cave ogre,Blind cave ogres,organic,creature,limbed,humanoid
+Blood man,Blood men,organic,creature,limbed,humanoid
+Bugbat,Bugbats,organic,creature
+Cave blob,Cave blobs,organic,creature
+Cave crocodile,Cave crocodiles,organic,creature
+Cave dragon,Cave dragons,organic,creature,limbed
+Cave floater,Cave floaters,organic,creature
+Creeping eye,Creeping eyes,organic,creature,limbed
+Crundle,Crundles,organic,creature,limbed,humanoid
+Draltha,Dralthas,organic,creature,limbed
+Drunian,Drunians,organic,creature,limbed,humanoid
+Elk bird,Elk birds,organic,creature,pointy
+Fire imp,Fire imps,organic,creature,limbed,humanoid
+Fire man,Fire men,organic,creature,limbed,humanoid
+Flesh ball,Flesh balls,organic,creature
+Floating guts,Floating guts,organic,creature
+Gabbro man,Gabbro men,organic,creature,limbed,humanoid
+Giant bat,Giant bats,organic,creature,limbed
+Giant cave spider,Giant cave spiders,organic,creature,pointy
+Giant cave swallow,Giant cave swallows,organic,creature,limbed,pointy
+Giant cave toad,Giant cave toads,organic,creature
+Giant earthworm,Giant earthworms,organic,creature
+Giant mole,Giant moles,organic,creature
+Giant olm,Giant olms,organic,creature
+Giant rat,Giant rats,organic,creature,limbed
+Gorlak,Gorlaks,organic,creature,limbed,humanoid,meltable
+Green devourer,Green devourers,organic,creature
+Gremlin,Gremlins,organic,creature,limbed,humanoid
+Helmet snake,Helmet snakes,organic,creature
+Hungry head,Hungry heads,organic,creature
+Iron man,Iron men,organic,creature,limbed,humanoid
+Jabberer,Jabberers,organic,creature,pointy
+Large rat,Large rats,organic,creature,limbed
+Magma crab,Magma crabs,organic,creature,limbed
+Magma man,Magma men,organic,creature,limbed,humanoid
+Manera,Maneras,organic,creature,limbed,humanoid
+Molemarian,Molemarians,organic,creature,limbed,humanoid
+Mud man,Mud men,organic,creature,limbed,humanoid
+Naked mole dog,Naked mole dogs,organic,creature
+Plump helmet man,Plump helmet men,organic,creature,limbed,humanoid
+Pond grabber,Pond grabbers,organic,creature
+Reacher,Reachers,organic,creature,limbed,humanoid
+Rutherer,Rutherers,organic,creature
+Troglodyte,Troglodytes,organic,creature,limbed,humanoid
+Troll,Trolls,organic,creature,limbed,humanoid
+Voracious cave crawler,Voracious cave crawlers,organic,creature,limbed
+
+creatures_aquatic
+Albatross,Albatross,organic,creature,limbed
+Albatross man,Albatross men,organic,creature,limbed,humanoid
+Alligator,Alligators,organic,creature,limbed
+Alligator man,Alligator men,organic,creature,limbed,humanoid
+Alligator snapping turtle,Alligator snapping turtles,organic,creature
+Angelshark,Angelsharks,organic,creature
+Axolotl man,Axolotl men,organic,creature,limbed,humanoid
+Basking shark,Basking sharks,organic,creature
+Beaver,Beavers,organic,creature,limbed
+Beaver man,Beaver men,organic,creature,limbed,humanoid
+Blacktip reef shark,Blacktip reef sharks,organic,creature
+Blue shark,Blue sharks,organic,creature
+Bluefin tuna,Bluefin tuna,organic,creature
+Bluefish,Bluefish,organic,creature
+Bull shark,Bull sharks,organic,creature
+Buzzard,Buzzards,organic,creature,limbed
+Buzzard man,Buzzard men,organic,creature,limbed,humanoid
+Carp,Carp,organic,creature
+Cod,Cod,organic,creature
+Coelacanth,Coelacanths,organic,creature
+Common skate,Common skates,organic,creature
+Common snapping turtle,Common snapping turtles,organic,creature,limbed
+Conger eel,Conger eels,organic,creature
+Crab,Crabs,organic,creature
+Crab man,Crab men,organic,creature,limbed,humanoid
+Cuttlefish man,Cuttlefish men,organic,creature,limbed,humanoid
+Damselfly man,Damselfly men,organic,creature,limbed,humanoid
+Dragonfly man,Dragonfly men,organic,creature,limbed,humanoid
+Duck,Ducks,organic,creature,limbed
+Elephant seal,Elephant seals,organic,creature,limbed
+Elephant seal man,Elephant seal men,organic,creature,limbed,humanoid
+Emperor penguin,Emperor penguins,organic,creature,limbed
+Fly man,Fly men,organic,creature,limbed,humanoid
+Frill shark,Frill sharks,organic,creature
+Giant albatross,Giant albatross,organic,creature,limbed,pointy
+Giant alligator,Giant alligators,organic,creature,limbed
+Giant axolotl,Giant axolotls,organic,creature,limbed
+Giant beaver,Giant beavers,organic,creature,limbed
+Giant buzzard,Giant buzzards,organic,creature,limbed,pointy
+Giant crab,Giant crabs,organic,creature,limbed,pointy
+Giant cuttlefish,Giant cuttlefish,organic,creature
+Giant damselfly,Giant damselflies,organic,creature
+Giant dragonfly,Giant dragonflies,organic,creature
+Giant elephant seal,Giant elephant seals,organic,creature,limbed
+Giant fly,Giant flies,organic,creature
+Giant green tree frog,Giant green tree frogs,organic,creature
+Giant grouper,Giant groupers,organic,creature
+Giant harp seal,Giant harp seals,organic,creature,limbed
+Giant hippo,Giant hippos,organic,creature,limbed
+Giant horseshoe crab,Giant horseshoe crabs,organic,creature,limbed,pointy
+Giant kestrel,Giant kestrels,organic,creature
+Giant leech,Giant leeches,organic,creature
+Giant leopard seal,Giant leopard seals,organic,creature,limbed
+Giant loon,Giant loons,organic,creature,limbed,pointy
+Giant mink,Giant minks,organic,creature,limbed
+Giant moon snail,Giant moon snails,organic,creature
+Giant mosquito,Giant mosquitos,organic,creature,pointy
+Giant narwhal,Giant narwhals,organic,creature,limbed,pointy
+Giant nautilus,Giant nautiluses,organic,creature
+Giant octopus,Giant octopuses,organic,creature
+Giant orca,Giant orcas,organic,creature
+Giant osprey,Giant ospreys,organic,creature,limbed
+Giant otter,Giant otters,organic,creature,limbed
+Giant penguin,Giant penguins,organic,creature,limbed
+Giant platypus,Giant platypuses,organic,creature,limbed
+Giant pond turtle,Giant pond turtles,organic,creature,limbed
+Giant puffin,Giant puffins,organic,creature,limbed
+Giant red-winged blackbird,Giant red-winged blackbirds,organic,creature,pointy
+Giant saltwater crocodile,Giant saltwater crocodiles,organic,creature,limbed
+Giant snapping turtle,Giant snapping turtles,organic,creature,limbed
+Giant sperm whale,Giant sperm whales,organic,creature
+Giant sponge,Giant sponges,organic,creature
+Giant swan,Giant swans,organic,creature,limbed,pointy
+Giant toad,Giant toads,organic,creature
+Giant walrus,Giant walruses,organic,creature,limbed,pointy
+Gigantic squid,Gigantic squids,organic,creature
+Goose,Geese,organic,creature,limbed
+Great barracuda,Great barracudas,organic,creature
+Great white shark,Great white sharks,organic,creature
+Green tree frog man,Green tree frog men,organic,creature,limbed,humanoid
+Grimeling,Grimelings,organic,creature,limbed,humanoid
+Halibut,Halibut,organic,creature
+Hammerhead shark,Hammerhead sharks,organic,creature
+Harp seal,Harp seals,organic,creature
+Harp seal man,Harp seal men,organic,creature,limbed,humanoid
+Harpy,Harpies,organic,creature,limbed
+Hippo,Hippos,organic,creature,limbed
+Hippo man,Hippo men,organic,creature,limbed,humanoid
+Horseshoe crab,Horseshoe crabs,organic,creature
+Horseshoe crab man,Horseshoe crab men,organic,creature,limbed,humanoid
+Kestrel,Kestrels,organic,creature,limbed
+Kestrel man,Kestrel men,organic,creature,limbed,humanoid
+Leech man,Leech men,organic,creature,limbed,humanoid
+Leopard seal,Leopard seals,organic,creature,limbed
+Leopard seal man,Leopard seal men,organic,creature,limbed,humanoid
+Little penguin,Little penguins,organic,creature,limbed
+Longfin mako shark,Longfin mako sharks,organic,creature
+Longnose gar,Longnose gars,organic,creature
+Loon,Loons,organic,creature,limbed
+Loon man,Loon men,organic,creature,limbed,humanoid
+Manta ray,Manta rays,organic,creature
+Marlin,Marlins,organic,creature,pointy
+Milkfish,Milkfish,organic,creature
+Mink,Minks,organic,creature
+Mink man,Mink men,organic,creature,limbed,humanoid
+Moon snail man,Moon snail men,organic,creature,limbed,humanoid
+Mosquito man,Mosquito men,organic,creature,limbed,humanoid
+Narwhal,Narwhals,organic,creature,pointy
+Narwhal man,Narwhal men,organic,creature,limbed,humanoid,pointy
+Nautilus man,Nautilus men,organic,creature,limbed,humanoid
+Nurse shark,Nurse sharks,organic,creature
+Ocean sunfish,Ocean sunfish,organic,creature
+Octopus,Octopuses,organic,creature
+Octopus man,Octopus men,organic,creature,limbed,humanoid
+Opah,Opahs,organic,creature
+Orca,Orcas,organic,creature
+Orca man,Orca men,organic,creature,limbed,humanoid
+Osprey,Ospreys,organic,creature,limbed
+Osprey man,Osprey men,organic,creature,limbed,humanoid
+Otter man,Otter men,organic,creature,limbed,humanoid
+Penguin,Penguins,organic,creature,limbed
+Penguin man,Penguin men,organic,creature,limbed,humanoid
+Pike,Pike,organic,creature
+Platypus,Platypuses,organic,creature
+Platypus man,Platypus men,organic,creature,limbed,humanoid
+Pond turtle man,Pond turtle men,organic,creature,limbed,humanoid
+Puffin,Puffins,organic,creature
+Puffin man,Puffin men,organic,creature,limbed,humanoid
+Red-winged blackbird man,Red-winged blackbird men,organic,creature,limbed,humanoid
+River otter,River otters,organic,creature,limbed
+Saltwater crocodile,Saltwater crocodiles,organic,creature
+Saltwater crocodile man,Saltwater crocodile men,organic,creature,limbed,humanoid
+Sea lamprey,Sea lampreys,organic,creature
+Sea monster,Sea monsters,organic,creature
+Sea otter,Sea otters,organic,creature,limbed
+Sea serpent,Sea serpents,organic,creature
+Shortfin mako shark,Shortfin mako sharks,organic,creature
+Snapping turtle man,Snapping turtle men,organic,creature,limbed,humanoid
+Sperm whale,Sperm whales,organic,creature
+Sperm whale man,Sperm whale men,organic,creature,limbed,humanoid
+Spiny dogfish,Spiny dogfish,organic,creature
+Sponge,Sponges,organic,creature
+Sponge man,Sponge men,organic,creature,limbed,humanoid
+Spotted wobbegong,Spotted wobbegong,organic,creature
+Squid man,Squid men,organic,creature,limbed,humanoid
+Stingray,Stingrays,organic,creature
+Sturgeon,Sturgeons,organic,creature
+Swan,Swan,organic,creature,limbed
+Swan man,Swan men,organic,creature,limbed,humanoid
+Swordfish,Swordfish,organic,creature
+Tiger shark,Tiger sharks,organic,creature
+Tigerfish,Tigerfish,organic,creature
+Toad man,Toad men,organic,creature,limbed,humanoid
+Walrus,Walrus,organic,creature
+Walrus man,Walrus men,organic,creature,limbed,humanoid
+Whale shark,Whale sharks,organic,creature
+Whitetip reef shark,Whitetip reef sharks,organic,creature
+
+creatures_fanciful
+Animated dead,Animated dead,organic,creature,limbed,humanoid
+Bogeyman,Bogeymen,organic,creature,limbed,humanoid
+Bronze Colossus,Bronze Colossi,creature,limbed,humanoid,meltable
+Cyclops,Cyclopses,organic,creature,limbed,humanoid
+Dragon,Dragons,organic,creature,limbed,pointy
+Ettin,Ettins,organic,creature.limbed,humanoid
+Experiment,Experiments,organic,creature,limbed,humanoid
+Forgotten beast,Forgotten beasts,organic,creature,limbed,humanoid,pointy,meltable
+Foul blendec,Foul blendecs,organic,creature,limbed,humanoid
+Ghost,Ghosts,creature,limbed,humanoid
+Giant,Giants,organic,creature,limbed,humanoid
+Harpy,Harpies,organic,creature,limbed
+Hydra,Hydras,organic,creature,limbed
+Infected ghoul,Infected ghouls,organic,creature,limbed,humanoid
+Intelligent undead,Intelligent undead,organic,creature,limbed,humanoid
+Merperson,Merpeople,organic,creature,limbed,humanoid
+Minotaur,Minotaurs,organic,creature,limbed,humanoid
+Mummy,Mummies,organic,creature,limbed,humanoid
+Necromancer,Necromancers,organic,creature,limbed,humanoid
+Night troll,Night trolls,organic,creature,limbed,humanoid
+Nightmare,Nightmares,organic,creature,limbed,humanoid
+Nightwing,Nightwings,organic,creature,limbed,humanoid
+Roc,Rocs,organic,creature,limbed,pointy
+Sasquatch,Sasquatches,organic,creature,limbed,humanoid
+Satyr,Satyrs,organic,creature,limbed,humanoid
+Titan,Titans,organic,creature,limbed,humanoid
+Vampire,Vampires,organic,creature,limbed,humanoid
+Werebeast,Werebeasts,organic,creature,limbed,humanoid
+Yeti,Yetis,organic,creature,limbed,humanoid

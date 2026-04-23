@@ -1,0 +1,232 @@
+plants_crops_underground
+Plump helmet plant,Plump helmet plants,organic
+Pig tail plant,Pig tail plants,organic
+Cave wheat plant,Cave wheat plants,organic
+Sweet pod plant,Sweet pod plants,organic
+Quarry bush plant,Quarry bush plants,organic
+Dimple cup plant,Dimple cup plants,organic
+
+plants_crops_aboveground
+Alfalfa plant,Alfalfa plants,organic
+Bitter vetch plant,Bitter vetch plants,organic
+Blood amaranth plant,Blood amaranth plants,organic
+Cotton plant,Cotton plants,organic
+Elephant-head amaranth plant,Elephant-head amaranth plants,organic
+Finger millet plant,Finger millet plants,organic
+Flax plant,Flax plants,organic
+Fonio plant,Fonio plants,organic
+Foxtail millet plant,Foxtail millet plants,organic
+Hemp plant,Hemp plants,organic
+Jute plant,Jute plants,organic
+Kaniwa plant,Kaniwa plants,organic
+Kenaf plant,Kenaf plants,organic
+Maize plant,Maize plants,organic
+Papyrus sedge plant,Papyrus sedge plants,organic
+Pearl millet plant,Pearl millet plants,organic
+Pendant amaranth plant,Pendant amaranth plants,organic
+Purple amaranth plant,Purple amaranth plants,organic
+Quinoa plant,Quinoa plants,organic
+Ramie plant,Ramie plants,organic
+Red spinach plant,Red spinach plants,organic
+Rice plant,Rice plants,organic
+Rye plant,Rye plants,organic
+Sorghum plant,Sorghum plants,organic
+Teff plant,Teff plants,organic
+White millet plant,White millet plants,organic
+
+plants_garden
+Artichoke plant,Artichoke plants,organic
+Asparagus plant,Asparagus plants,organic
+Bambara groundnut plant,Bambara groundnut plants,organic
+Barley plant,Barley plants,organic
+Beet plant,Beet plants,organic
+Bilberry plant,Bilberry plants,organic
+Bitter melon plant,Bitter melon plants,organic
+Blackberry plant,Blackberry plants,organic
+Blueberry plant,Blueberry plants,organic
+Broad bean plant,Broad bean plants,organic
+Buckwheat plant,Buckwheat plants,organic
+Cabbage plant,Cabbage plants,organic
+Caper plant,Caper plants,organic
+Cassava plant,Cassava plants,organic
+Celery plant,Celery plants,organic
+Chickpea plant,Chickpea plants,organic
+Chicory plant,Chicory plants,organic
+Cowpea plant,Cowpea plants,organic
+Cranberry plant,Cranberry plants,organic
+Cucumber plant,Cucumber plants,organic
+Eggplant plant,Eggplants plants,organic
+Garden cress plant,Garden cress plants,organic
+Garlic plant,Garlic plants,organic
+Grape plant,Grape plants,organic
+Hard wheat plant,Hard wheat plants,organic
+Horned melon plant,Horned melon plants,organic
+Leek plant,Leek plants,organic
+Lentil plant,Lentil plants,organic
+Lesser yam plant,Lesser yam plants,organic
+Lettuce plant,Lettuce plants,organic
+Long yam plant,Long yam plants,organic
+Mung bean plant,Mung bean plants,organic
+Muskmelon plant,Muskmelon plants,organic
+Oats plant,Oats plants,organic
+Onion plant,Onion plants,organic
+Parsnip plant,Parsnip plants,organic
+Passion fruit plant,Passion fruit plants,organic
+Pea plant,Pea plants,organic
+Peanut plant,Peanut plants,organic
+Pepper plant,Pepper plants,organic
+Pineapple plant,Pineapple plants,organic
+Potato plant,Potato plants,organic
+Purple yam plant,Purple yam plants,organic
+Radish plant,Radish plants,organic
+Raspberry plant,Raspberry plants,organic
+Red bean plant,Red bean plants,organic
+Rhubarb plant,Rhubarb plants,organic
+Single-grain wheat plant,Single-grain wheat plants,organic
+Soft wheat plant,Soft wheat plants,organic
+Soybean plant,Soybean plants,organic
+Spelt plant,Spelt plants,organic
+Spinach plant,Spinach plants,organic
+Squash plant,Squash plants,organic
+String bean plant,String bean plants,organic
+Sweet potato plant,Sweet potato plants,organic
+Taro plant,Taro plants,organic
+Tomatillo plant,Tomatillo plants,organic
+Tomato plant,Tomato plants,organic
+Turnip plant,Turnip plants,organic
+Two-grain wheat plant,Two-grain wheat plants,organic
+Urad bean plant,Urad bean plants,organic
+Watermelon plant,Watermelon plants,organic
+White yam plant,White yam plants,organic
+Wild carrot plant,Wild carrot plants,organic
+Winter melon plant,Winter melon plants,organic
+
+plants_shrubs
+Muck root plant,Muck root plants,organic
+Bloated tuber plant,Bloated tuber plants,organic
+Kobold bulb plant,Kobold bulb plants,organic
+Prickle berry plant,Prickle berry plants,organic
+Strawberry plant,Strawberry plants,organic
+Longland grass plant,Longland grass plants,organic
+Valley herb plant,Valley herb plants,organic
+Rat weed plant,Rat weed plants,organic
+Fisher berry plant,Fisher berry plants,organic
+Rope reed plant,Rope reed plants,organic
+Blade weed plant,Blade weed plants,organic
+Hide root plant,Hide root plants,organic
+Sliver barb plant,Sliver barb plants,organic
+Sun berry plant,Sun berry plants,organic
+Whip vine plant,Whip vine plants,organic
+
+plants_trees
+Abaca tree,Abaca trees,organic
+Acacia tree,Acacia trees,organic
+Avocado tree,Avocado trees,organic
+Banana tree,Banana trees,organic
+Bitter orange tree,Bitter orange trees,organic
+Cacao tree,Cacao trees,organic
+Candlenut tree,Candlenut trees,organic
+Carambola tree,Carambola trees,organic
+Cashew tree,Cashew trees,organic
+Citron tree,Citron trees,organic
+Coconut palm tree,Coconut palm trees,organic
+Coffee tree,Coffee trees,organic
+Custard-apple tree,Custard-apple trees,organic
+Date palm tree,Date palm trees,organic
+Desert lime tree,Desert lime trees,organic
+Durian tree,Durian trees,organic
+Finger lime tree,Finger lime trees,organic
+Guava tree,Guava trees,organic
+Kapok tree,Kapok trees,organic
+Kumquat tree,Kumquat trees,organic
+Lime tree,Lime trees,organic
+Lychee tree,Lychee trees,organic
+Macadamia tree,Macadamia trees,organic
+Mahogany tree,Mahogany trees,organic
+Mango tree,Mango trees,organic
+Olive tree,Olive trees,organic
+Orange tree,Orange trees,organic
+Papaya tree,Papaya trees,organic
+Paradise nut tree,Paradise nut trees,organic
+Pomelo tree,Pomelo trees,organic
+Rambutan tree,Rambutan trees,organic
+Round lime tree,Round lime trees,organic
+Rubber tree,Rubber trees,organic
+Tea tree,Tea trees,organic
+Pomegranate tree,Pomegranate trees,organic
+Mangrove tree,Mangrove trees,organic
+Cedar tree,Cedar trees,organic
+Feather tree,Feather trees,organic
+Glumprong tree,Glumprong trees,organic
+Highwood tree,Highwood trees,organic
+Saguaro tree,Saguaro trees,organic
+Willow tree,Willow trees,organic
+Alder tree,Alder trees,organic
+Almond tree,Almond trees,organic
+Apple tree,Apple trees,organic
+Apricot tree,Apricot trees,organic
+Ash tree,Ash trees,organic
+Birch tree,Birch trees,organic
+Cherry tree,Cherry trees,organic
+Chestnut tree,Chestnut trees,organic
+Ginkgo tree,Ginkgo trees,organic
+Hazel tree,Hazel trees,organic
+Maple tree,Maple trees,organic
+Oak tree,Oak trees,organic
+Peach tree,Peach trees,organic
+Pear tree,Pear trees,organic
+Pecan tree,Pecan trees,organic
+Persimmon tree,Persimmon trees,organic
+Plum tree,Plum trees,organic
+Sand pear tree,Sand pear trees,organic
+Walnut tree,Walnut trees,organic
+Bayberry tree,Bayberry trees,organic
+Larch tree,Larch trees,organic
+Pine tree,Pine trees,organic
+Fungiwood,Fungiwoods,organic
+Tower-cap,Tower-caps,organic
+Black-cap,Black-caps,organic
+Goblin-cap,Goblin-caps,organic
+Spore tree,Spore trees,organic
+Tunnel tube,Tunnel tubes,organic
+Blood thorn,Blood thorns,organic
+
+plants_grass
+Arrow bamboo plant,Arrow bamboo plants,organic
+Bentgrass plant,Bentgrass plants,organic
+Baby toes succulent plant,Baby toes succulent plants,organic
+Blue sedge plant,Blue sedge plants,organic
+Bubble bulb plant,Bubble bulb plants,organic
+Carpetgrass plant,Carpetgrass plants,organic
+Cattail plant,Cattail plants,organic
+Cloudberry plant,Cloudberry plants,organic
+Common reed plant,Common reed plants,organic
+Cottongrass plant,Cottongrass plants,organic
+Dallisgrass plant,Dallisgrass plants,organic
+Dog's tooth grass plant,Dog's tooth grass plants,organic
+Downy grass plant,Downy grass plants,organic
+Dropseed grass plant,Dropseed grass plants,organic
+Fescue grass plant,Fescue grass plants,organic
+Field sedge plant,Field sedge plants,organic
+Golden bamboo plant,Golden bamboo plants,organic
+Grama plant,Grama plants,organic
+Hair grass plant,Hair grass plants,organic
+Hedge bamboo plant,Hedge bamboo plants,organic
+Knotgrass plant,Knotgrass plants,organic
+Marsh thistle plant,Marsh thistle plants,organic
+Meadow-grass plant,Meadow-grass plants,organic
+Meadowsweet plant,Meadowsweet plants,organic
+Mountain avens plant,Mountain avens plants,organic
+Needle grass plant,Needle grass plants,organic
+Pebble plant,Pebble plants plants,organic
+Purple moor grass plant,Purple moor grass plants,organic
+Reedgrass plant,Reedgrass plants,organic
+Rush plant,Rush plants,organic
+Ryegrass plant,Ryegrass plants,organic
+Satintail plant,Satintail plants,organic
+Sawgrass plant,Sawgrass plants,organic
+Staring eyeball plant,Staring eyeball plants,organic
+Velvet grass plant,Velvet grass plants,organic
+White mountain heather plant,White mountain heather plants,organic
+Wormy tendril plant,Wormy tendril plants,organic
+Zoysia plant,Zoysia plants,organic

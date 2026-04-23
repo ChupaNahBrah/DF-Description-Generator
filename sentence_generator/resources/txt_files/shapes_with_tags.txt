@@ -1,0 +1,36 @@
+shapes
+Blazing sun,Blazing suns,shape
+Broad cross,Broad crosses,shape
+Circle,Circles,shape
+Cloud,Clouds,shape
+Crescent moon,Crescent moons,shape
+Cubic cube,Cubic cubes,shape
+Cushion cabochon,Cushion cabochons,shape
+Diamond,Diamonds,shape
+Dodecahedral dodecahedron,Dodecahedral dodecahedrons,shape
+Eight sided long eight sided prism,Eight sided long eight sided prisms,shape
+Five pointed star,Five pointed stars,shape
+Four pointed star,Four pointed stars,shape
+Four sided long four sided prism,Four sided long four sided prisms,shape
+Full moon,Full moons,shape
+Gizzard stone,Gizzard stones,shape
+Half moon,Half moons,shape
+Hidden moon,Hidden moons,shape
+Icosahedral icosahedron,Icosahedral icosahedrons,shape
+Many pointed star,Many pointed stars,shape
+Mountain,Mountains,shape
+Narrow crescent,Narrow crescents,shape
+Octahedral octahedron,Octahedral octahedrons,shape
+Oval cabochon,Oval cabochons,shape
+Rectangular cabochon,Rectangular cabochons,shape
+Round cabochon,Round cabochons,shape
+Shining sun,Shining suns,shape
+Six sided long six sided prism,Six sided long six sided prisms,shape
+Smooth pebble,Smooth pebbles,shape
+Square,Squares,shape
+Tall cross,Tall crosses,shape
+Tetrahedral tetrahedron,Tetrahedral tetrahedrons,shape
+Thick crescent,Thick crescents,shape
+Thin cross,Thin crosses,shape
+star,stars,shape
+Wave,Waves,shape

@@ -1,0 +1,238 @@
+items_general
+Altar,Altars,meltable
+Amulet,Amulets,meltable
+Anvil,Anvils,meltable
+Armor stand,Armor stands,meltable
+Ballista arrow,Ballista arrows,meltable,pointy
+Ballista,Ballistas,meltable
+Bars,Bars,meltable
+Body part,Body parts
+Branch,Branches
+Cage,Cages,meltable
+Catapult,Catapults
+Chain,Chains,meltable
+Cheese wheel,Cheese wheels
+Codex,Codices
+Coin,Coins,meltable
+Corpse,Corpses
+Crown,Crowns,meltable
+Cut gems,Cut gems
+Drink,Drinks
+Giant axe blade,Giant axe blades,meltable,pointy
+Glob,Globs
+Goblet,Goblets,meltable
+Large gem,Large gems
+Large serrated disc,Large serrated discs,meltable
+Menacing spike,Menacing spikes,meltable
+Pick,Picks,meltable
+Powder,Powders
+Raw fish,Raw fish
+Remains,Remains
+Ring,Rings,meltable
+Rough Gems,Rough gems
+Scepter,Scepters,meltable
+Scroll,Scrolls
+Sock,Socks
+Spiked ball,Spiked balls,meltable,pointy
+Statue,Statues,meltable
+Throne,Thrones,meltable
+Totem,Totems
+Wagon,Wagons
+
+items_cutGems
+Baguette cut gem,Baguette cut gems
+Briolette cut gem,Briolette cut gems
+Cushion cut gem,Cushion cut gems
+Emerald cut gem,Emerald cut gems
+Marquise cut gem,Marquise cut gems
+Octagon cut gem,Octagon cut gems
+Oval cut gem,Oval cut gems
+Pear cut gem,Pear cut gems
+Point cut gem,Point cut gems
+Radiant cut gem,Radiant cut gems
+Rose cut gem,Rose cut gems
+Round brilliant cut gem,Round brilliant cut gems
+Single cut gem,Single cut gems
+Square brilliant cut gem,Square brilliant cut gems
+Square cut gem,Square cut gems
+Table cut gem,Table cut gems
+Tapered baguette cut gem,Tapered baguette cut gems
+Trillion cut gem,Trillion cut gems
+
+items_gear
+Axe,Axes,meltable
+Arrow,Arrows,meltable,pointy
+Battle axe,Battle axes,meltable
+Blow dart,Blow darts,meltable
+Blowgun,Blowguns
+Bolt,Bolts,meltable
+Bow,Bows
+Breastplate,Breastplates,meltable
+Buckler,Bucklers,meltable
+Chausse,Chausses,meltable
+Crossbow,Crossbows
+Flail,Flails,meltable
+Gauntlet,Gauntlets,meltable
+Great axe,Great axes,meltable
+Greaves,Greaves,meltable
+Halberd,Halberds,meltable,pointy
+Helm,Helms,meltable
+High boot,High boots,meltable
+Large dagger,Large daggers,meltable
+Leather armor,Leather armor
+Leggings,Leggings,meltable
+Long sword,Long swords,meltable,pointy
+Low boot,Low boots,meltable
+Mace,Maces,meltable
+Mail shirt,Mail shirts,meltable
+Maul,Mauls,meltable
+Maul,Mauls,meltable
+Morningstar,Morningstars,meltable
+Pike,Pikes,meltable,pointy
+Scimitar,Scimitars,meltable,pointy
+Scourge,Scourges,meltable
+Shield,Shields,meltable
+Short sword,Short sword,meltable,pointy
+Spear,Spears,meltable,pointy
+Training axe,Training axes,meltable
+Training spear,Training spears,meltable
+Training sword,Training swords,meltable
+Two-handed sword,Two-handed sword,meltable,pointy
+War hammer,War hammers,meltable
+Whip,Whips
+
+items_clothing
+Bracelet,Bracelets,meltable
+Braies,Braies
+Cap,Caps
+Cape,Capes
+Cloak,Cloaks
+Coat,Coats
+Dress,Dresses
+Earring,Earrings,meltable
+Face veil,Face veils
+Glove,Gloves
+Head veil,Head veils
+Headscarf,Headscarves
+Hood,Hoods
+Loin cloth,Loin cloth
+Long skirt,Long skirts
+Mask,Masks,meltable
+Mitten,Mittens
+Robe,Robes
+Sandal,Sandals
+Shirt,Shirts
+Shoe,Shoes
+Short skirt,Short skirt
+Skirt,Skirts
+Thong,Thongs
+Trousers,Trousers
+Tunic,Tunics
+Turban,Turbans
+Vest,Vests
+
+items_instruments
+Adet instrument,Adet instruments,meltable
+Aso instrument,Aso instruments,meltable
+Asu instrument,Asu instruments,meltable
+Cifano instrument,Cifano instruments,meltable
+Conar instrument,Conar instruments,meltable
+Cujom instrument,Cujom instruments,meltable
+Dana instrument,Dana instruments,meltable
+Emat instrument,Emat instruments,meltable
+Emoth instrument,Emoth instruments,meltable
+Fanemi instrument,Fanemi instruments,meltable
+Gishdist instrument,Gishdist instruments,meltable
+Imadu instrument,Imadu instruments,meltable
+Kalan instrument,Kalan instruments,meltable
+Kavud instrument,Kavud instruments,meltable
+Kilrud instrument,Kilrud instruments,meltable
+Lic instrument,Lic instruments,meltable
+Mafol instrument,Mafol instruments,meltable
+Nawara instrument,Nawara instruments,meltable
+Noram instrument,Noram instruments,meltable
+Ogra instrument,Ogra instruments,meltable
+Ohu instrument,Ohu instruments,meltable
+Quinefa instrument,Quinefa instruments,meltable
+Stetar instrument,Stetar instruments,meltable
+Stren instrument,Stren instruments,meltable
+Thetal instrument,Thetal instruments,meltable
+Thos instrument,Thos instruments,meltable
+Timik instrument,Timik instruments,meltable
+Toga instrument,Toga instruments,meltable
+Tomen instrument,Tomen instruments,meltable
+Zarut instrument,Zarut instruments,meltable
+Shagog instrument,Shagog instruments,meltable
+
+items_mundane
+Animal trap,Animal traps,meltable,pointy
+Backpack,Backpacks
+Bag,Bags
+Barrel,Barrels
+Bed,Beds
+Bin,Bins
+Blocks,Blocks,meltable
+Boning knife,Boning knives,meltable
+Bookbinding,Bookbindings
+Bookcase,Bookcases
+Bowl,Bowls
+Box,Boxes
+Bucket,Buckets,meltable
+Cabinet,Cabinets
+Carving fork,Carving forks,meltable,pointy
+Carving knife,Carving knives,meltable,pointy
+Cauldron,Cauldrons,meltable
+Cloth,Cloth
+Coffin,Coffins
+Crutch,Crutches
+Die,Dice
+Display case,Display cases,meltable
+Door,Doors
+Egg,Eggs
+Enormous corkscrew,Enormous corkscrews
+Figurine,Figurines
+Fish,Fish
+Flask,Flasks,meltable
+Floodgate,Floodgates,meltable
+Hatch cover,Hatch covers,meltable
+Helve,Helves,meltable
+Hive,Hives
+Honeycomb,Honeycomb
+Jug,Jugs
+Ladle,Ladles,meltable
+Large pot,Large pots,meltable
+Log,Logs
+Meat cleaver,Meat cleavers,meltable
+Mechanism,Mechanisms,meltable
+Millstone,Millstones
+Minecart,Minecarts,meltable
+Mini-forge,Mini-forges,meltable
+Mortar,Mortars
+Nest box,Nest boxes
+Pedestal,Pedestals,meltable
+Pestle,Pestles
+Pipe section,Pipe sections,meltable
+Pouch,Pouches
+Prepared meal,Prepared meals
+Puzzlebox,Puzzleboxes
+Quern,Querns
+Quire,Quires
+Scroll Roller,Scroll Rollers,meltable
+Seeds,Seeds
+Sheet,Sheets
+Slab,Slabs
+Slicing knife,Slicing knives,meltable
+Small rock,Small rocks
+Splint,Splints
+Stepladder,Stepladders
+Stones,Stones
+Table,Tables
+Tanned hide,Tanned hides
+Thread,Threads
+Toy axe,Toy axes
+Toy boat,Toy boats
+Toy hammer,Toy hammers
+Traction bench,Traction benches
+Weapon rack,Weapon racks,meltable
+Wheelbarrow,Wheelbarrows
+Window,Windows

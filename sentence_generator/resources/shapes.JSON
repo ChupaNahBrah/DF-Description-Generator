@@ -1,0 +1,317 @@
+[
+  {
+    "id": 916,
+    "singular": "Blazing sun",
+    "plural": "Blazing suns",
+    "tags": [
+      "shape"
+    ],
+    "category": "shapes"
+  },
+  {
+    "id": 917,
+    "singular": "Broad cross",
+    "plural": "Broad crosses",
+    "tags": [
+      "shape"
+    ],
+    "category": "shapes"
+  },
+  {
+    "id": 918,
+    "singular": "Circle",
+    "plural": "Circles",
+    "tags": [
+      "shape"
+    ],
+    "category": "shapes"
+  },
+  {
+    "id": 919,
+    "singular": "Cloud",
+    "plural": "Clouds",
+    "tags": [
+      "shape"
+    ],
+    "category": "shapes"
+  },
+  {
+    "id": 920,
+    "singular": "Crescent moon",
+    "plural": "Crescent moons",
+    "tags": [
+      "shape"
+    ],
+    "category": "shapes"
+  },
+  {
+    "id": 921,
+    "singular": "Cubic cube",
+    "plural": "Cubic cubes",
+    "tags": [
+      "shape"
+    ],
+    "category": "shapes"
+  },
+  {
+    "id": 922,
+    "singular": "Cushion cabochon",
+    "plural": "Cushion cabochons",
+    "tags": [
+      "shape"
+    ],
+    "category": "shapes"
+  },
+  {
+    "id": 923,
+    "singular": "Diamond",
+    "plural": "Diamonds",
+    "tags": [
+      "shape"
+    ],
+    "category": "shapes"
+  },
+  {
+    "id": 924,
+    "singular": "Dodecahedral dodecahedron",
+    "plural": "Dodecahedral dodecahedrons",
+    "tags": [
+      "shape"
+    ],
+    "category": "shapes"
+  },
+  {
+    "id": 925,
+    "singular": "Eight sided long eight sided prism",
+    "plural": "Eight sided long eight sided prisms",
+    "tags": [
+      "shape"
+    ],
+    "category": "shapes"
+  },
+  {
+    "id": 926,
+    "singular": "Five pointed star",
+    "plural": "Five pointed stars",
+    "tags": [
+      "shape"
+    ],
+    "category": "shapes"
+  },
+  {
+    "id": 927,
+    "singular": "Four pointed star",
+    "plural": "Four pointed stars",
+    "tags": [
+      "shape"
+    ],
+    "category": "shapes"
+  },
+  {
+    "id": 928,
+    "singular": "Four sided long four sided prism",
+    "plural": "Four sided long four sided prisms",
+    "tags": [
+      "shape"
+    ],
+    "category": "shapes"
+  },
+  {
+    "id": 929,
+    "singular": "Full moon",
+    "plural": "Full moons",
+    "tags": [
+      "shape"
+    ],
+    "category": "shapes"
+  },
+  {
+    "id": 930,
+    "singular": "Gizzard stone",
+    "plural": "Gizzard stones",
+    "tags": [
+      "shape"
+    ],
+    "category": "shapes"
+  },
+  {
+    "id": 931,
+    "singular": "Half moon",
+    "plural": "Half moons",
+    "tags": [
+      "shape"
+    ],
+    "category": "shapes"
+  },
+  {
+    "id": 932,
+    "singular": "Hidden moon",
+    "plural": "Hidden moons",
+    "tags": [
+      "shape"
+    ],
+    "category": "shapes"
+  },
+  {
+    "id": 933,
+    "singular": "Icosahedral icosahedron",
+    "plural": "Icosahedral icosahedrons",
+    "tags": [
+      "shape"
+    ],
+    "category": "shapes"
+  },
+  {
+    "id": 934,
+    "singular": "Many pointed star",
+    "plural": "Many pointed stars",
+    "tags": [
+      "shape"
+    ],
+    "category": "shapes"
+  },
+  {
+    "id": 935,
+    "singular": "Mountain",
+    "plural": "Mountains",
+    "tags": [
+      "shape"
+    ],
+    "category": "shapes"
+  },
+  {
+    "id": 936,
+    "singular": "Narrow crescent",
+    "plural": "Narrow crescents",
+    "tags": [
+      "shape"
+    ],
+    "category": "shapes"
+  },
+  {
+    "id": 937,
+    "singular": "Octahedral octahedron",
+    "plural": "Octahedral octahedrons",
+    "tags": [
+      "shape"
+    ],
+    "category": "shapes"
+  },
+  {
+    "id": 938,
+    "singular": "Oval cabochon",
+    "plural": "Oval cabochons",
+    "tags": [
+      "shape"
+    ],
+    "category": "shapes"
+  },
+  {
+    "id": 939,
+    "singular": "Rectangular cabochon",
+    "plural": "Rectangular cabochons",
+    "tags": [
+      "shape"
+    ],
+    "category": "shapes"
+  },
+  {
+    "id": 940,
+    "singular": "Round cabochon",
+    "plural": "Round cabochons",
+    "tags": [
+      "shape"
+    ],
+    "category": "shapes"
+  },
+  {
+    "id": 941,
+    "singular": "Shining sun",
+    "plural": "Shining suns",
+    "tags": [
+      "shape"
+    ],
+    "category": "shapes"
+  },
+  {
+    "id": 942,
+    "singular": "Six sided long six sided prism",
+    "plural": "Six sided long six sided prisms",
+    "tags": [
+      "shape"
+    ],
+    "category": "shapes"
+  },
+  {
+    "id": 943,
+    "singular": "Smooth pebble",
+    "plural": "Smooth pebbles",
+    "tags": [
+      "shape"
+    ],
+    "category": "shapes"
+  },
+  {
+    "id": 944,
+    "singular": "Square",
+    "plural": "Squares",
+    "tags": [
+      "shape"
+    ],
+    "category": "shapes"
+  },
+  {
+    "id": 945,
+    "singular": "Tall cross",
+    "plural": "Tall crosses",
+    "tags": [
+      "shape"
+    ],
+    "category": "shapes"
+  },
+  {
+    "id": 946,
+    "singular": "Tetrahedral tetrahedron",
+    "plural": "Tetrahedral tetrahedrons",
+    "tags": [
+      "shape"
+    ],
+    "category": "shapes"
+  },
+  {
+    "id": 947,
+    "singular": "Thick crescent",
+    "plural": "Thick crescents",
+    "tags": [
+      "shape"
+    ],
+    "category": "shapes"
+  },
+  {
+    "id": 948,
+    "singular": "Thin cross",
+    "plural": "Thin crosses",
+    "tags": [
+      "shape"
+    ],
+    "category": "shapes"
+  },
+  {
+    "id": 949,
+    "singular": "star",
+    "plural": "stars",
+    "tags": [
+      "shape"
+    ],
+    "category": "shapes"
+  },
+  {
+    "id": 950,
+    "singular": "Wave",
+    "plural": "Waves",
+    "tags": [
+      "shape"
+    ],
+    "category": "shapes"
+  }
+]

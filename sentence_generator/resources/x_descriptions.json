@@ -1,0 +1,212 @@
+[
+  {
+    "text": "is being flayed",
+    "required_tags": [
+      "organic"
+    ],
+    "desc_id": 1
+  },
+  {
+    "text": "is being mutilated",
+    "required_tags": [
+      "creature"
+    ],
+    "desc_id": 2
+  },
+  {
+    "text": "is being shot",
+    "required_tags": [],
+    "desc_id": 3
+  },
+  {
+    "text": "is being tortured",
+    "required_tags": [
+      "creature"
+    ],
+    "desc_id": 4
+  },
+  {
+    "text": "is burning",
+    "required_tags": [],
+    "desc_id": 5
+  },
+  {
+    "text": "is contemplating",
+    "required_tags": [
+      "humanoid"
+    ],
+    "desc_id": 6
+  },
+  {
+    "text": "is cooking",
+    "required_tags": [
+      "humanoid"
+    ],
+    "desc_id": 7
+  },
+  {
+    "text": "is cringing",
+    "required_tags": [
+      "limbed"
+    ],
+    "desc_id": 8
+  },
+  {
+    "text": "is dead",
+    "disallowed_tags": [
+      "shape",
+      "inanimate"
+    ],
+    "desc_id": 9
+  },
+  {
+    "text": "is engraving",
+    "required_tags": [
+      "humanoid"
+    ],
+    "desc_id": 10
+  },
+  {
+    "text": "is falling",
+    "required_tags": [],
+    "desc_id": 11
+  },
+  {
+    "text": "is in a fetal position",
+    "required_tags": [
+      "humanoid"
+    ],
+    "desc_id": 12
+  },
+  {
+    "text": "is laboring",
+    "required_tags": [
+      "limbed"
+    ],
+    "desc_id": 13
+  },
+  {
+    "text": "is laughing",
+    "required_tags": [
+      "humanoid"
+    ],
+    "desc_id": 14
+  },
+  {
+    "text": "is making a plaintive gesture",
+    "required_tags": [
+      "limbed"
+    ],
+    "desc_id": 15
+  },
+  {
+    "text": "is making a submissive gesture",
+    "required_tags": [
+      "limbed"
+    ],
+    "desc_id": 16
+  },
+  {
+    "text": "is melting",
+    "required_tags": [
+      "meltable"
+    ],
+    "desc_id": 17
+  },
+  {
+    "text": "is praying",
+    "required_tags": [
+      "humanoid"
+    ],
+    "desc_id": 18
+  },
+  {
+    "text": "is screaming",
+    "required_tags": [
+      "limbed"
+    ],
+    "desc_id": 19
+  },
+  {
+    "text": "is smeared out in a spiral",
+    "required_tags": [],
+    "desc_id": 20
+  },
+  {
+    "text": "is striking a menacing pose",
+    "required_tags": [
+      "limbed"
+    ],
+    "desc_id": 21
+  },
+  {
+    "text": "is striking a triumphant pose",
+    "required_tags": [
+      "limbed"
+    ],
+    "desc_id": 22
+  },
+  {
+    "text": "is suffering",
+    "required_tags": [
+      "creature"
+    ],
+    "desc_id": 23
+  },
+  {
+    "text": "is traveling",
+    "required_tags": [
+      "creature"
+    ],
+    "desc_id": 24
+  },
+  {
+    "text": "is unnaturally contorted",
+    "required_tags": [
+      "organic"
+    ],
+    "desc_id": 25
+  },
+  {
+    "text": "is weeping",
+    "required_tags": [
+      "humanoid"
+    ],
+    "desc_id": 26
+  },
+  {
+    "text": "is withering away",
+    "required_tags": [
+      "organic"
+    ],
+    "desc_id": 27
+  },
+  {
+    "text": "looks confused",
+    "required_tags": [
+      "humanoid"
+    ],
+    "desc_id": 28
+  },
+  {
+    "text": "looks dejected",
+    "required_tags": [
+      "humanoid"
+    ],
+    "desc_id": 29
+  },
+  {
+    "text": "looks offended",
+    "required_tags": [
+      "humanoid"
+    ],
+    "desc_id": 30
+  },
+  {
+    "text": "looks terrified",
+    "required_tags": [
+      "limbed"
+    ],
+    "desc_id": 31
+  }
+]

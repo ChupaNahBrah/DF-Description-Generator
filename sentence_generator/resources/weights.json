@@ -1,0 +1,36 @@
+{
+  "subject_count": {
+    "1": 30,
+    "2": 40,
+    "3": 30
+  },
+  "1subj_desc_count": {
+    "0": 20,
+    "1": 80
+  },
+  "2subj_desc_count": {
+    "1": 30,
+    "2": 45,
+    "3": 25
+  },
+  "3subj_desc_count": {
+    "1": 10,
+    "2": 35,
+    "3": 35,
+    "4": 20
+  },
+  "2subj_2desc_mix": [
+    {"mix": [0,2], "weight": 70},
+    {"mix": [1,1], "weight": 30}
+  ],
+  "3subj_3desc_mix": [
+    {"mix": [0,3], "weight": 20},
+    {"mix": [1,2], "weight": 45},
+    {"mix": [2,1], "weight": 35}
+  ],
+  "3subj_4desc_mix": [
+    {"mix": [0,4], "weight": 20},
+    {"mix": [1,3], "weight": 40},
+    {"mix": [2,2], "weight": 40}
+  ]
+}

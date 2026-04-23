@@ -1,0 +1,8410 @@
+[
+  {
+    "id": 1,
+    "singular": "Dwarf",
+    "plural": "Dwarves",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land_civilized"
+  },
+  {
+    "id": 2,
+    "singular": "Elf",
+    "plural": "Elves",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land_civilized"
+  },
+  {
+    "id": 3,
+    "singular": "Goblin",
+    "plural": "Goblins",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land_civilized"
+  },
+  {
+    "id": 4,
+    "singular": "Human",
+    "plural": "Humans",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land_civilized"
+  },
+  {
+    "id": 5,
+    "singular": "Kobold",
+    "plural": "Kobolds",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land_civilized"
+  },
+  {
+    "id": 6,
+    "singular": "Amphibian man",
+    "plural": "Amphibian men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground_civilized"
+  },
+  {
+    "id": 7,
+    "singular": "Antman",
+    "plural": "Antmen",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground_civilized"
+  },
+  {
+    "id": 8,
+    "singular": "Bat man",
+    "plural": "Bat men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground_civilized"
+  },
+  {
+    "id": 9,
+    "singular": "Cave fish man",
+    "plural": "Cave fish men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground_civilized"
+  },
+  {
+    "id": 10,
+    "singular": "Cave swallow man",
+    "plural": "Cave swallow men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground_civilized"
+  },
+  {
+    "id": 11,
+    "singular": "Olm man",
+    "plural": "Olm men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground_civilized"
+  },
+  {
+    "id": 12,
+    "singular": "Reptile man",
+    "plural": "Reptile men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground_civilized"
+  },
+  {
+    "id": 13,
+    "singular": "Rodent man",
+    "plural": "Rodent men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground_civilized"
+  },
+  {
+    "id": 14,
+    "singular": "Serpent man",
+    "plural": "Serpent men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground_civilized"
+  },
+  {
+    "id": 15,
+    "singular": "Aardvark",
+    "plural": "Aardvarks",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 16,
+    "singular": "Aardvark man",
+    "plural": "Aardvark men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 17,
+    "singular": "Adder",
+    "plural": "Adders",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 18,
+    "singular": "Adder man",
+    "plural": "Adder men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 19,
+    "singular": "Alligator",
+    "plural": "Alligators",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 20,
+    "singular": "Alpaca",
+    "plural": "Alpacas",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 21,
+    "singular": "Anaconda",
+    "plural": "Anacondas",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 22,
+    "singular": "Anaconda man",
+    "plural": "Anaconda men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 23,
+    "singular": "Anole",
+    "plural": "Anoles",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 24,
+    "singular": "Anole man",
+    "plural": "Anole men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 25,
+    "singular": "Armadillo",
+    "plural": "Armadillos",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 26,
+    "singular": "Armadillo man",
+    "plural": "Armadillo men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 27,
+    "singular": "Aye-aye",
+    "plural": "Aye-ayes",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 28,
+    "singular": "Aye-aye man",
+    "plural": "Aye-aye men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 29,
+    "singular": "Badger",
+    "plural": "Badgers",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 30,
+    "singular": "Badger man",
+    "plural": "Badger men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 31,
+    "singular": "Bark scorpion man",
+    "plural": "Bark scorpion men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 32,
+    "singular": "Barn owl",
+    "plural": "Barn owls",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 33,
+    "singular": "Barn owl man",
+    "plural": "Barn owl men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 34,
+    "singular": "Beak dog",
+    "plural": "Beak dog",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 35,
+    "singular": "Beetle man",
+    "plural": "Beetle men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 36,
+    "singular": "Bilou",
+    "plural": "Bilous",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 37,
+    "singular": "Black bear",
+    "plural": "Black bears",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 38,
+    "singular": "Black bear man",
+    "plural": "Black bear men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 39,
+    "singular": "Black mamba",
+    "plural": "Black mambas",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 40,
+    "singular": "Black mamba man",
+    "plural": "Black mamba men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 41,
+    "singular": "Black-crested gibbon",
+    "plural": "Black-crested gibbons",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 42,
+    "singular": "Black-handed gibbon",
+    "plural": "Black-handed gibbons",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 43,
+    "singular": "Blizzard man",
+    "plural": "Blizzard men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 44,
+    "singular": "Blue peafowl",
+    "plural": "Blue peafowl",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 45,
+    "singular": "Bluejay man",
+    "plural": "Bluejay men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 46,
+    "singular": "Bobcat",
+    "plural": "Bobcats",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 47,
+    "singular": "Bobcat man",
+    "plural": "Bobcat men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 48,
+    "singular": "Bonobo",
+    "plural": "Bonobos",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 49,
+    "singular": "Brown recluse spider man",
+    "plural": "Brown recluse spider men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 50,
+    "singular": "Bushmaster",
+    "plural": "Bushmasters",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 51,
+    "singular": "Bushmaster man",
+    "plural": "Bushmaster men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 52,
+    "singular": "Bushtit man",
+    "plural": "Bushtit men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 53,
+    "singular": "Buzzard",
+    "plural": "Buzzards",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 54,
+    "singular": "Buzzard man",
+    "plural": "Buzzard men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 55,
+    "singular": "Capuchin",
+    "plural": "Capuchins",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 56,
+    "singular": "Capuchin man",
+    "plural": "Capuchin men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 57,
+    "singular": "Capybara",
+    "plural": "Capybaras",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 58,
+    "singular": "Capybara man",
+    "plural": "Capybara men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 59,
+    "singular": "Cardinal man",
+    "plural": "Cardinal men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 60,
+    "singular": "Cassowary",
+    "plural": "Cassowaries",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 61,
+    "singular": "Cassowary man",
+    "plural": "Cassowary men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 62,
+    "singular": "Cat",
+    "plural": "Cats",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 63,
+    "singular": "Cavy",
+    "plural": "Cavies",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 64,
+    "singular": "Chameleon man",
+    "plural": "Chameleon men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 65,
+    "singular": "Cheetah",
+    "plural": "Cheetahs",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 66,
+    "singular": "Cheetah man",
+    "plural": "Cheetah men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 67,
+    "singular": "Chicken",
+    "plural": "Chickens",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 68,
+    "singular": "Chimpanzee",
+    "plural": "Chimpanzees",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 69,
+    "singular": "Chinchilla",
+    "plural": "Chinchillas",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 70,
+    "singular": "Chinchilla man",
+    "plural": "Chinchilla men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 71,
+    "singular": "Chipmunk man",
+    "plural": "Chipmunk men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 72,
+    "singular": "Coati",
+    "plural": "Coatis",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 73,
+    "singular": "Coati man",
+    "plural": "Coati men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 74,
+    "singular": "Cockatiel man",
+    "plural": "Cockatiel men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 75,
+    "singular": "Copperhead snake",
+    "plural": "Copperhead snakes",
+    "tags": [],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 76,
+    "singular": "Copperhead snake man",
+    "plural": "Copperhead snake men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 77,
+    "singular": "Cougar",
+    "plural": "Cougars",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 78,
+    "singular": "Cougar man",
+    "plural": "Cougar men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 79,
+    "singular": "Cow",
+    "plural": "Cows",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 80,
+    "singular": "Coyote",
+    "plural": "Coyotes",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 81,
+    "singular": "Coyote man",
+    "plural": "Coyote men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 82,
+    "singular": "Crow man",
+    "plural": "Crow men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 83,
+    "singular": "Dark gnome",
+    "plural": "Dark gnomes",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 84,
+    "singular": "Deer",
+    "plural": "Deer",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 85,
+    "singular": "Deer man",
+    "plural": "Deer men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 86,
+    "singular": "Desert tortoise",
+    "plural": "Desert tortoises",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 87,
+    "singular": "Desert tortoise man",
+    "plural": "Desert tortoise men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 88,
+    "singular": "Dingo",
+    "plural": "Dingos",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 89,
+    "singular": "Dingo man",
+    "plural": "Dingo men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 90,
+    "singular": "Dog",
+    "plural": "Dogs",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 91,
+    "singular": "Donkey",
+    "plural": "Donkeys",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 92,
+    "singular": "Duck",
+    "plural": "Ducks",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 93,
+    "singular": "Eagle",
+    "plural": "Eagles",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 94,
+    "singular": "Eagle man",
+    "plural": "Eagle men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 95,
+    "singular": "Echidna",
+    "plural": "Echidnas",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 96,
+    "singular": "Echidna man",
+    "plural": "Echidna men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 97,
+    "singular": "Elephant",
+    "plural": "Elephants",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 98,
+    "singular": "Elephant man",
+    "plural": "Elephant men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 99,
+    "singular": "Elk",
+    "plural": "Elk",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 100,
+    "singular": "Elk man",
+    "plural": "Elk men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid.pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 101,
+    "singular": "Emu",
+    "plural": "Emus",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 102,
+    "singular": "Emu man",
+    "plural": "Emu men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 103,
+    "singular": "Firefly man",
+    "plural": "Firefly men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 104,
+    "singular": "Fly man",
+    "plural": "Fly men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 105,
+    "singular": "Flying squirrel man",
+    "plural": "Flying squirrel men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 106,
+    "singular": "Fox",
+    "plural": "Foxes",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 107,
+    "singular": "Fox man",
+    "plural": "Fox men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 108,
+    "singular": "Gazelle",
+    "plural": "Gazelles",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 109,
+    "singular": "Gazelle man",
+    "plural": "Gazelle men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 110,
+    "singular": "Giant aardvark",
+    "plural": "Giant aardvarks",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 111,
+    "singular": "Giant adder",
+    "plural": "Giant adders",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 112,
+    "singular": "Giant anaconda",
+    "plural": "Giant anacondas",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 113,
+    "singular": "Giant anole",
+    "plural": "Giant anoles",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 114,
+    "singular": "Giant armadillo",
+    "plural": "Giant armadillos",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 115,
+    "singular": "Giant aye-aye",
+    "plural": "Giant aye-ayes",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 116,
+    "singular": "Giant badger",
+    "plural": "Giant badgers",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 117,
+    "singular": "Giant bark scorpion",
+    "plural": "Giant bark scorpions",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 118,
+    "singular": "Giant barn owl",
+    "plural": "Giant barn owls",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 119,
+    "singular": "Giant beetle",
+    "plural": "Giant beetles",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 120,
+    "singular": "Giant black bear",
+    "plural": "Giant black bears",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 121,
+    "singular": "Giant black mamba",
+    "plural": "Giant black mambas",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 122,
+    "singular": "Giant bluejay",
+    "plural": "Giant bluejays",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 123,
+    "singular": "Giant bobcat",
+    "plural": "Giant bobcats",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 124,
+    "singular": "Giant brown recluse spider",
+    "plural": "Giant brown recluse spiders",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 125,
+    "singular": "Giant bushmaster",
+    "plural": "Giant bushmasters",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 126,
+    "singular": "Giant bushtit",
+    "plural": "Giant bushtits",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 127,
+    "singular": "Giant buzzard",
+    "plural": "Giant buzzards",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 128,
+    "singular": "Giant capuchin",
+    "plural": "Giant capuchins",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 129,
+    "singular": "Giant capybara",
+    "plural": "Giant capybaras",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 130,
+    "singular": "Giant cardinal",
+    "plural": "Giant cardinals",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 131,
+    "singular": "Giant cassowary",
+    "plural": "Giant cassowaries",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 132,
+    "singular": "Giant chameleon",
+    "plural": "Giant chameleons",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 133,
+    "singular": "Giant cheetah",
+    "plural": "Giant cheetahs",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 134,
+    "singular": "Giant chinchilla",
+    "plural": "Giant chinchillas",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 135,
+    "singular": "Giant chipmunk",
+    "plural": "Giant chipmunks",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 136,
+    "singular": "Giant coati",
+    "plural": "Giant coatis",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 137,
+    "singular": "Giant cockatiel",
+    "plural": "Giant cockatiels",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 138,
+    "singular": "Giant copperhead snake",
+    "plural": "Giant copperhead snakes",
+    "tags": [],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 139,
+    "singular": "Giant cougar",
+    "plural": "Giant cougars",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 140,
+    "singular": "Giant coyote",
+    "plural": "Giant coyotes",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 141,
+    "singular": "Giant crow",
+    "plural": "Giant crows",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 142,
+    "singular": "Giant deer",
+    "plural": "Giant deer",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 143,
+    "singular": "Giant desert scorpion",
+    "plural": "Giant desert scorpions",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 144,
+    "singular": "Giant desert tortoise",
+    "plural": "Giant desert tortoises",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 145,
+    "singular": "Giant dingo",
+    "plural": "Giant dingos",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 146,
+    "singular": "Giant eagle",
+    "plural": "Giant eagles",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 147,
+    "singular": "Giant echidna",
+    "plural": "Giant echidnas",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 148,
+    "singular": "Giant elephant",
+    "plural": "Giant elephants",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 149,
+    "singular": "Giant elk",
+    "plural": "Giant elk",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 150,
+    "singular": "Giant emu",
+    "plural": "Giant emu",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 151,
+    "singular": "Giant firefly",
+    "plural": "Giant fireflies",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 152,
+    "singular": "Giant fly",
+    "plural": "Giant flies",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 153,
+    "singular": "Giant flying squirrel",
+    "plural": "Giant flying squirrels",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 154,
+    "singular": "Giant fox",
+    "plural": "Giant foxes",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 155,
+    "singular": "Giant gazelle",
+    "plural": "Giant gazelles",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 156,
+    "singular": "Giant gila monster",
+    "plural": "Giant gila monsters",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 157,
+    "singular": "Giant giraffe",
+    "plural": "Giant giraffes",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 158,
+    "singular": "Giant grackle",
+    "plural": "Giant grackles",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 159,
+    "singular": "Giant grasshopper",
+    "plural": "Giant grasshoppers",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 160,
+    "singular": "Giant gray langur",
+    "plural": "Giant gray langurs",
+    "tags": [
+      "organic",
+      "creature.limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 161,
+    "singular": "Giant gray squirrel",
+    "plural": "Giant gray squirrels",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 162,
+    "singular": "Giant great horned owl",
+    "plural": "Giant great horned owls",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 163,
+    "singular": "Giant green tree frog",
+    "plural": "Giant green tree frogs",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 164,
+    "singular": "Giant grey parrot",
+    "plural": "Giant grey parrots",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 165,
+    "singular": "Giant grizzly bear",
+    "plural": "Giant grizzly bears",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 166,
+    "singular": "Giant groundhog",
+    "plural": "Giant groundhogs",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 167,
+    "singular": "Giant hamster",
+    "plural": "Giant hamsters",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 168,
+    "singular": "Giant hare",
+    "plural": "Giant hares",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 169,
+    "singular": "Giant hedgehog",
+    "plural": "Giant hedgehogs",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 170,
+    "singular": "Giant hippo",
+    "plural": "Giant hippos",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 171,
+    "singular": "Giant hoary marmot",
+    "plural": "Giant hoary marmots",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 172,
+    "singular": "Giant honey badger",
+    "plural": "Giant honey badgers",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 173,
+    "singular": "Giant hornbill",
+    "plural": "Giant hornbills",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 174,
+    "singular": "Giant hyena",
+    "plural": "Giant hyenas",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 175,
+    "singular": "Giant ibex",
+    "plural": "Giant ibex",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 176,
+    "singular": "Giant iguana",
+    "plural": "Giant iguanas",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 177,
+    "singular": "Giant impala",
+    "plural": "Giant impalas",
+    "tags": [
+      "organic",
+      "creature",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 178,
+    "singular": "Giant jackal",
+    "plural": "Giant jackals",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 179,
+    "singular": "Giant jaguar",
+    "plural": "Giant jaguars",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 180,
+    "singular": "Giant jumping spider",
+    "plural": "Giant jumping spiders",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 181,
+    "singular": "Giant kakapo",
+    "plural": "Giant kakapos",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 182,
+    "singular": "Giant kangaroo",
+    "plural": "Giant kangaroo",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 183,
+    "singular": "Giant kea",
+    "plural": "Giant keas",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 184,
+    "singular": "Giant kestrel",
+    "plural": "Giant kestrels",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 185,
+    "singular": "Giant king cobra",
+    "plural": "Giant king cobras",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 186,
+    "singular": "Giant kingsnake",
+    "plural": "Giant kingsnakes",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 187,
+    "singular": "Giant kiwi",
+    "plural": "Giant kiwis",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 188,
+    "singular": "Giant koala",
+    "plural": "Giant koalas",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 189,
+    "singular": "Giant leopard",
+    "plural": "Giant leopards",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 190,
+    "singular": "Giant leopard gecko",
+    "plural": "Giant leopard geckos",
+    "tags": [],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 191,
+    "singular": "Giant lion",
+    "plural": "Giant lions",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 192,
+    "singular": "Giant lion tamarin",
+    "plural": "Giant lion tamarins",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 193,
+    "singular": "Giant lizard",
+    "plural": "Giant lizards",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 194,
+    "singular": "Giant lorikeet",
+    "plural": "Giant lorikeets",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 195,
+    "singular": "Giant louse",
+    "plural": "Giant louse",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 196,
+    "singular": "Giant lynx",
+    "plural": "Giant lynx",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 197,
+    "singular": "Giant magpie",
+    "plural": "Giant magpies",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 198,
+    "singular": "Giant mandrill",
+    "plural": "Giant mandrills",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 199,
+    "singular": "Giant mantis",
+    "plural": "Giant mantises",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 200,
+    "singular": "Giant masked lovebird",
+    "plural": "Giant masked lovebirds",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 201,
+    "singular": "Giant monarch butterfly",
+    "plural": "Giant monarch butterflies",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 202,
+    "singular": "Giant mongoose",
+    "plural": "Giant mongeese",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 203,
+    "singular": "Giant monitor lizard",
+    "plural": "Giant monitor lizards",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 204,
+    "singular": "Giant moose",
+    "plural": "Giant moose",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 205,
+    "singular": "Giant mosquito",
+    "plural": "Giant mosquitos",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 206,
+    "singular": "Giant moth",
+    "plural": "Giant moths",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 207,
+    "singular": "Giant mountain goat",
+    "plural": "Giant mountain goats",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 208,
+    "singular": "Giant muskox",
+    "plural": "Giant muskoxen",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 209,
+    "singular": "Giant ocelot",
+    "plural": "Giant ocelots",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 210,
+    "singular": "Giant one-humped camel",
+    "plural": "Giant one-humped camels",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 211,
+    "singular": "Giant opossum",
+    "plural": "Giant opossums",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 212,
+    "singular": "Giant oriole",
+    "plural": "Giant orioles",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 213,
+    "singular": "Giant osprey",
+    "plural": "Giant ospreys",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 214,
+    "singular": "Giant ostrich",
+    "plural": "Giant ostriches",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 215,
+    "singular": "Giant pangolin",
+    "plural": "Giant pangolins",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 216,
+    "singular": "Giant parakeet",
+    "plural": "Giant parakeet",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 217,
+    "singular": "Giant peach-faced lovebird",
+    "plural": "Giant peach-faced lovebirds",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 218,
+    "singular": "Giant peregrine falcon",
+    "plural": "Giant peregrine falcons",
+    "tags": [],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 219,
+    "singular": "Giant polar bear",
+    "plural": "Giant polar bears",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 220,
+    "singular": "Giant porcupine",
+    "plural": "Giant porcupines",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 221,
+    "singular": "Giant python",
+    "plural": "Giant pythons",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 222,
+    "singular": "Giant raccoon",
+    "plural": "Giant raccoons",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 223,
+    "singular": "Giant rattlesnake",
+    "plural": "Giant rattlesnakes",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 224,
+    "singular": "Giant raven",
+    "plural": "Giant ravens",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 225,
+    "singular": "Giant red panda",
+    "plural": "Giant red pandas",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 226,
+    "singular": "Giant red squirrel",
+    "plural": "Giant red squirrels",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 227,
+    "singular": "Giant rhesus macaque",
+    "plural": "Giant rhesus macaques",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 228,
+    "singular": "Giant rhinoceros",
+    "plural": "Giant rhinoceros",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 229,
+    "singular": "Giant roach",
+    "plural": "Giant roaches",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 230,
+    "singular": "Giant skink",
+    "plural": "Giant skinks",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 231,
+    "singular": "Giant skunk",
+    "plural": "Giant skunks",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 232,
+    "singular": "Giant sloth",
+    "plural": "Giant sloths",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 233,
+    "singular": "Giant sloth bear",
+    "plural": "Giant sloth bears",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 234,
+    "singular": "Giant slug",
+    "plural": "Giant slugs",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 235,
+    "singular": "Giant snail",
+    "plural": "Giant snails",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 236,
+    "singular": "Giant snowy owl",
+    "plural": "Giant snowy owls",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 237,
+    "singular": "Giant sparrow",
+    "plural": "Giant sparrows",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 238,
+    "singular": "Giant spider monkey",
+    "plural": "Giant spider monkeys",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 239,
+    "singular": "Giant stoat",
+    "plural": "Giant stoats",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 240,
+    "singular": "Giant tapir",
+    "plural": "Giant tapir",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 241,
+    "singular": "Giant thrips",
+    "plural": "Giant thrips",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 242,
+    "singular": "Giant tick",
+    "plural": "Giant ticks",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 243,
+    "singular": "Giant tiger",
+    "plural": "Giant tigers",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 244,
+    "singular": "Giant tortoise",
+    "plural": "Giant tortoises",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 245,
+    "singular": "Giant tortoise man",
+    "plural": "Giant tortoise men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 246,
+    "singular": "Giant two-humped camel",
+    "plural": "Giant two-humped camels",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 247,
+    "singular": "Giant vulture",
+    "plural": "Giant vultures",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 248,
+    "singular": "Giant warthog",
+    "plural": "Giant warthogs",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 249,
+    "singular": "Giant weasel",
+    "plural": "Giant weasels",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 250,
+    "singular": "Giant white stork",
+    "plural": "Giant white storks",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 251,
+    "singular": "Giant wild boar",
+    "plural": "Giant wild boar",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 252,
+    "singular": "Giant wolf",
+    "plural": "Giant wolves",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 253,
+    "singular": "Giant wolverine",
+    "plural": "Giant wolverines",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 254,
+    "singular": "Giant wombat",
+    "plural": "Giant wombats",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 255,
+    "singular": "Giant wren",
+    "plural": "Giant wrens",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 256,
+    "singular": "Gigantic panda",
+    "plural": "Gigantic pandas",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 257,
+    "singular": "Gigantic tortoise",
+    "plural": "Gigantic tortoises",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 258,
+    "singular": "Gila monster",
+    "plural": "Gila monsters",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 259,
+    "singular": "Gila monster man",
+    "plural": "Gila monster men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 260,
+    "singular": "Giraffe",
+    "plural": "Giraffes",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 261,
+    "singular": "Giraffe man",
+    "plural": "Giraffe men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 262,
+    "singular": "Goose",
+    "plural": "Geese",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 263,
+    "singular": "Gorilla",
+    "plural": "Gorillas",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 264,
+    "singular": "Grackle man",
+    "plural": "Grackle men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 265,
+    "singular": "Grasshopper man",
+    "plural": "Grasshopper men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 266,
+    "singular": "Gray gibbon",
+    "plural": "Gray gibbons",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 267,
+    "singular": "Gray langur",
+    "plural": "Gray langurs",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 268,
+    "singular": "Gray langur man",
+    "plural": "Gray langur men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 269,
+    "singular": "Gray squirrel man",
+    "plural": "Gray squirrel men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 270,
+    "singular": "Great horned owl",
+    "plural": "Great horned owls",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 271,
+    "singular": "Great horned owl man",
+    "plural": "Great horned owl men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 272,
+    "singular": "Green tree frog man",
+    "plural": "Green tree frog men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 273,
+    "singular": "Grey parrot",
+    "plural": "Grey parrots",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 274,
+    "singular": "Grey parrot man",
+    "plural": "Grey parrot men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 275,
+    "singular": "Grimeling",
+    "plural": "Grimelings",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 276,
+    "singular": "Grizzly bear",
+    "plural": "Grizzly bears",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 277,
+    "singular": "Grizzly bear man",
+    "plural": "Grizzly bear men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 278,
+    "singular": "Groundhog",
+    "plural": "Groundhogs",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 279,
+    "singular": "Groundhog man",
+    "plural": "Groundhog men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 280,
+    "singular": "Guineafowl",
+    "plural": "Guineafowl",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 281,
+    "singular": "Hamster man",
+    "plural": "Hamster men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 282,
+    "singular": "Hare",
+    "plural": "Hares",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 283,
+    "singular": "Hare man",
+    "plural": "Hare men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 284,
+    "singular": "Hedgehog man",
+    "plural": "Hedgehog men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 285,
+    "singular": "Hoary marmot",
+    "plural": "Hoary marmots",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 286,
+    "singular": "Hoary marmot man",
+    "plural": "Hoary marmot men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 287,
+    "singular": "Honey badger",
+    "plural": "Honey badgers",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 288,
+    "singular": "Honey badger man",
+    "plural": "Honey badger men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 289,
+    "singular": "Hornbill",
+    "plural": "Hornbills",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 290,
+    "singular": "Hornbill man",
+    "plural": "Hornbill men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 291,
+    "singular": "Horse",
+    "plural": "Horses",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 292,
+    "singular": "Hyena",
+    "plural": "Hyenas",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 293,
+    "singular": "Hyena man",
+    "plural": "Hyena men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 294,
+    "singular": "Ibex",
+    "plural": "Ibex",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 295,
+    "singular": "Ibex man",
+    "plural": "Ibex men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 296,
+    "singular": "Ice wolf",
+    "plural": "Ice wolves",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 297,
+    "singular": "Iguana",
+    "plural": "Iguanas",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 298,
+    "singular": "Iguana man",
+    "plural": "Iguana men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 299,
+    "singular": "Impala",
+    "plural": "Impalas",
+    "tags": [
+      "organic",
+      "creature",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 300,
+    "singular": "Impala man",
+    "plural": "Impala men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 301,
+    "singular": "Jackal",
+    "plural": "Jackals",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 302,
+    "singular": "Jackal man",
+    "plural": "Jackal men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 303,
+    "singular": "Jaguar",
+    "plural": "Jaguars",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 304,
+    "singular": "Jaguar man",
+    "plural": "Jaguar men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 305,
+    "singular": "Jumping spider man",
+    "plural": "Jumping spider men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 306,
+    "singular": "Kakapo",
+    "plural": "Kakapos",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 307,
+    "singular": "Kakapo man",
+    "plural": "Kakapo men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 308,
+    "singular": "Kangaroo",
+    "plural": "Kangaroo",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 309,
+    "singular": "Kangaroo man",
+    "plural": "Kangaroo men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 310,
+    "singular": "Kea",
+    "plural": "Keas",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 311,
+    "singular": "Kea man",
+    "plural": "Kea men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 312,
+    "singular": "Kestrel",
+    "plural": "Kestrels",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 313,
+    "singular": "Kestrel man",
+    "plural": "Kestrel men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 314,
+    "singular": "King cobra",
+    "plural": "King cobras",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 315,
+    "singular": "King cobra man",
+    "plural": "King cobra men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 316,
+    "singular": "Kingsnake",
+    "plural": "Kingsnakes",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 317,
+    "singular": "Kingsnake man",
+    "plural": "Kingsnake men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 318,
+    "singular": "Kiwi",
+    "plural": "Kiwis",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 319,
+    "singular": "Kiwi man",
+    "plural": "Kiwi men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 320,
+    "singular": "Koala",
+    "plural": "Koalas",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 321,
+    "singular": "Koala man",
+    "plural": "Koala men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 322,
+    "singular": "Leopard",
+    "plural": "Leopards",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 323,
+    "singular": "Leopard man",
+    "plural": "Leopard men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 324,
+    "singular": "Leopard gecko man",
+    "plural": "Leopard gecko men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 325,
+    "singular": "Lion",
+    "plural": "Lions",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 326,
+    "singular": "Lion man",
+    "plural": "Lion men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 327,
+    "singular": "Lion tamarin man",
+    "plural": "Lion tamarin men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 328,
+    "singular": "Lizard man",
+    "plural": "Lizard men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 329,
+    "singular": "Llama",
+    "plural": "Llama",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 330,
+    "singular": "Lorikeet man",
+    "plural": "Lorikeet men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 331,
+    "singular": "Louse man",
+    "plural": "Louse men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 332,
+    "singular": "Lynx",
+    "plural": "Lynx",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 333,
+    "singular": "Lynx man",
+    "plural": "Lynx men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 334,
+    "singular": "Magpie man",
+    "plural": "Magpie men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 335,
+    "singular": "Mandrill",
+    "plural": "Mandrills",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 336,
+    "singular": "Mandrill man",
+    "plural": "Mandrill men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 337,
+    "singular": "Mantis man",
+    "plural": "Mantis men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 338,
+    "singular": "Masked lovebird man",
+    "plural": "Masked lovebird men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 339,
+    "singular": "Monarch butterfly man",
+    "plural": "Monarch butterfly men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 340,
+    "singular": "Mongoose",
+    "plural": "Mongeese",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 341,
+    "singular": "Mongoose man",
+    "plural": "Mongoose men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 342,
+    "singular": "Monitor lizard",
+    "plural": "Monitor lizards",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 343,
+    "singular": "Monitor lizard man",
+    "plural": "Monitor lizard men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 344,
+    "singular": "Moose",
+    "plural": "Moose",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 345,
+    "singular": "Moose man",
+    "plural": "Moose men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 346,
+    "singular": "Mosquito man",
+    "plural": "Mosquito men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 347,
+    "singular": "Moth man",
+    "plural": "Moth men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 348,
+    "singular": "Mountain gnome",
+    "plural": "Mountain gnomes",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 349,
+    "singular": "Mountain goat",
+    "plural": "Mountain goats",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 350,
+    "singular": "Mountain goat man",
+    "plural": "Mountain goat men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 351,
+    "singular": "Mule",
+    "plural": "Mules",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 352,
+    "singular": "Muskox",
+    "plural": "Muskoxen",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 353,
+    "singular": "Muskox man",
+    "plural": "Muskox men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 354,
+    "singular": "Ocelot",
+    "plural": "Ocelots",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 355,
+    "singular": "Ocelot man",
+    "plural": "Ocelot men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 356,
+    "singular": "Ogre",
+    "plural": "Ogres",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 357,
+    "singular": "One-humped camel",
+    "plural": "One-humped camels",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 358,
+    "singular": "One-humped camel man",
+    "plural": "One-humped camel men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 359,
+    "singular": "Opossum",
+    "plural": "Opossums",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 360,
+    "singular": "Opossum man",
+    "plural": "Opossum men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 361,
+    "singular": "Orangutan",
+    "plural": "Orangutans",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 362,
+    "singular": "Oriole man",
+    "plural": "Oriole men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 363,
+    "singular": "Osprey",
+    "plural": "Ospreys",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 364,
+    "singular": "Osprey man",
+    "plural": "Osprey men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 365,
+    "singular": "Ostrich",
+    "plural": "Ostriches",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 366,
+    "singular": "Ostrich man",
+    "plural": "Ostrich men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 367,
+    "singular": "Panda",
+    "plural": "Pandas",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 368,
+    "singular": "Panda man",
+    "plural": "Panda men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 369,
+    "singular": "Pangolin",
+    "plural": "Pangolins",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 370,
+    "singular": "Pangolin man",
+    "plural": "Pangolin men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 371,
+    "singular": "Parakeet man",
+    "plural": "Parakeet men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 372,
+    "singular": "Peach-faced lovebird man",
+    "plural": "Peach-faced lovebird men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 373,
+    "singular": "Peregrine falcon",
+    "plural": "Peregrine falcons",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 374,
+    "singular": "Peregrine falcon man",
+    "plural": "Peregrine falcon men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 375,
+    "singular": "Pig",
+    "plural": "Pigs",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 376,
+    "singular": "Pileated gibbon",
+    "plural": "Pileated gibbons",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 377,
+    "singular": "Polar bear",
+    "plural": "Polar bears",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 378,
+    "singular": "Polar bear man",
+    "plural": "Polar bear men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 379,
+    "singular": "Porcupine",
+    "plural": "Porcupines",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 380,
+    "singular": "Porcupine man",
+    "plural": "Porcupine men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 381,
+    "singular": "Python",
+    "plural": "Pythons",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 382,
+    "singular": "Python man",
+    "plural": "Python men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 383,
+    "singular": "Rabbit",
+    "plural": "Rabbits",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 384,
+    "singular": "Raccoon",
+    "plural": "Raccoons",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 385,
+    "singular": "Raccoon man",
+    "plural": "Raccoon men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 386,
+    "singular": "Rat man",
+    "plural": "Rat men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 387,
+    "singular": "Rattlesnake",
+    "plural": "Rattlesnakes",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 388,
+    "singular": "Rattlesnake man",
+    "plural": "Rattlesnake men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 389,
+    "singular": "Raven",
+    "plural": "Ravens",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 390,
+    "singular": "Raven man",
+    "plural": "Raven men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 391,
+    "singular": "Red panda",
+    "plural": "Red pandas",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 392,
+    "singular": "Red panda man",
+    "plural": "Red panda men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 393,
+    "singular": "Red squirrel man",
+    "plural": "Red squirrel men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 394,
+    "singular": "Reindeer",
+    "plural": "Reindeer",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 395,
+    "singular": "Rhesus macaque",
+    "plural": "Rhesus macaque",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 396,
+    "singular": "Rhesus macaque man",
+    "plural": "Rhesus macaque men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 397,
+    "singular": "Rhinoceros",
+    "plural": "Rhinoceros",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 398,
+    "singular": "Rhinoceros man",
+    "plural": "Rhinoceros men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 399,
+    "singular": "Roach man",
+    "plural": "Roach men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 400,
+    "singular": "Saltwater crocodile",
+    "plural": "Saltwater crocodiles",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 401,
+    "singular": "Saltwater crocodile man",
+    "plural": "Saltwater crocodile men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 402,
+    "singular": "Sheep",
+    "plural": "Sheep",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 403,
+    "singular": "Siamang",
+    "plural": "Siamangs",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 404,
+    "singular": "Silvery gibbon",
+    "plural": "Silvery gibbon",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 405,
+    "singular": "Skink man",
+    "plural": "Skink men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 406,
+    "singular": "Skunk",
+    "plural": "Skunks",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 407,
+    "singular": "Skunk man",
+    "plural": "Skunk men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 408,
+    "singular": "Sloth",
+    "plural": "Sloths",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 409,
+    "singular": "Sloth bear",
+    "plural": "Sloth bears",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 410,
+    "singular": "Sloth bear man",
+    "plural": "Sloth bear men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 411,
+    "singular": "Sloth man",
+    "plural": "Sloth men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 412,
+    "singular": "Slug man",
+    "plural": "Slug men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 413,
+    "singular": "Snail man",
+    "plural": "Snail men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 414,
+    "singular": "Snowy owl",
+    "plural": "Snowy owls",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 415,
+    "singular": "Snowy owl man",
+    "plural": "Snowy owl men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 416,
+    "singular": "Sparrow man",
+    "plural": "Sparrow men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 417,
+    "singular": "Spider monkey",
+    "plural": "Spider monkeys",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 418,
+    "singular": "Spider monkey man",
+    "plural": "Spider monkey men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 419,
+    "singular": "Stoat",
+    "plural": "Stoats",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 420,
+    "singular": "Stoat man",
+    "plural": "Stoat men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 421,
+    "singular": "Strangler",
+    "plural": "Stranglers",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 422,
+    "singular": "Tapir",
+    "plural": "Tapir",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 423,
+    "singular": "Tapir man",
+    "plural": "Tapir men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 424,
+    "singular": "Thrips man",
+    "plural": "Thrips men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 425,
+    "singular": "Tick man",
+    "plural": "Tick men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 426,
+    "singular": "Tiger",
+    "plural": "Tigers",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 427,
+    "singular": "Tiger man",
+    "plural": "Tiger men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 428,
+    "singular": "Toad man",
+    "plural": "Toad men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 429,
+    "singular": "Turkey",
+    "plural": "Turkeys",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 430,
+    "singular": "Two-humped camel",
+    "plural": "Two-humped camels",
+    "tags": [],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 431,
+    "singular": "Two-humped camel man",
+    "plural": "Two-humped camel men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 432,
+    "singular": "Unicorn",
+    "plural": "Unicorns",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 433,
+    "singular": "Vulture",
+    "plural": "Vultures",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 434,
+    "singular": "Vulture man",
+    "plural": "Vulture men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 435,
+    "singular": "Warthog",
+    "plural": "Warthogs",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 436,
+    "singular": "Warthog man",
+    "plural": "Warthog men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 437,
+    "singular": "Water buffalo",
+    "plural": "Water buffalo",
+    "tags": [
+      "organic",
+      "creature",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 438,
+    "singular": "Weasel",
+    "plural": "Weasels",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 439,
+    "singular": "Weasel man",
+    "plural": "Weasel men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 440,
+    "singular": "White stork",
+    "plural": "White storks",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 441,
+    "singular": "White stork man",
+    "plural": "White stork men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 442,
+    "singular": "White-browed gibbon",
+    "plural": "White-browed gibbons",
+    "tags": [],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 443,
+    "singular": "White-handed gibbon",
+    "plural": "White-handed gibbons",
+    "tags": [],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 444,
+    "singular": "Wild boar",
+    "plural": "Wild boar",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 445,
+    "singular": "Wild boar man",
+    "plural": "Wild boar men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 446,
+    "singular": "Wolf",
+    "plural": "Wolves",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 447,
+    "singular": "Wolf man",
+    "plural": "Wolf men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 448,
+    "singular": "Wolverine",
+    "plural": "Wolverines",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 449,
+    "singular": "Wolverine man",
+    "plural": "Wolverine men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 450,
+    "singular": "Wombat",
+    "plural": "Wombats",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 451,
+    "singular": "Wombat man",
+    "plural": "Wombat men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 452,
+    "singular": "Worm man",
+    "plural": "Worm men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 453,
+    "singular": "Wren man",
+    "plural": "Wren men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 454,
+    "singular": "Yak",
+    "plural": "Yaks",
+    "tags": [
+      "organic",
+      "creature",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_land"
+  },
+  {
+    "id": 455,
+    "singular": "Amethyst man",
+    "plural": "Amethyst men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 456,
+    "singular": "Blind cave bear",
+    "plural": "Blind cave bears",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 457,
+    "singular": "Blind cave ogre",
+    "plural": "Blind cave ogres",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 458,
+    "singular": "Blood man",
+    "plural": "Blood men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 459,
+    "singular": "Bugbat",
+    "plural": "Bugbats",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 460,
+    "singular": "Cave blob",
+    "plural": "Cave blobs",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 461,
+    "singular": "Cave crocodile",
+    "plural": "Cave crocodiles",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 462,
+    "singular": "Cave dragon",
+    "plural": "Cave dragons",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 463,
+    "singular": "Cave floater",
+    "plural": "Cave floaters",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 464,
+    "singular": "Creeping eye",
+    "plural": "Creeping eyes",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 465,
+    "singular": "Crundle",
+    "plural": "Crundles",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 466,
+    "singular": "Draltha",
+    "plural": "Dralthas",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 467,
+    "singular": "Drunian",
+    "plural": "Drunians",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 468,
+    "singular": "Elk bird",
+    "plural": "Elk birds",
+    "tags": [
+      "organic",
+      "creature",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 469,
+    "singular": "Fire imp",
+    "plural": "Fire imps",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 470,
+    "singular": "Fire man",
+    "plural": "Fire men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 471,
+    "singular": "Flesh ball",
+    "plural": "Flesh balls",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 472,
+    "singular": "Floating guts",
+    "plural": "Floating guts",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 473,
+    "singular": "Gabbro man",
+    "plural": "Gabbro men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 474,
+    "singular": "Giant bat",
+    "plural": "Giant bats",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 475,
+    "singular": "Giant cave spider",
+    "plural": "Giant cave spiders",
+    "tags": [
+      "organic",
+      "creature",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 476,
+    "singular": "Giant cave swallow",
+    "plural": "Giant cave swallows",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 477,
+    "singular": "Giant cave toad",
+    "plural": "Giant cave toads",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 478,
+    "singular": "Giant earthworm",
+    "plural": "Giant earthworms",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 479,
+    "singular": "Giant mole",
+    "plural": "Giant moles",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 480,
+    "singular": "Giant olm",
+    "plural": "Giant olms",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 481,
+    "singular": "Giant rat",
+    "plural": "Giant rats",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 482,
+    "singular": "Gorlak",
+    "plural": "Gorlaks",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid",
+      "meltable"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 483,
+    "singular": "Green devourer",
+    "plural": "Green devourers",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 484,
+    "singular": "Gremlin",
+    "plural": "Gremlins",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 485,
+    "singular": "Helmet snake",
+    "plural": "Helmet snakes",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 486,
+    "singular": "Hungry head",
+    "plural": "Hungry heads",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 487,
+    "singular": "Iron man",
+    "plural": "Iron men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 488,
+    "singular": "Jabberer",
+    "plural": "Jabberers",
+    "tags": [
+      "organic",
+      "creature",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 489,
+    "singular": "Large rat",
+    "plural": "Large rats",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 490,
+    "singular": "Magma crab",
+    "plural": "Magma crabs",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 491,
+    "singular": "Magma man",
+    "plural": "Magma men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 492,
+    "singular": "Manera",
+    "plural": "Maneras",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 493,
+    "singular": "Molemarian",
+    "plural": "Molemarians",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 494,
+    "singular": "Mud man",
+    "plural": "Mud men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 495,
+    "singular": "Naked mole dog",
+    "plural": "Naked mole dogs",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 496,
+    "singular": "Plump helmet man",
+    "plural": "Plump helmet men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 497,
+    "singular": "Pond grabber",
+    "plural": "Pond grabbers",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 498,
+    "singular": "Reacher",
+    "plural": "Reachers",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 499,
+    "singular": "Rutherer",
+    "plural": "Rutherers",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 500,
+    "singular": "Troglodyte",
+    "plural": "Troglodytes",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 501,
+    "singular": "Troll",
+    "plural": "Trolls",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 502,
+    "singular": "Voracious cave crawler",
+    "plural": "Voracious cave crawlers",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_underground"
+  },
+  {
+    "id": 503,
+    "singular": "Albatross",
+    "plural": "Albatross",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 504,
+    "singular": "Albatross man",
+    "plural": "Albatross men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 505,
+    "singular": "Alligator",
+    "plural": "Alligators",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 506,
+    "singular": "Alligator man",
+    "plural": "Alligator men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 507,
+    "singular": "Alligator snapping turtle",
+    "plural": "Alligator snapping turtles",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 508,
+    "singular": "Angelshark",
+    "plural": "Angelsharks",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 509,
+    "singular": "Axolotl man",
+    "plural": "Axolotl men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 510,
+    "singular": "Basking shark",
+    "plural": "Basking sharks",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 511,
+    "singular": "Beaver",
+    "plural": "Beavers",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 512,
+    "singular": "Beaver man",
+    "plural": "Beaver men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 513,
+    "singular": "Blacktip reef shark",
+    "plural": "Blacktip reef sharks",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 514,
+    "singular": "Blue shark",
+    "plural": "Blue sharks",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 515,
+    "singular": "Bluefin tuna",
+    "plural": "Bluefin tuna",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 516,
+    "singular": "Bluefish",
+    "plural": "Bluefish",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 517,
+    "singular": "Bull shark",
+    "plural": "Bull sharks",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 518,
+    "singular": "Buzzard",
+    "plural": "Buzzards",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 519,
+    "singular": "Buzzard man",
+    "plural": "Buzzard men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 520,
+    "singular": "Carp",
+    "plural": "Carp",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 521,
+    "singular": "Cod",
+    "plural": "Cod",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 522,
+    "singular": "Coelacanth",
+    "plural": "Coelacanths",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 523,
+    "singular": "Common skate",
+    "plural": "Common skates",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 524,
+    "singular": "Common snapping turtle",
+    "plural": "Common snapping turtles",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 525,
+    "singular": "Conger eel",
+    "plural": "Conger eels",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 526,
+    "singular": "Crab",
+    "plural": "Crabs",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 527,
+    "singular": "Crab man",
+    "plural": "Crab men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 528,
+    "singular": "Cuttlefish man",
+    "plural": "Cuttlefish men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 529,
+    "singular": "Damselfly man",
+    "plural": "Damselfly men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 530,
+    "singular": "Dragonfly man",
+    "plural": "Dragonfly men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 531,
+    "singular": "Duck",
+    "plural": "Ducks",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 532,
+    "singular": "Elephant seal",
+    "plural": "Elephant seals",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 533,
+    "singular": "Elephant seal man",
+    "plural": "Elephant seal men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 534,
+    "singular": "Emperor penguin",
+    "plural": "Emperor penguins",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 535,
+    "singular": "Fly man",
+    "plural": "Fly men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 536,
+    "singular": "Frill shark",
+    "plural": "Frill sharks",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 537,
+    "singular": "Giant albatross",
+    "plural": "Giant albatross",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 538,
+    "singular": "Giant alligator",
+    "plural": "Giant alligators",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 539,
+    "singular": "Giant axolotl",
+    "plural": "Giant axolotls",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 540,
+    "singular": "Giant beaver",
+    "plural": "Giant beavers",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 541,
+    "singular": "Giant buzzard",
+    "plural": "Giant buzzards",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 542,
+    "singular": "Giant crab",
+    "plural": "Giant crabs",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 543,
+    "singular": "Giant cuttlefish",
+    "plural": "Giant cuttlefish",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 544,
+    "singular": "Giant damselfly",
+    "plural": "Giant damselflies",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 545,
+    "singular": "Giant dragonfly",
+    "plural": "Giant dragonflies",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 546,
+    "singular": "Giant elephant seal",
+    "plural": "Giant elephant seals",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 547,
+    "singular": "Giant fly",
+    "plural": "Giant flies",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 548,
+    "singular": "Giant green tree frog",
+    "plural": "Giant green tree frogs",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 549,
+    "singular": "Giant grouper",
+    "plural": "Giant groupers",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 550,
+    "singular": "Giant harp seal",
+    "plural": "Giant harp seals",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 551,
+    "singular": "Giant hippo",
+    "plural": "Giant hippos",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 552,
+    "singular": "Giant horseshoe crab",
+    "plural": "Giant horseshoe crabs",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 553,
+    "singular": "Giant kestrel",
+    "plural": "Giant kestrels",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 554,
+    "singular": "Giant leech",
+    "plural": "Giant leeches",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 555,
+    "singular": "Giant leopard seal",
+    "plural": "Giant leopard seals",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 556,
+    "singular": "Giant loon",
+    "plural": "Giant loons",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 557,
+    "singular": "Giant mink",
+    "plural": "Giant minks",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 558,
+    "singular": "Giant moon snail",
+    "plural": "Giant moon snails",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 559,
+    "singular": "Giant mosquito",
+    "plural": "Giant mosquitos",
+    "tags": [
+      "organic",
+      "creature",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 560,
+    "singular": "Giant narwhal",
+    "plural": "Giant narwhals",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 561,
+    "singular": "Giant nautilus",
+    "plural": "Giant nautiluses",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 562,
+    "singular": "Giant octopus",
+    "plural": "Giant octopuses",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 563,
+    "singular": "Giant orca",
+    "plural": "Giant orcas",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 564,
+    "singular": "Giant osprey",
+    "plural": "Giant ospreys",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 565,
+    "singular": "Giant otter",
+    "plural": "Giant otters",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 566,
+    "singular": "Giant penguin",
+    "plural": "Giant penguins",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 567,
+    "singular": "Giant platypus",
+    "plural": "Giant platypuses",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 568,
+    "singular": "Giant pond turtle",
+    "plural": "Giant pond turtles",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 569,
+    "singular": "Giant puffin",
+    "plural": "Giant puffins",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 570,
+    "singular": "Giant red-winged blackbird",
+    "plural": "Giant red-winged blackbirds",
+    "tags": [
+      "organic",
+      "creature",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 571,
+    "singular": "Giant saltwater crocodile",
+    "plural": "Giant saltwater crocodiles",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 572,
+    "singular": "Giant snapping turtle",
+    "plural": "Giant snapping turtles",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 573,
+    "singular": "Giant sperm whale",
+    "plural": "Giant sperm whales",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 574,
+    "singular": "Giant sponge",
+    "plural": "Giant sponges",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 575,
+    "singular": "Giant swan",
+    "plural": "Giant swans",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 576,
+    "singular": "Giant toad",
+    "plural": "Giant toads",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 577,
+    "singular": "Giant walrus",
+    "plural": "Giant walruses",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 578,
+    "singular": "Gigantic squid",
+    "plural": "Gigantic squids",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 579,
+    "singular": "Goose",
+    "plural": "Geese",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 580,
+    "singular": "Great barracuda",
+    "plural": "Great barracudas",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 581,
+    "singular": "Great white shark",
+    "plural": "Great white sharks",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 582,
+    "singular": "Green tree frog man",
+    "plural": "Green tree frog men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 583,
+    "singular": "Grimeling",
+    "plural": "Grimelings",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 584,
+    "singular": "Halibut",
+    "plural": "Halibut",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 585,
+    "singular": "Hammerhead shark",
+    "plural": "Hammerhead sharks",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 586,
+    "singular": "Harp seal",
+    "plural": "Harp seals",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 587,
+    "singular": "Harp seal man",
+    "plural": "Harp seal men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 588,
+    "singular": "Harpy",
+    "plural": "Harpies",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 589,
+    "singular": "Hippo",
+    "plural": "Hippos",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 590,
+    "singular": "Hippo man",
+    "plural": "Hippo men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 591,
+    "singular": "Horseshoe crab",
+    "plural": "Horseshoe crabs",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 592,
+    "singular": "Horseshoe crab man",
+    "plural": "Horseshoe crab men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 593,
+    "singular": "Kestrel",
+    "plural": "Kestrels",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 594,
+    "singular": "Kestrel man",
+    "plural": "Kestrel men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 595,
+    "singular": "Leech man",
+    "plural": "Leech men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 596,
+    "singular": "Leopard seal",
+    "plural": "Leopard seals",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 597,
+    "singular": "Leopard seal man",
+    "plural": "Leopard seal men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 598,
+    "singular": "Little penguin",
+    "plural": "Little penguins",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 599,
+    "singular": "Longfin mako shark",
+    "plural": "Longfin mako sharks",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 600,
+    "singular": "Longnose gar",
+    "plural": "Longnose gars",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 601,
+    "singular": "Loon",
+    "plural": "Loons",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 602,
+    "singular": "Loon man",
+    "plural": "Loon men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 603,
+    "singular": "Manta ray",
+    "plural": "Manta rays",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 604,
+    "singular": "Marlin",
+    "plural": "Marlins",
+    "tags": [
+      "organic",
+      "creature",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 605,
+    "singular": "Milkfish",
+    "plural": "Milkfish",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 606,
+    "singular": "Mink",
+    "plural": "Minks",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 607,
+    "singular": "Mink man",
+    "plural": "Mink men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 608,
+    "singular": "Moon snail man",
+    "plural": "Moon snail men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 609,
+    "singular": "Mosquito man",
+    "plural": "Mosquito men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 610,
+    "singular": "Narwhal",
+    "plural": "Narwhals",
+    "tags": [
+      "organic",
+      "creature",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 611,
+    "singular": "Narwhal man",
+    "plural": "Narwhal men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 612,
+    "singular": "Nautilus man",
+    "plural": "Nautilus men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 613,
+    "singular": "Nurse shark",
+    "plural": "Nurse sharks",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 614,
+    "singular": "Ocean sunfish",
+    "plural": "Ocean sunfish",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 615,
+    "singular": "Octopus",
+    "plural": "Octopuses",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 616,
+    "singular": "Octopus man",
+    "plural": "Octopus men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 617,
+    "singular": "Opah",
+    "plural": "Opahs",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 618,
+    "singular": "Orca",
+    "plural": "Orcas",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 619,
+    "singular": "Orca man",
+    "plural": "Orca men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 620,
+    "singular": "Osprey",
+    "plural": "Ospreys",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 621,
+    "singular": "Osprey man",
+    "plural": "Osprey men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 622,
+    "singular": "Otter man",
+    "plural": "Otter men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 623,
+    "singular": "Penguin",
+    "plural": "Penguins",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 624,
+    "singular": "Penguin man",
+    "plural": "Penguin men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 625,
+    "singular": "Pike",
+    "plural": "Pike",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 626,
+    "singular": "Platypus",
+    "plural": "Platypuses",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 627,
+    "singular": "Platypus man",
+    "plural": "Platypus men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 628,
+    "singular": "Pond turtle man",
+    "plural": "Pond turtle men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 629,
+    "singular": "Puffin",
+    "plural": "Puffins",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 630,
+    "singular": "Puffin man",
+    "plural": "Puffin men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 631,
+    "singular": "Red-winged blackbird man",
+    "plural": "Red-winged blackbird men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 632,
+    "singular": "River otter",
+    "plural": "River otters",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 633,
+    "singular": "Saltwater crocodile",
+    "plural": "Saltwater crocodiles",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 634,
+    "singular": "Saltwater crocodile man",
+    "plural": "Saltwater crocodile men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 635,
+    "singular": "Sea lamprey",
+    "plural": "Sea lampreys",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 636,
+    "singular": "Sea monster",
+    "plural": "Sea monsters",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 637,
+    "singular": "Sea otter",
+    "plural": "Sea otters",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 638,
+    "singular": "Sea serpent",
+    "plural": "Sea serpents",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 639,
+    "singular": "Shortfin mako shark",
+    "plural": "Shortfin mako sharks",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 640,
+    "singular": "Snapping turtle man",
+    "plural": "Snapping turtle men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 641,
+    "singular": "Sperm whale",
+    "plural": "Sperm whales",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 642,
+    "singular": "Sperm whale man",
+    "plural": "Sperm whale men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 643,
+    "singular": "Spiny dogfish",
+    "plural": "Spiny dogfish",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 644,
+    "singular": "Sponge",
+    "plural": "Sponges",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 645,
+    "singular": "Sponge man",
+    "plural": "Sponge men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 646,
+    "singular": "Spotted wobbegong",
+    "plural": "Spotted wobbegong",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 647,
+    "singular": "Squid man",
+    "plural": "Squid men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 648,
+    "singular": "Stingray",
+    "plural": "Stingrays",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 649,
+    "singular": "Sturgeon",
+    "plural": "Sturgeons",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 650,
+    "singular": "Swan",
+    "plural": "Swan",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 651,
+    "singular": "Swan man",
+    "plural": "Swan men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 652,
+    "singular": "Swordfish",
+    "plural": "Swordfish",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 653,
+    "singular": "Tiger shark",
+    "plural": "Tiger sharks",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 654,
+    "singular": "Tigerfish",
+    "plural": "Tigerfish",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 655,
+    "singular": "Toad man",
+    "plural": "Toad men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 656,
+    "singular": "Walrus",
+    "plural": "Walrus",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 657,
+    "singular": "Walrus man",
+    "plural": "Walrus men",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 658,
+    "singular": "Whale shark",
+    "plural": "Whale sharks",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 659,
+    "singular": "Whitetip reef shark",
+    "plural": "Whitetip reef sharks",
+    "tags": [
+      "organic",
+      "creature"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_aquatic"
+  },
+  {
+    "id": 660,
+    "singular": "Animated dead",
+    "plural": "Animated dead",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_fanciful"
+  },
+  {
+    "id": 661,
+    "singular": "Bogeyman",
+    "plural": "Bogeymen",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_fanciful"
+  },
+  {
+    "id": 662,
+    "singular": "Bronze Colossus",
+    "plural": "Bronze Colossi",
+    "tags": [
+      "creature",
+      "limbed",
+      "humanoid",
+      "meltable"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_fanciful"
+  },
+  {
+    "id": 663,
+    "singular": "Cyclops",
+    "plural": "Cyclopses",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_fanciful"
+  },
+  {
+    "id": 664,
+    "singular": "Dragon",
+    "plural": "Dragons",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_fanciful"
+  },
+  {
+    "id": 665,
+    "singular": "Ettin",
+    "plural": "Ettins",
+    "tags": [
+      "organic",
+      "creature.limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_fanciful"
+  },
+  {
+    "id": 666,
+    "singular": "Experiment",
+    "plural": "Experiments",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_fanciful"
+  },
+  {
+    "id": 667,
+    "singular": "Forgotten beast",
+    "plural": "Forgotten beasts",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid",
+      "pointy",
+      "meltable"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_fanciful"
+  },
+  {
+    "id": 668,
+    "singular": "Foul blendec",
+    "plural": "Foul blendecs",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_fanciful"
+  },
+  {
+    "id": 669,
+    "singular": "Ghost",
+    "plural": "Ghosts",
+    "tags": [
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_fanciful"
+  },
+  {
+    "id": 670,
+    "singular": "Giant",
+    "plural": "Giants",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_fanciful"
+  },
+  {
+    "id": 671,
+    "singular": "Harpy",
+    "plural": "Harpies",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_fanciful"
+  },
+  {
+    "id": 672,
+    "singular": "Hydra",
+    "plural": "Hydras",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_fanciful"
+  },
+  {
+    "id": 673,
+    "singular": "Infected ghoul",
+    "plural": "Infected ghouls",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_fanciful"
+  },
+  {
+    "id": 674,
+    "singular": "Intelligent undead",
+    "plural": "Intelligent undead",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_fanciful"
+  },
+  {
+    "id": 675,
+    "singular": "Merperson",
+    "plural": "Merpeople",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_fanciful"
+  },
+  {
+    "id": 676,
+    "singular": "Minotaur",
+    "plural": "Minotaurs",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_fanciful"
+  },
+  {
+    "id": 677,
+    "singular": "Mummy",
+    "plural": "Mummies",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_fanciful"
+  },
+  {
+    "id": 678,
+    "singular": "Necromancer",
+    "plural": "Necromancers",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_fanciful"
+  },
+  {
+    "id": 679,
+    "singular": "Night troll",
+    "plural": "Night trolls",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_fanciful"
+  },
+  {
+    "id": 680,
+    "singular": "Nightmare",
+    "plural": "Nightmares",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_fanciful"
+  },
+  {
+    "id": 681,
+    "singular": "Nightwing",
+    "plural": "Nightwings",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_fanciful"
+  },
+  {
+    "id": 682,
+    "singular": "Roc",
+    "plural": "Rocs",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "pointy"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_fanciful"
+  },
+  {
+    "id": 683,
+    "singular": "Sasquatch",
+    "plural": "Sasquatches",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_fanciful"
+  },
+  {
+    "id": 684,
+    "singular": "Satyr",
+    "plural": "Satyrs",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_fanciful"
+  },
+  {
+    "id": 685,
+    "singular": "Titan",
+    "plural": "Titans",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_fanciful"
+  },
+  {
+    "id": 686,
+    "singular": "Vampire",
+    "plural": "Vampires",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_fanciful"
+  },
+  {
+    "id": 687,
+    "singular": "Werebeast",
+    "plural": "Werebeasts",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_fanciful"
+  },
+  {
+    "id": 688,
+    "singular": "Yeti",
+    "plural": "Yetis",
+    "tags": [
+      "organic",
+      "creature",
+      "limbed",
+      "humanoid"
+    ],
+    "category": "creatures",
+    "subcategory": "creatures_fanciful"
+  }
+]
