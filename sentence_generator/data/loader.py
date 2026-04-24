@@ -1,11 +1,11 @@
 # Loads JSON files with subjects and descriptions
 
-import os
+from pathlib import Path
 import json
 from collections import defaultdict
 
 # Path to resource folder
-RESOURCE_FOLDER = os.path.join(os.path.dirname(__file__), '..', 'resources')
+RESOURCE_DIR = Path(__file__).resolve().parent.parent / "resources"
 
 class GlobalState:
     # Data structures for the loaded data to be stroed in memory
@@ -44,17 +44,16 @@ def load_subjects():
     _valid_prefixes = ("creatures", "objects", "plants", "shapes")
 
     # Iterate through all files in the resources folder    
-    for filename in os.listdir(RESOURCE_FOLDER):
+    for filepath in RESOURCE_DIR.iterdir(): 
         # Skip all non-subject files
-        if not filename.endswith('.json') or not filename.startswith(_valid_prefixes):
+        if filepath.suffix != ".json" or not filepath.name.startswith(_valid_prefixes):
             continue
         
-        filepath = os.path.join(RESOURCE_FOLDER, filename)
-        with open(filepath, 'r', encoding='utf-8') as f:
+        with filepath.open("r", encoding="utf-8") as f:
             try:
                 data = json.load(f)
             except json.JSONDecodeError as e:
-                print(f"Error reading {filename}: {e}")
+                print(f"Error reading {filepath.name}: {e}")
                 continue
             
             # Iterate through each entry in the current subject file
@@ -81,26 +80,25 @@ def load_subjects():
 def load_descriptions():
     _valid_prefixes = ("x_descriptions", "xy_descriptions")
 
-    for filename in os.listdir(RESOURCE_FOLDER):
-        if not filename.endswith('.json') or not filename.startswith(_valid_prefixes):
+    for filepath in RESOURCE_DIR.iterdir():
+        if filepath.suffix != ".json" or not filepath.name.startswith(_valid_prefixes):
             continue
 
-        filepath = os.path.join(RESOURCE_FOLDER, filename)
-        with open(filepath, 'r', encoding='utf-8') as f:
+        with filepath.open("r", encoding="utf-8") as f:
             try:
                 data = json.load(f)
             except json.JSONDecodeError as e:
-                print(f"Error reading {filename}: {e}")
+                print(f"Error reading {filepath.name}: {e}")
                 continue
 
-            if filename.startswith("x_descriptions"):
+            if filepath.name.startswith("x_descriptions"):
                 
                 for current_desc in data:
                     current_desc_id = current_desc["desc_id"]
 
                     GlobalState.index["x_descriptions"][current_desc_id] = current_desc
             
-            if filename.startswith("xy_descriptions"):
+            if filepath.name.startswith("xy_descriptions"):
                 
                 for current_desc in data:
                     current_desc_id = current_desc["desc_id"]
@@ -109,12 +107,12 @@ def load_descriptions():
 
 
 def load_weights():
-    RESOURCE_FOLDER = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'resources')
     filename = "weights.json"
-    filepath = os.path.join(RESOURCE_FOLDER, filename)
+    filepath = RESOURCE_DIR / filename
+
     #print(f"LOADER-weights: Attempting to load weights from {filepath}\n")
 
-    with open(filepath, 'r', encoding='utf-8') as f:
+    with filepath.open("r", encoding="utf-8") as f:
         try:
             GlobalState.weights_data = json.load(f)
         except json.JSONDecodeError as e:
