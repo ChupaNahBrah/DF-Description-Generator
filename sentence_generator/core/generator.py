@@ -3,7 +3,7 @@
 # TODO: fix filters.filter_categories_for_tag()
 # TODO: fix selector.choose_subject_ids()
 from ..data.loader import (
-    clear_indexes,
+    reset_runtime_state,
     load_subjects,
     load_descriptions,
     load_weights
@@ -27,10 +27,10 @@ from .grammar import (
 
 
 def load_data():
+    reset_runtime_state()
     load_subjects()
     load_descriptions()
     load_weights()
-
 
 def generate_sentence():
     subject_count = choose_subject_count()
@@ -56,5 +56,6 @@ def generate_sentence():
 
     return sentence
 
-load_data()
-print(generate_sentence())
+if __name__ == "__main__":
+    load_data()
+    print(generate_sentence())

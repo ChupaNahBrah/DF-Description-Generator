@@ -7,17 +7,28 @@ from collections import defaultdict
 # Path to resource folder
 RESOURCE_DIR = Path(__file__).resolve().parent.parent / "resources"
 
+# Data structures for the loaded data to be stroed in memory
 class GlobalState:
-    # Data structures for the loaded data to be stroed in memory
     # Master subject dictionary: ID → subject data
-    all_subjects = {}
+    all_subjects = None
 
-    # categories is a dict containing sets of all subcategories contained in each category found in the JSON files
+    # categories is a dict containing set/lists of all subcategories contained in each category found in the JSON files
     # subcat and tags are dicts mapping filters to lists of IDs 
     # e.g. subcategories["plants_trees"] -> list of all tree IDs
     # tags also stores subcategory and tags meta data for the subjects to use in filtering
-    # e.g. tags["creatures"] -> list of dicts containing IDs, tags, and subcat for each subject that has the creatures tag
-    index = {
+    # e.g. tags["creatures"] -> list of dicts containing IDs, tags, and subcategories for each subject that has the creatures tag
+    index = None
+
+    # Weight map dict
+    weights_data = None
+
+
+# Initializes or resets all runtime data containers.
+def reset_runtime_state():
+    GlobalState.all_subjects = {}
+    GlobalState.weights_data = {}
+
+    GlobalState.index = {
         "categories": defaultdict(set), 
         "subcategories": defaultdict(list),
         "tags": defaultdict(list),
@@ -25,25 +36,12 @@ class GlobalState:
         "xy_descriptions": defaultdict(list)
     }
 
-    # Weight map dict
-    weights_data = {}
-
-
-# Repeatable function to clear existing data if needed
-def clear_indexes():
-    GlobalState.all_subjects.clear()
-
-    for key in GlobalState.index:
-        if isinstance(GlobalState.index[key], (dict, defaultdict)):
-            GlobalState.index[key].clear()
-
 
 # Loads all subjects from JSON files in the 'resources' folder.
 # Builds the flat subject list and indexes bycategory, subcategory, and tags.
 def load_subjects():
     _valid_prefixes = ("creatures", "objects", "plants", "shapes")
-
-    # Iterate through all files in the resources folder    
+ 
     for filepath in RESOURCE_DIR.iterdir(): 
         # Skip all non-subject files
         if filepath.suffix != ".json" or not filepath.name.startswith(_valid_prefixes):
