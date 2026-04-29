@@ -1,6 +1,5 @@
 # Grammar and formatting utilities
 from ..data.loader import GlobalState
-from collections import defaultdict
 
 def format_sentence(grammar_plan, sentence_data):
     """
@@ -95,12 +94,14 @@ def populate_sentence_data(grammar_plan):
             first_subj_key = grammar_data["subjects"][0]
             plurality = "plural" if grammar_plan["subj_quantities"][first_subj_key] > 1 else "singular"
             
-            # Check if desc is x or xy for what index to look in
-            desc_type = "x_descriptions" if grammar_data["type"] == "x" else "xy_descriptions"
-
             # Get the base description text from GlobalState
+
+            # Check if desc is x or xy for which index to look in
+            desc_type = "x_descriptions" if grammar_data["type"] == "x" else "xy_descriptions"
             desc_id = grammar_data["desc_id"]
-            text = GlobalState.index[desc_type][desc_id]
+            # Temp variable used to store full desc dict for easier logging or possible user input later
+            desc_entry = GlobalState.index[desc_type][desc_id] 
+            text = desc_entry["text"]
 
             # Adjust verb for plurality ("is" → "are", etc.)
             if plurality == "plural":

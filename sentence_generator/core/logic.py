@@ -1,11 +1,10 @@
 # Logic related decisions
 import random
-import os
 import json
 from ..data.loader import GlobalState
 
-# Loads data from weights.json and chooses an option from one of the dicts inside it with weighted randomness
-# weights.json contains both dicts and lists of dicts so both must be handled slightly differently
+# Looks in weights_data and chooses an option from one of the dicts inside it with weighted randomness
+# weights_data contains both dicts and lists of dicts so both must be handled slightly differently
 def weighted_choice(weights_data, key):
     if key not in weights_data:
         raise Exception(f"LOGIC-weighted_choice: key '{key}' not found in weights_data") # Replace with log

@@ -48,8 +48,8 @@ def generate_sentence():
     choose_subject_ids(desc_plan, grammar_plan)
     decide_subject_quantities(grammar_plan)
 
-    print(desc_plan)
-    print(grammar_plan)
+    print("GEN-desc_plan: \n",desc_plan)
+    print("GEN-grammar_plan: \n",grammar_plan)
 
     sentence_data = populate_sentence_data(grammar_plan)
     sentence = format_sentence(grammar_plan, sentence_data)

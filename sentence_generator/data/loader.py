@@ -31,7 +31,7 @@ def reset_runtime_state():
     GlobalState.index = {
         "categories": defaultdict(set), 
         "subcategories": defaultdict(list),
-        "tags": defaultdict(list),
+        "tags": defaultdict(dict),
         "x_descriptions": defaultdict(list),
         "xy_descriptions": defaultdict(list)
     }
@@ -58,21 +58,24 @@ def load_subjects():
             for current_subj in data:
                 current_subj_id = current_subj["id"]
 
-                # Add current subject to master subjects list
+                # Add current subject to all_subjects (subject_id → full subject data)
                 GlobalState.all_subjects[current_subj_id] = current_subj
                 
-                # Populate category -> subcat map based on JSON file
+                # Map category → set(subcategories)
                 current_subj_cat = current_subj["category"]
                 current_subj_subcat = current_subj["subcategory"]
                 GlobalState.index["categories"][current_subj_cat].add(current_subj_subcat)
                 
-                # Map subcat -> list of IDs
+                # Map subcategory → list(subject IDs in subcat)
                 GlobalState.index["subcategories"][current_subj_subcat].append(current_subj_id)
 
                 # Multi-level dict tag_name: [{id: id#, tags: [tags], subcategory: subcat_name}, {...}]
                 current_subj_tags = current_subj['tags']
                 for tag in current_subj["tags"]:
-                    GlobalState.index["tags"][tag].append({"id": current_subj_id, "tags": current_subj_tags, "subcategory": current_subj_subcat})
+                    GlobalState.index["tags"][tag][current_subj_id] = {
+                        "id": current_subj_id,
+                        "tags": current_subj_tags,
+                        "subcategory": current_subj_subcat}
 
 
 def load_descriptions():
@@ -118,18 +121,6 @@ def load_weights():
     #print(f"LOADER-weights: Loaded data keys: {list(GlobalState.weights_data.keys())}\n")
 
 
-# Return the subject dict for a given ID. Unless it's not found which gives an error
-def get_subject_by_id(subj_id):
-    if subj_id not in GlobalState.all_subjects:
-        raise KeyError(f"LOADER-get_subjects_by_id: Subject ID '{subj_id}' not found.") # Change later to a log and pass empty list
-    return GlobalState.all_subjects.get(subj_id) 
-
-
-# Returns list of suitable subj IDs of a specified tag, or raises an error
-def filter_subjects_by_tag(tag):
-    if tag not in GlobalState.index["tags"]:
-        raise KeyError(f"LOADER-filter_subjects_by_tag: Tag '{tag}' not found.") # Change later to a log and pass empty list
-    return GlobalState.index["tags"].get(tag)
 
 '''
 clear_indexes()

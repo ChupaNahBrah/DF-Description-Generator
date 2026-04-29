@@ -9,7 +9,7 @@ from collections import defaultdict
 def subject_filter_by_tag(tag_filter, excluded_tags):
     filtered_list = []
 
-    for subject in GlobalState.index["tags"][tag_filter]:
+    for subject in GlobalState.index["tags"][tag_filter].values():
         # Exclude from the filter any subject that has any tags that are prohibited
         if not any(tag in subject["tags"] for tag in excluded_tags):
             filtered_list.append(subject)
@@ -27,7 +27,7 @@ def filter_categories_for_tag(tag_filter=None, excluded_tags=None):
         excluded_tags (list[str]): Tags that disqualify a subject
 
     Returns:
-        dict[str, set[str]]: Filtered mapping of categories to subcategories
+        filtered_category_dict[category, set[subcategories]]: Filtered mapping of categories to subcategories
     '''
     # Ensure tag_filter is a list for unified processing
     if isinstance(tag_filter, str):
@@ -49,7 +49,7 @@ def filter_categories_for_tag(tag_filter=None, excluded_tags=None):
     if tag_filter:
         subject_ids = set()
         for tag in tag_filter:
-            subject_ids.update(GlobalState.index["tags"].get(tag, []))
+            subject_ids.update(GlobalState.index["tags"].get(tag, {}).keys())
     else:
         # No tag filter -> start with all tags
         subject_ids = set(GlobalState.all_subjects.keys())
@@ -68,10 +68,10 @@ def filter_categories_for_tag(tag_filter=None, excluded_tags=None):
     # ─────────────────────────────────────
     # Rebuild filtered category → subcategory mapping
     # ─────────────────────────────────────
-    for category, subcategory in GlobalState.index["categories"].items():
-        for sub in subcategory:
+    for category, subcategories in GlobalState.index["categories"].items():
+        for sub in subcategories:
             if sub in filtered_subcategory_list:
-                filtered_category_dict[category].add(subcategory)
+                filtered_category_dict[category].add(sub)
 
     return filtered_category_dict
 
@@ -79,11 +79,24 @@ def filter_categories_for_tag(tag_filter=None, excluded_tags=None):
 # Filters and adds subjects to a list that have the specified tag, in the specified subcategory, 
 # excluding any disallowed tags
 def subject_filter_by_subcategory_tag(subcategory, tag_filter, excluded_tags):
+    # Normalize args so the function can safely accept None, a single string, or a list.
+    if tag_filter is None:
+        tag_filter = []
+    if isinstance(tag_filter, str):
+        tag_filter = [tag_filter]
+    if excluded_tags is None:
+        excluded_tags = []
+    if isinstance(excluded_tags, str):
+        excluded_tags = [excluded_tags]
+    
+    
     filtered_list = []
 
-    for subject in GlobalState.index["tags"][tag_filter]:
-        # If the subject's subcategory is the subcategory we want and it doesn't have any excluded tags
-        if subject["subcategory"] == subcategory and not any(tag in subject["tags"] for tag in excluded_tags):
-            filtered_list.append(subject["id"])
+    for candidate_id in GlobalState.index["subcategories"][subcategory]:
+        candidate_dict = GlobalState.all_subjects[candidate_id]
+        candidate_tags = candidate_dict["tags"]
+        # If the possible candidate subject has all the required tags and none of the excluded ones
+        if all(tag in candidate_tags for tag in tag_filter) and not any(tag in candidate_tags for tag in excluded_tags):
+            filtered_list.append(candidate_id)
 
     return filtered_list
