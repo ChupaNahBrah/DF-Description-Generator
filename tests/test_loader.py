@@ -32,12 +32,10 @@ def test_reset_runtime_state_clears_loaded_data():
     load_weights()
     reset_runtime_state()
 
-    assert GlobalState.all_subjects is type(dict)
-    assert len(GlobalState.all_subjects) == 0
+    assert len(GlobalState.all_subjects) == {}
     assert len(GlobalState.index["categories"]) == 0
     assert len(GlobalState.index["subcategories"]) == 0
     assert len(GlobalState.index["tags"]) == 0
     assert len(GlobalState.index["x_descriptions"]) == 0
     assert len(GlobalState.index["xy_descriptions"]) == 0
-    assert GlobalState.weights_data is type(dict)
-    assert len(GlobalState.weights_data) == 0
+    assert len(GlobalState.weights_data) == {}

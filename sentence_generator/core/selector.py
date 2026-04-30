@@ -105,8 +105,6 @@ def select_subjects_for_descriptions(desc_plan, constraints, subject_count):
 
     enforce_constraints(desc_plan, grammar_plan, constraints, candidate_subjects)
     
-    choose_subject_ids(desc_plan, grammar_plan)
-
     return grammar_plan
 
     """
