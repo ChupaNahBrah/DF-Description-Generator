@@ -3,6 +3,8 @@
 from pathlib import Path
 import json
 from collections import defaultdict
+import logging
+logger = logging.getLogger(__name__)
 
 # Path to resource folder
 RESOURCE_DIR = Path(__file__).resolve().parent.parent / "resources"
@@ -35,11 +37,13 @@ def reset_runtime_state():
         "x_descriptions": defaultdict(list),
         "xy_descriptions": defaultdict(list)
     }
+    logger.debug("runtime data reset")
 
 
 # Loads all subjects from JSON files in the 'resources' folder.
 # Builds the flat subject list and indexes bycategory, subcategory, and tags.
 def load_subjects():
+    logger.info('loading subject files')
     _valid_prefixes = ("creatures", "objects", "plants", "shapes")
  
     for filepath in RESOURCE_DIR.iterdir(): 
@@ -47,12 +51,15 @@ def load_subjects():
         if filepath.suffix != ".json" or not filepath.name.startswith(_valid_prefixes):
             continue
         
+        logger.debug("loading subject file %s", filepath.name)
+
         with filepath.open("r", encoding="utf-8") as f:
             try:
                 data = json.load(f)
-            except json.JSONDecodeError as e:
-                print(f"Error reading {filepath.name}: {e}")
+            except json.JSONDecodeError:
+                logger.exception("failed to read subject file %s", filepath.name)
                 continue
+            logger.debug("loaded %s subject records from %s", len(data), filepath.name)
             
             # Iterate through each entry in the current subject file
             for current_subj in data:
@@ -69,43 +76,50 @@ def load_subjects():
                 # Map subcategory → list(subject IDs in subcat)
                 GlobalState.index["subcategories"][current_subj_subcat].append(current_subj_id)
 
-                # Multi-level dict tag_name: [{id: id#, tags: [tags], subcategory: subcat_name}, {...}]
                 current_subj_tags = current_subj['tags']
                 for tag in current_subj["tags"]:
                     GlobalState.index["tags"][tag][current_subj_id] = {
                         "id": current_subj_id,
                         "tags": current_subj_tags,
                         "subcategory": current_subj_subcat}
-
+    logger.info(
+        "loaded %s subjects across %s categories, %s subcategories, and %s tags",
+        len(GlobalState.all_subjects),
+        len(GlobalState.index["categories"]),
+        len(GlobalState.index["subcategories"]),
+        len(GlobalState.index["tags"]))
 
 def load_descriptions():
+    logger.info('loading description files')
     _valid_prefixes = ("x_descriptions", "xy_descriptions")
 
     for filepath in RESOURCE_DIR.iterdir():
         if filepath.suffix != ".json" or not filepath.name.startswith(_valid_prefixes):
             continue
 
+        logger.debug("loading description file %s", filepath.name)
+
         with filepath.open("r", encoding="utf-8") as f:
             try:
                 data = json.load(f)
-            except json.JSONDecodeError as e:
-                print(f"Error reading {filepath.name}: {e}")
+            except json.JSONDecodeError:
+                logger.exception("failed to read description file %s", filepath.name)
                 continue
+            logger.debug("loaded %s description records from %s", len(data), filepath.name)
 
             if filepath.name.startswith("x_descriptions"):
-                
                 for current_desc in data:
                     current_desc_id = current_desc["desc_id"]
-
                     GlobalState.index["x_descriptions"][current_desc_id] = current_desc
             
             if filepath.name.startswith("xy_descriptions"):
-                
                 for current_desc in data:
                     current_desc_id = current_desc["desc_id"]
-
                     GlobalState.index["xy_descriptions"][current_desc_id] = current_desc
-
+    logger.info(
+        "loaded %s X descriptions and %s XY descriptions",
+        len(GlobalState.index["x_descriptions"]),
+        len(GlobalState.index["xy_descriptions"]))
 
 def load_weights():
     filename = "weights.json"
