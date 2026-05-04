@@ -1,13 +1,17 @@
 # Logic related decisions
 import random
-import json
 from ..data.loader import GlobalState
+import logging
+logger = logging.getLogger(__name__)
 
 # Looks in weights_data and chooses an option from one of the dicts inside it with weighted randomness
 # weights_data contains both dicts and lists of dicts so both must be handled slightly differently
-def weighted_choice(weights_data, key):
+def weighted_choice(weights_data, key, variable=None, caller=None):
     if key not in weights_data:
-        raise Exception(f"LOGIC-weighted_choice: key '{key}' not found in weights_data") # Replace with log
+        if variable is not None and caller is not None:
+            logger.debug("weighted_choice failed for %s assignment in %s", variable, caller)
+        logger.error("key, '%s' not found. weights_data: %s", key, weights_data)
+        raise Exception(f"ERROR- logic.py: weighted_choice(): no weights found for {key}")
 
     if isinstance(weights_data[key], dict):
         options = list(map(int, weights_data[key].keys()))
@@ -17,42 +21,50 @@ def weighted_choice(weights_data, key):
         options = [entry["mix"] for entry in weights_data[key]]
         weight_values = [entry["weight"] for entry in weights_data[key]]
 
-    # Replace with a log
-    if not options or len(options) != len(weight_values):
-        raise Exception(
-            f"LOGIC-weighted_choice: error condition met\n"
-            f"Key: {key}\n"
-            f"List lengths: options({len(options)}) weights({len(weight_values)})"
-        )
+    else: # weights_data is an unsupported type
+        logger.error("weights_data[%s] is type: %s. must be a dict or list", key, type(weights_data[key]).__name__)
+        raise Exception(f"ERROR- logic.py: weighted_choice: weights_data[{key}] is an unsupported type")
 
-    return random.choices(options, weights=weight_values, k=1)[0]
+    if not options or len(options) != len(weight_values):
+        if variable is not None and caller is not None:
+            logger.debug("weighted_choice failed for %s assignment in %s", variable, caller)
+        logger.error("options empty or options/weight_value mismatch \noptions: %s \nweight_values: %s", options, weight_values)
+        raise Exception("ERROR- logic.py: weighted_choice: options empty or options/weight_values mismatch")
+
+    choice = random.choices(options, weights=weight_values, k=1)[0]
+
+    logger.debug(
+        "weighted choice for %s assignment in %s \nkey=&s \nweights=&s \nchoice=%s",
+        variable, caller, key, options, weight_values, choice
+    )
+    return choice
 
 
 def choose_subject_count():
-    return weighted_choice(GlobalState.weights_data, "subject_count")
+    return weighted_choice(GlobalState.weights_data, "subject_count", variable="subject_count", caller="choose_subject_count")
 
 
 def choose_description_count(subject_count):
     subject_count = int(subject_count)
     key = f"{subject_count}subj_desc_count"
-    return weighted_choice(GlobalState.weights_data, key)
+    return weighted_choice(GlobalState.weights_data, key, variable="desc_count", caller="choose_description_count")
 
 
 # Returns a mix of 2 descriptions for 2 subjects based on weights.json rule
 def decide_2_2_mix():
-    desc_mix = weighted_choice(GlobalState.weights_data, "2subj_2desc_mix")
+    desc_mix = weighted_choice(GlobalState.weights_data, "2subj_2desc_mix", variable="desc_mix", caller="decide_2_2_mix")
     return ["xy"] * desc_mix[0] + ["x"] * desc_mix[1]
 
 
 # Returns a mix of 3 descriptions for 3 subjects 
 def decide_3_3_mix():
-    desc_mix = weighted_choice(GlobalState.weights_data, "3subj_3desc_mix")
+    desc_mix = weighted_choice(GlobalState.weights_data, "3subj_3desc_mix", variable="desc_mix", caller="decide_3_3_mix")
     return ["xy"] * desc_mix[0] + ["x"] * desc_mix[1]
 
 
 # Returns a mix of 4 descriptions for 3 subjects 
 def decide_3_4_mix():
-    desc_mix = weighted_choice(GlobalState.weights_data, "3subj_4desc_mix")
+    desc_mix = weighted_choice(GlobalState.weights_data, "3subj_4desc_mix", variable="desc_mix", caller="decide_3_4_mix")
     return ["xy"] * desc_mix[0] + ["x"] * desc_mix[1]
 
 
@@ -73,10 +85,16 @@ def decide_description_mix(subject_count, desc_count):
     }
 
     mix = desc_mix_map.get((subject_count, desc_count))
+    logger.debug(
+        "description type(s) mix: %s xy, %s x",
+        mix.count("xy"),
+        mix.count("x")
+    )
+
     return mix() if callable(mix) else mix
 
 
-# Creates constraints for subject selection base on the description mix
+# Creates constraints for subject selection based on the description mix
 def get_constraints(subject_count, desc_mix):
     constraints = []
 
@@ -86,17 +104,12 @@ def get_constraints(subject_count, desc_mix):
     if desc_mix.count("x") > 1 and subject_count > 1:
         constraints.append("x_balance")
     
-    #print(f"LOGIC-get_constraints: constraints: {constraints}\n")
-    return constraints
+    logger.debug(
+        "subject selection constraints: %s", 
+        "none" if constraints == [] else constraints
+    )
 
-# DEPRICATED - look into 3,2 and maybe add to get_constraints
-# (subj_count, desc_count): list of constraints
-'''
-rule_constraints = {
-    (2,2): ["x_balance"],
-    (2,3): ["x_balance"],
-    (3,2): [] # Refer to design doc. Is this necessary? would it be funny to have a useless subject?
-}'''
+    return constraints
 
 # Ensures constraints like xy_unique are upheld when assigning subjects.
 # Chooses subjects (s1) from candidate_subjects to be used for each description
