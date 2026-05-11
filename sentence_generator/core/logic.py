@@ -105,14 +105,15 @@ def get_constraints(subject_count, desc_mix):
         constraints.append("x_balance")
     
     logger.debug(
-        "subject selection constraints: %s", 
+        "subject selection constraints=%s", 
         "none" if constraints == [] else constraints
     )
 
     return constraints
 
-# Ensures constraints like xy_unique are upheld when assigning subjects.
-# Chooses subjects (s1) from candidate_subjects to be used for each description
+
+# Assigns subjects (e.g. s1) from candidate_subjects to each description in desc_plan
+# adds list of chosen subjects to the description's entry in grammar_plan
 # Need to re-evaluate later. can still choose a candidate for an x desc that was used as x in xy desc
 def enforce_constraints(desc_plan, grammar_plan, constraints, candidate_subjects):
     # Tracks candidate chosen as x in xy descriptions to enforce xy_unique constraint
@@ -121,16 +122,19 @@ def enforce_constraints(desc_plan, grammar_plan, constraints, candidate_subjects
     # Same for x description and x_balance constraint
     x_balance_list = []
 
+    logger.info("pairing subjects with descriptions: constraints=%s", constraints)
     for desc_key, desc_data in desc_plan.items():
         # Temp list to remove entries from candidate_subjects so the same subj isn't chosen
         # for x and y for an xy desc
         temp_candidates_xy = candidate_subjects.copy()
         
+        logger.debug("%s: type=%s", desc_key, desc_data["type"])
+        
         if desc_data["type"] == "xy":
             # choose 1st subject for the xy desc
-            # If xy_unique constaint is active, only accept choices that haven't already been chosen
+            # If xy_unique constaint ids active, only accept choices that haven't already been chosen
             while True:
-                rand_selection = random.randint(0,len(temp_candidates_xy)-1)
+                rand_selection = random.randrange(len(temp_candidates_xy))
                 x_choice = temp_candidates_xy[rand_selection]
                 if x_choice not in xy_unique_list:
                     # Remove x_choice so the same exact subj isn't chosen for y_choice
@@ -141,8 +145,10 @@ def enforce_constraints(desc_plan, grammar_plan, constraints, candidate_subjects
                 xy_unique_list.append(x_choice)
             
             # Choose 2nd subject
-            rand_selection = random.randint(0,len(temp_candidates_xy)-1)
+            rand_selection = random.randrange(len(temp_candidates_xy))
             y_choice = temp_candidates_xy[rand_selection]
+
+            logger.debug("  subjects chosen: %s, %s", x_choice, y_choice)
 
             # Add choices to grammar_plan
             grammar_plan[desc_key]["subjects"] = [x_choice, y_choice]
@@ -159,5 +165,10 @@ def enforce_constraints(desc_plan, grammar_plan, constraints, candidate_subjects
             if "x_balance" in constraints:
                 x_balance_list.append(x_choice)
 
+
+            logger.debug("  subject chosen: %s", x_choice)
+
             # Add choice to grammar_plan
             grammar_plan[desc_key]["subjects"] = [x_choice]
+    logger.info("subject pairing complete")
+    logger.debug("  grammar_plan after pairing: %s", grammar_plan)
