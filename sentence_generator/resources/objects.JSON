@@ -74,7 +74,9 @@
     "id": 696,
     "singular": "Body part",
     "plural": "Body parts",
-    "tags": [],
+    "tags": [
+      "organic"
+    ],
     "category": "items",
     "subcategory": "items_general"
   },
@@ -82,7 +84,9 @@
     "id": 697,
     "singular": "Branch",
     "plural": "Branches",
-    "tags": [],
+    "tags": [
+      "organic"
+    ],
     "category": "items",
     "subcategory": "items_general"
   },
@@ -144,7 +148,9 @@
     "id": 704,
     "singular": "Corpse",
     "plural": "Corpses",
-    "tags": [],
+    "tags": [
+      "organic"
+    ],
     "category": "items",
     "subcategory": "items_general"
   },
