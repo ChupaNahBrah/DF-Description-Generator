@@ -1,9 +1,10 @@
 # Loads JSON files with subjects and descriptions
 
-from pathlib import Path
 import json
-from collections import defaultdict
 import logging
+from collections import defaultdict
+from pathlib import Path
+
 logger = logging.getLogger(__name__)
 
 # Path to resource folder
@@ -11,7 +12,7 @@ RESOURCE_DIR = Path(__file__).resolve().parent.parent / "resources"
 
 # Data structures for the loaded data to be stroed in memory
 class GlobalState:
-    # Master subject dictionary: ID → subject data
+    # Master subject dictionary: ID -> subject data
     all_subjects = None
 
     # categories is a dict containing set/lists of all subcategories contained in each category found in the JSON files
@@ -43,37 +44,43 @@ def reset_runtime_state():
 # Loads all subjects from JSON files in the 'resources' folder.
 # Builds the flat subject list and indexes bycategory, subcategory, and tags.
 def load_subjects():
-    logger.info('loading subject files')
     _valid_prefixes = ("creatures", "objects", "plants", "shapes")
+
+    logger.info('loading subject files')
+
+    try:
+        filepaths = list(RESOURCE_DIR.iterdir())
+    except OSError:
+        logger.exception("failed to read resource directory: %s", RESOURCE_DIR)
+        raise
  
-    for filepath in RESOURCE_DIR.iterdir(): 
+    for filepath in filepaths: 
         # Skip all non-subject files
         if filepath.suffix != ".json" or not filepath.name.startswith(_valid_prefixes):
             continue
         
         logger.debug("loading subject file %s", filepath.name)
 
-        with filepath.open("r", encoding="utf-8") as f:
-            try:
+        try:
+            with filepath.open("r", encoding="utf-8") as f:
                 data = json.load(f)
-            except json.JSONDecodeError:
-                logger.exception("failed to read subject file %s", filepath.name)
-                continue
-            logger.debug("loaded %s subject records from %s", len(data), filepath.name)
-            
+        except (json.JSONDecodeError, OSError):
+            logger.exception("failed to read subject file %s", filepath.name)
+            raise
+        else:   
             # Iterate through each entry in the current subject file
             for current_subj in data:
                 current_subj_id = current_subj["id"]
 
-                # Add current subject to all_subjects (subject_id → full subject data)
+                # Add current subject to all_subjects (subject_id -> full subject data)
                 GlobalState.all_subjects[current_subj_id] = current_subj
-                
-                # Map category → set(subcategories)
+                    
+                # Map category -> set(subcategories)
                 current_subj_cat = current_subj["category"]
                 current_subj_subcat = current_subj["subcategory"]
                 GlobalState.index["categories"][current_subj_cat].add(current_subj_subcat)
-                
-                # Map subcategory → list(subject IDs in subcat)
+                    
+                # Map subcategory -> list(subject IDs in subcat)
                 GlobalState.index["subcategories"][current_subj_subcat].append(current_subj_id)
 
                 current_subj_tags = current_subj['tags']
@@ -81,58 +88,73 @@ def load_subjects():
                     GlobalState.index["tags"][tag][current_subj_id] = {
                         "id": current_subj_id,
                         "tags": current_subj_tags,
-                        "subcategory": current_subj_subcat}
+                        "subcategory": current_subj_subcat
+                    }
+            logger.debug("loaded %s subject records from %s", len(data), filepath.name)
     logger.info(
         "loaded %s subjects across %s categories, %s subcategories, and %s tags",
         len(GlobalState.all_subjects),
         len(GlobalState.index["categories"]),
         len(GlobalState.index["subcategories"]),
-        len(GlobalState.index["tags"]))
+        len(GlobalState.index["tags"])
+    )
+
 
 def load_descriptions():
-    logger.info('loading description files')
     _valid_prefixes = ("x_descriptions", "xy_descriptions")
 
-    for filepath in RESOURCE_DIR.iterdir():
+    logger.info('loading description files')
+
+    try:
+        filepaths = list(RESOURCE_DIR.iterdir())
+    except OSError:
+        logger.exception("failed to read resource directory: %s", RESOURCE_DIR)
+        raise
+
+    for filepath in filepaths:
         if filepath.suffix != ".json" or not filepath.name.startswith(_valid_prefixes):
             continue
 
         logger.debug("loading description file %s", filepath.name)
 
-        with filepath.open("r", encoding="utf-8") as f:
-            try:
+        try:
+            with filepath.open("r", encoding="utf-8") as f:
                 data = json.load(f)
-            except json.JSONDecodeError:
-                logger.exception("failed to read description file %s", filepath.name)
-                continue
-            logger.debug("loaded %s description records from %s", len(data), filepath.name)
-
+        except (json.JSONDecodeError, OSError):
+            logger.exception("failed to read description file %s", filepath.name)
+            raise
+        else:
             if filepath.name.startswith("x_descriptions"):
                 for current_desc in data:
                     current_desc_id = current_desc["desc_id"]
                     GlobalState.index["x_descriptions"][current_desc_id] = current_desc
-            
+                
             if filepath.name.startswith("xy_descriptions"):
                 for current_desc in data:
                     current_desc_id = current_desc["desc_id"]
                     GlobalState.index["xy_descriptions"][current_desc_id] = current_desc
+            logger.debug("loaded %s description records from %s", len(data), filepath.name)
     logger.info(
         "loaded %s X descriptions and %s XY descriptions",
         len(GlobalState.index["x_descriptions"]),
         len(GlobalState.index["xy_descriptions"]))
 
+
 def load_weights():
     filename = "weights.json"
     filepath = RESOURCE_DIR / filename
 
-    #print(f"LOADER-weights: Attempting to load weights from {filepath}\n")
+    logger.info("loading weights file")
 
-    with filepath.open("r", encoding="utf-8") as f:
-        try:
+    try:
+        with filepath.open("r", encoding="utf-8") as f:
             GlobalState.weights_data = json.load(f)
-        except json.JSONDecodeError as e:
-            print(f"Error reading {filename}: {e}")
-    #print(f"LOADER-weights: Loaded data keys: {list(GlobalState.weights_data.keys())}\n")
+    except (json.JSONDecodeError, OSError):
+        logger.exception("failed to read weights file: %s", filename)
+        raise
+
+    logger.info("loaded %s weight groups", len(GlobalState.weights_data))
+    logger.debug("loaded weight groups: %s", list(GlobalState.weights_data.keys()))
 
 
 
