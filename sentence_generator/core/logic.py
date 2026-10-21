@@ -9,9 +9,11 @@ logger = logging.getLogger(__name__)
 def weighted_choice(weights_data, key, variable=None, caller=None):
     if key not in weights_data:
         if variable is not None and caller is not None:
-            logger.debug("weighted_choice failed for %s assignment in %s", variable, caller)
-        logger.error("key, '%s' not found. weights_data: %s", key, weights_data)
-        raise Exception(f"ERROR- logic.py: weighted_choice(): no weights found for {key}")
+            logger.debug("weighted_choice failed for %r assignment in %r", variable, caller)
+        raise KeyError(
+            f"no weights found for key: {key!r}; "
+            f"available keys: {list(weights_data)}"
+        )
 
     if isinstance(weights_data[key], dict):
         options = list(map(int, weights_data[key].keys()))
@@ -21,33 +23,51 @@ def weighted_choice(weights_data, key, variable=None, caller=None):
         options = [entry["mix"] for entry in weights_data[key]]
         weight_values = [entry["weight"] for entry in weights_data[key]]
 
-    else: # weights_data is an unsupported type
-        logger.error("weights_data[%s] is type: %s. must be a dict or list", key, type(weights_data[key]).__name__)
-        raise Exception(f"ERROR- logic.py: weighted_choice: weights_data[{key}] is an unsupported type")
+    else: # The specified weight group is an unsupported type
+        raise TypeError(
+            f"weights_data[{key!r}] must be a dict or list; "
+            f"got {type(weights_data[key]).__name__}"
+        )
 
     if not options or len(options) != len(weight_values):
         if variable is not None and caller is not None:
-            logger.debug("weighted_choice failed for %s assignment in %s", variable, caller)
-        logger.error("options empty or options/weight_value mismatch \noptions: %s \nweight_values: %s", options, weight_values)
-        raise Exception("ERROR- logic.py: weighted_choice: options empty or options/weight_values mismatch")
+            logger.debug("weighted_choice failed for %r assignment in %r", variable, caller)
+
+        if not options:
+            raise ValueError(f"no options available for weight group {key!r}")
+        
+        if len(options) != len(weight_values):
+            raise ValueError(
+                f"options and weights must have equal lengths for weight group {key!r}; "
+                f"got {len(options)} options and {len(weight_values)} weights"
+            )
 
     choice = random.choices(options, weights=weight_values, k=1)[0]
 
     logger.debug(
-        "weighted choice for %s assignment in %s \nkey=&s \nweights=&s \nchoice=%s",
+        "weighted choice for %r assignment in %r \nkey=%r options=%s weights=%s choice=%r",
         variable, caller, key, options, weight_values, choice
     )
     return choice
 
 
 def choose_subject_count():
-    return weighted_choice(GlobalState.weights_data, "subject_count", variable="subject_count", caller="choose_subject_count")
+    subject_count = weighted_choice(
+        GlobalState.weights_data,
+        key="subject_count",
+        variable="subject_count",
+        caller="choose_subject_count"
+    )
+    logger.info("selected subject count: %s", subject_count)
+    return subject_count
 
 
 def choose_description_count(subject_count):
     subject_count = int(subject_count)
     key = f"{subject_count}subj_desc_count"
-    return weighted_choice(GlobalState.weights_data, key, variable="desc_count", caller="choose_description_count")
+    description_count = weighted_choice(GlobalState.weights_data, key, variable="description_count", caller="choose_description_count")
+    logger.info("selected description count: %s", description_count)
+    return description_count
 
 
 # Returns a mix of 2 descriptions for 2 subjects based on weights.json rule
@@ -86,7 +106,7 @@ def decide_description_mix(subject_count, desc_count):
 
     mix = desc_mix_map.get((subject_count, desc_count))
     logger.debug(
-        "description type(s) mix: %s xy, %s x",
+        "selected description mix: xy=%s x=%s",
         mix.count("xy"),
         mix.count("x")
     )
@@ -104,9 +124,9 @@ def get_constraints(subject_count, desc_mix):
     if desc_mix.count("x") > 1 and subject_count > 1:
         constraints.append("x_balance")
     
-    logger.debug(
+    logger.info(
         "subject selection constraints=%s", 
-        "none" if constraints == [] else constraints
+        "none" if not constraints else constraints
     )
 
     return constraints
