@@ -1,5 +1,5 @@
 # Handles full sentence generation pipeline
-# TODO: verify select_descriptions doesn't reuse desc_ids. same for selecting subjs
+# TODO: verify build_description_plan doesn't reuse desc_ids. same for selecting subjs
 # TODO: fix selector.choose_subject_ids()
 
 from ..data.loader import (
@@ -15,7 +15,7 @@ from .logic import (
     get_constraints
 )
 from .selector import (
-    select_descriptions,
+    build_description_plan,
     select_subjects_for_descriptions,
     choose_subject_ids,
     decide_subject_quantities
@@ -26,16 +26,17 @@ from .grammar import (
 )
 
 import logging
+import json
+import sys
 logger = logging.getLogger(__name__)
 
-logging.basicConfig(level=logging.DEBUG)
-
 def load_data():
-    logger.info('loading data')
+    logger.info("loading data")
     reset_runtime_state()
     load_subjects()
     load_descriptions()
     load_weights()
+    logger.info("data loading complete")
 
 def generate_sentence():
     logger.info('generating sentence')
@@ -45,7 +46,7 @@ def generate_sentence():
     constraints = get_constraints(subject_count, desc_mix)
 
     logger.info('building description plan')
-    desc_plan = select_descriptions(desc_mix)
+    desc_plan = build_description_plan(desc_mix)
     grammar_plan = select_subjects_for_descriptions(desc_plan, constraints, subject_count)
     choose_subject_ids(desc_plan, grammar_plan)
     decide_subject_quantities(grammar_plan)
@@ -58,6 +59,11 @@ def generate_sentence():
     return sentence
 
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.DEBUG)
     logger.info('starting generation')
-    load_data()
-    print(generate_sentence())
+    try:
+        load_data()
+    except (json.JSONDecodeError, OSError):
+        sys.exit(1)
+    else:
+        print(generate_sentence())
