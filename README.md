@@ -1,6 +1,7 @@
 # DF-Description-Generator
 
 A Python + Flask project for generating descriptions of images based on the Fortress Symbol creation tool in Dwarf Fortress. It uses weighted random selection and logical constraints.
+This project is a work in progress and is not fully functional yet.
 
 ---
 
@@ -29,7 +30,6 @@ sentence_generator/
 ├── resources/                     # Static JSON data files (subjects, descriptions, weights)
 │
 ├── main.py                        # Entry point for running the application
-├── __init__.py                    # Package initializer
 </pre>
 All runtime data is stored in a singleton `GlobalState` object for efficient access across modules.
 
