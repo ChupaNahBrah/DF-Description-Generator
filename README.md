@@ -3,7 +3,6 @@
 A Python + Flask project for generating descriptions of images based on the Fortress Symbol creation tool in Dwarf Fortress. It uses weighted random selection and logical constraints.
 This project is a work in progress and is not fully functional yet.
 
----
 
 ## Architecture Overview
 
@@ -33,7 +32,6 @@ sentence_generator/
 </pre>
 All runtime data is stored in a singleton `GlobalState` object for efficient access across modules.
 
----
 
 ## Features
 
@@ -42,7 +40,6 @@ All runtime data is stored in a singleton `GlobalState` object for efficient acc
 -  X and XY description structure (1-subject vs 2-subject actions)
 -  Sentence formatting with pluralization and article logic
 
----
 
 ## Sample Output
 
