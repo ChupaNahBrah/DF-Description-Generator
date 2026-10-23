@@ -132,10 +132,10 @@ def get_constraints(subject_count, desc_mix):
     return constraints
 
 
-# Assigns subjects (e.g. s1) from candidate_subjects to each description in desc_plan
+# Assigns subject placeholders (e.g. s1) from candidate_subjects to each description in desc_plan, respecting constraints
 # adds list of chosen subjects to the description's entry in grammar_plan
-# Need to re-evaluate later. can still choose a candidate for an x desc that was used as x in xy desc
-def enforce_constraints(desc_plan, grammar_plan, constraints, candidate_subjects):
+# TODO: Need to re-evaluate later. can still choose a candidate for an x desc that was used as x in xy desc
+def assign_subjects_to_descriptions(desc_plan, grammar_plan, constraints, candidate_subjects):
     # Tracks candidate chosen as x in xy descriptions to enforce xy_unique constraint
     xy_unique_list = []
 

@@ -1,7 +1,7 @@
 # Logic for selecting subjects/descriptions
 from ..data.loader import GlobalState
 from ..data.filters import subject_filter_by_tag, filter_categories_for_tag, subject_filter_by_subcategory_tag
-from .logic import enforce_constraints
+from .logic import assign_subjects_to_descriptions
 from collections import defaultdict
 import random
 import logging
@@ -85,7 +85,9 @@ def choose_subject_ids(desc_plan, grammar_plan):
             grammar_plan["chosen_subject_ids"][subject_key] = chosen_id
 
 
-# TODO: only need to do candidate subjects if not desc_plan.
+# TODO: when desc_plan is empty, choose a subject without relying on
+# description assignment so the sentence still includes its subject
+
 # Creates grammar_plan which is passed to grammar.py for final sentence construction
 # if desc_plan empty (or not fully populated ie. 1 sub and 0 desc), manually set up s1.
 # First, creates grammar_plan dict that contains all data needed for sentence construction
@@ -101,8 +103,7 @@ def build_grammar_plan(desc_plan, constraints, subject_count):
             "type": desc_data["type"],
             "desc_id": desc_data["desc_id"]
         }
-        logger.debug("added %s to grammar_plan", key)
-        logger.debug("  type=%s, desc_id=%s", desc_data["type"], desc_data["desc_id"])
+        logger.debug("added %s to grammar_plan; type=%s, desc_id=%s", key, desc_data["type"], desc_data["desc_id"])
 
         # Need to update if quantity requirements change
         # Copies quantity requirements from desc_plan to grammar_plan since choose_subject_ids() uses only grammar_plan
@@ -120,10 +121,10 @@ def build_grammar_plan(desc_plan, constraints, subject_count):
     logger.debug("candidate subjects created: %s", candidate_subjects)
     logger.debug("initialized chosen subject placeholders: %s", grammar_plan["chosen_subject_ids"])
 
-    enforce_constraints(desc_plan, grammar_plan, constraints, candidate_subjects)
+    assign_subjects_to_descriptions(desc_plan, grammar_plan, constraints, candidate_subjects)
     
     logger.info("created grammar_plan with %s descriptions and %s subjects", sum(1 for k in grammar_plan if k.startswith("desc_")), len(grammar_plan["chosen_subject_ids"]))
-    logger.debug("  grammar_plan: %s", grammar_plan)
+    logger.debug("grammar_plan: %s", grammar_plan)
     return grammar_plan
 
 
