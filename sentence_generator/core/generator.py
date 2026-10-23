@@ -16,7 +16,7 @@ from .logic import (
 )
 from .selector import (
     build_description_plan,
-    select_subjects_for_descriptions,
+    build_grammar_plan,
     choose_subject_ids,
     decide_subject_quantities
 )
@@ -47,7 +47,7 @@ def generate_sentence():
 
     logger.info('building description plan')
     desc_plan = build_description_plan(desc_mix)
-    grammar_plan = select_subjects_for_descriptions(desc_plan, constraints, subject_count)
+    grammar_plan = build_grammar_plan(desc_plan, constraints, subject_count)
     choose_subject_ids(desc_plan, grammar_plan)
     decide_subject_quantities(grammar_plan)
 
