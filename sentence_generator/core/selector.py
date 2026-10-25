@@ -32,7 +32,7 @@ def decide_subject_quantities(grammar_plan):
 
 def choose_subject_ids(desc_plan, grammar_plan):
     logger.info("choosing IDs for subjects in grammar_plan")
-    logger.debug("  number of subjects=%s", len(grammar_plan["chosen_subject_ids"]))
+    logger.debug("number of subjects=%s", len(grammar_plan["chosen_subject_ids"]))
     
     # Choose subject IDs for each subject
     for desc_key, desc_data in grammar_plan.items():
@@ -66,7 +66,7 @@ def choose_subject_ids(desc_plan, grammar_plan):
             
             options = subject_filter_by_subcategory_tag(subcategory_choice, required_tags_x)
             chosen_id = random.choice(options)
-            logger.debug("  selected subject id=%s, category=%s, subcategory=%s, filtered options=%s", chosen_id, category_choice, subcategory_choice, len(options))
+            logger.debug("selected subject id=%s, category=%s, subcategory=%s, filtered options=%s", chosen_id, category_choice, subcategory_choice, len(options))
             grammar_plan["chosen_subject_ids"][subject_key] = chosen_id
 
             # Id for 2nd subject (y)
@@ -81,12 +81,23 @@ def choose_subject_ids(desc_plan, grammar_plan):
             
             options = subject_filter_by_subcategory_tag(subcategory_choice, required_tags_x, disallowed_tags_y)
             chosen_id = random.choice(options)
-            logger.debug("  selected subject id=%s, category=%s, subcategory=%s, filtered options=%s", chosen_id, category_choice, subcategory_choice, len(options))
+            logger.debug("selected subject id=%s, category=%s, subcategory=%s, filtered options=%s", chosen_id, category_choice, subcategory_choice, len(options))
             grammar_plan["chosen_subject_ids"][subject_key] = chosen_id
 
+    # Populate any subject IDs that have yet to be selected (or for when there are 0 descriptions)
+    for subject_key, subject_id in grammar_plan["chosen_subject_ids"].items():
+        if subject_id == 0:
+            logger.debug("choosing ID for %s", subject_key)
+            
+            filtered_categories = filter_categories_for_tag()
+            category_choice = random.choice(list(filtered_categories.keys()))
+            subcategory_choice = random.choice(list(filtered_categories[category_choice]))
+            
+            options = subject_filter_by_subcategory_tag(subcategory_choice)
+            chosen_id = random.choice(options)
+            logger.debug("selected subject id=%s, category=%s, subcategory=%s, filtered options=%s", chosen_id, category_choice, subcategory_choice, len(options))
+            grammar_plan["chosen_subject_ids"][subject_key] = chosen_id
 
-# TODO: when desc_plan is empty, choose a subject without relying on
-# description assignment so the sentence still includes its subject
 
 # Creates grammar_plan which is passed to grammar.py for final sentence construction
 # if desc_plan empty (or not fully populated ie. 1 sub and 0 desc), manually set up s1.
