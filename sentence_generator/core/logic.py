@@ -136,6 +136,9 @@ def get_constraints(subject_count, desc_mix):
 # adds list of chosen subjects to the description's entry in grammar_plan
 # TODO: Need to re-evaluate later. can still choose a candidate for an x desc that was used as x in xy desc
 def assign_subjects_to_descriptions(desc_plan, grammar_plan, constraints, candidate_subjects):
+    if not desc_plan:
+        return 
+    
     # Tracks candidate chosen as x in xy descriptions to enforce xy_unique constraint
     xy_unique_list = []
 
