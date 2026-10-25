@@ -78,7 +78,7 @@ def filter_categories_for_tag(tag_filter=None, excluded_tags=None):
 
 # Filters and adds subjects to a list that have the specified tag, in the specified subcategory, 
 # excluding any disallowed tags
-def subject_filter_by_subcategory_tag(subcategory, tag_filter, excluded_tags):
+def subject_filter_by_subcategory_tag(subcategory, tag_filter=None, excluded_tags=None):
     # Normalize args so the function can safely accept None, a single string, or a list.
     if tag_filter is None:
         tag_filter = []
