@@ -39,7 +39,7 @@ def load_data():
     logger.info("data loading complete")
 
 def generate_sentence():
-    logger.info('generating sentence')
+    logger.info("generating sentence")
     subject_count = choose_subject_count()
     description_count = choose_description_count(subject_count)
     desc_mix = decide_description_mix(subject_count, description_count)
@@ -51,16 +51,17 @@ def generate_sentence():
     choose_subject_ids(desc_plan, grammar_plan)
     decide_subject_quantities(grammar_plan)
 
-    logger.info('formatting sentence')
+    logger.info("creating sentence data")
     sentence_data = populate_sentence_data(grammar_plan)
+    logger.info("formatting sentence")
     sentence = format_sentence(grammar_plan, sentence_data)
-    logger.info('generation complete')
+    logger.info("generation complete")
 
     return sentence
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
-    logger.info('starting generation')
+    logger.info("starting generation")
     try:
         load_data()
     except (json.JSONDecodeError, OSError):
