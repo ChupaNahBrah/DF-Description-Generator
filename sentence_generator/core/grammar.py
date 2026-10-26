@@ -1,5 +1,7 @@
 # Grammar and formatting utilities
 from ..data.loader import GlobalState
+import logging
+logger = logging.getLogger(__name__)
 
 def format_sentence(grammar_plan, sentence_data):
     """
@@ -17,7 +19,6 @@ def format_sentence(grammar_plan, sentence_data):
     # ─────────────────────────────────────
     # Construct the initial subject line
     # ─────────────────────────────────────
-    
     # Build a list like ["2 dwarves", "multiple wolves", "1 sword"]
     subject_chunks = []
 
@@ -32,6 +33,8 @@ def format_sentence(grammar_plan, sentence_data):
         # Join all but last with commas, then add "and [last]"
         all_but_last = ", ".join(subject_chunks[:-1])
         subject_line = f"The image is of {all_but_last}, and {subject_chunks[-1]}. "    
+
+    logger.info("constructed subject with %s subjects", len(subject_chunks))
 
     # ─────────────────────────────────────
     # Construct the description sentences
@@ -62,6 +65,8 @@ def format_sentence(grammar_plan, sentence_data):
             # Format as: "The [subj] [verb phrase]. "
             description_lines.append(f"The {subj} {description_text}. ")
 
+    logger.info("constructed %s description lines", len(description_lines))
+
     # Combine all parts into one sentence
     sentence = subject_line + "".join(description_lines)
     return sentence
@@ -87,6 +92,7 @@ def populate_sentence_data(grammar_plan):
     # ─────────────────────────────────────
     # Handle each description (desc_# keys)
     # ─────────────────────────────────────
+    logger.info("extracting description data")
     for grammar_key, grammar_data in grammar_plan.items():
         # Grab description text and add it to sentence_data.
         if grammar_key.startswith("desc_"):
@@ -112,22 +118,34 @@ def populate_sentence_data(grammar_plan):
 
             # Store the final description
             sentence_data["descriptions"][grammar_key] = text
+            logger.debug(
+                "extracted data for %r: id=%s text=%r plurality=%r",
+                grammar_key, desc_id, text, plurality
+            )
+    logger.info("prepared %s descriptions", len(sentence_data["descriptions"]))
 
     # ─────────────────────────────────────
     # Replace subject IDs with their names
     # ─────────────────────────────────────
-    for subj_key, id in grammar_plan["chosen_subject_ids"].items():
+    logger.info("populating subject names")
+    for subj_key, subj_id in grammar_plan["chosen_subject_ids"].items():
         plurality = "singular" if grammar_plan["subj_quantities"][subj_key] == 1 else "plural"
-        sentence_data["subjects"][subj_key] = GlobalState.all_subjects[id][plurality]
+        sentence_data["subjects"][subj_key] = GlobalState.all_subjects[subj_id][plurality]
+        logger.debug(
+            "populated name for %r: id=%s name=%r plurality=%r",
+            subj_key, subj_id, GlobalState.all_subjects[subj_id][plurality], plurality
+        )
 
     # ─────────────────────────────────────
     # Convert raw quantities to strings
     # ─────────────────────────────────────
+    logger.info("formatting quantity strings")
     for subj_key, subj_quantity in grammar_plan["subj_quantities"].items():
         # Use "multiple" for quantities of 5
         quantity = str(subj_quantity) if subj_quantity < 5 else "multiple"
         sentence_data["quantities"][subj_key] = quantity
 
+    logger.debug("sentence_data created: %r", sentence_data)
     return sentence_data
 
 '''
