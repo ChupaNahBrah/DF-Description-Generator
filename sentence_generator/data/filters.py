@@ -4,19 +4,25 @@
 
 from ..data.loader import GlobalState
 from collections import defaultdict
+import logging
+logger = logging.getLogger(__name__)
 
 # Filters and adds subjects to a list that have the specified tag, excluding any disallowed tags
 def subject_filter_by_tag(tag_filter, excluded_tags):
+    logger.debug("filtering subjects by tag; filter=%s excluded_tags=%s", tag_filter, excluded_tags)
+
     filtered_list = []
 
     for subject in GlobalState.index["tags"][tag_filter].values():
         # Exclude from the filter any subject that has any tags that are prohibited
         if not any(tag in subject["tags"] for tag in excluded_tags):
             filtered_list.append(subject)
-    
+
+    logger.debug("retrieved %s options", len(filtered_list))
     return filtered_list
 
 
+# TODO: does the subject need to match all tag or any tag?
 def filter_categories_for_tag(tag_filter=None, excluded_tags=None):
     '''
     Build a filtered category → subcategory mapping, based on included and excluded tags.
@@ -29,6 +35,8 @@ def filter_categories_for_tag(tag_filter=None, excluded_tags=None):
     Returns:
         filtered_category_dict[category, set[subcategories]]: Filtered mapping of categories to subcategories
     '''
+    logger.debug("filtering available categories and subcategories: tag_filter=%r excluded_tags=%r", tag_filter, excluded_tags)
+
     # Ensure tag_filter is a list for unified processing
     if isinstance(tag_filter, str):
         tag_filter = [tag_filter]
@@ -44,6 +52,7 @@ def filter_categories_for_tag(tag_filter=None, excluded_tags=None):
     
     # Early exit if there are no requirements for the filter -> use the default category map
     if not tag_filter and not excluded_tags:
+        logger.debug("no filters; all categories are available")
         return GlobalState.index["categories"]
 
     if tag_filter:
@@ -73,12 +82,21 @@ def filter_categories_for_tag(tag_filter=None, excluded_tags=None):
             if sub in filtered_subcategory_list:
                 filtered_category_dict[category].add(sub)
 
+    logger.debug(
+        "filtered categories=%s subcategories=%s",
+        len(filtered_category_dict),
+        sum(len(subcategories) for subcategories in filtered_category_dict.values())
+    )
     return filtered_category_dict
 
 
-# Filters and adds subjects to a list that have the specified tag, in the specified subcategory, 
-# excluding any disallowed tags
+# Filters and adds subjects to a list that have the specified tag,
+# in the specified subcategory, excluding any disallowed tags
 def subject_filter_by_subcategory_tag(subcategory, tag_filter=None, excluded_tags=None):
+    logger.debug(
+        "filtering subjects for subcategory=%r tag_filter=%r excluded_tags=%r",
+        subcategory, tag_filter, excluded_tags    
+    )
     # Normalize args so the function can safely accept None, a single string, or a list.
     if tag_filter is None:
         tag_filter = []
@@ -99,4 +117,5 @@ def subject_filter_by_subcategory_tag(subcategory, tag_filter=None, excluded_tag
         if all(tag in candidate_tags for tag in tag_filter) and not any(tag in candidate_tags for tag in excluded_tags):
             filtered_list.append(candidate_id)
 
+    logger.debug("filter returned %s subjects", len(filtered_list))
     return filtered_list
