@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 
 # Filters and adds subjects to a list that have the specified tag, excluding any disallowed tags
 def subject_filter_by_tag(tag_filter, excluded_tags):
-    logger.debug("filtering subjects by tag; filter=%s excluded_tags=%s", tag_filter, excluded_tags)
+    logger.debug("filtering subjects by tag; filter=%r excluded_tags=%r", tag_filter, excluded_tags)
 
     filtered_list = []
 
@@ -18,7 +18,7 @@ def subject_filter_by_tag(tag_filter, excluded_tags):
         if not any(tag in subject["tags"] for tag in excluded_tags):
             filtered_list.append(subject)
 
-    logger.debug("retrieved %s options", len(filtered_list))
+    logger.debug("filter returned %s options", len(filtered_list))
     return filtered_list
 
 
