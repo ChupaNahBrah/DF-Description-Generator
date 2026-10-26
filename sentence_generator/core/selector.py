@@ -10,10 +10,11 @@ logger = logging.getLogger(__name__)
 # Generate quantities for each subject, respecting any min/max requirements.
 # Need to update if quantity requirements change
 def decide_subject_quantities(grammar_plan):
+    logger.info("generating subject quantities")
+    
     for subj_key, id in grammar_plan["chosen_subject_ids"].items():
         # Sets minimum quantity to requirement or 1 if there isn't one
         # Need to update if x_min/max or y_max is introduced
-        min_quantity = 1
         for desc_data in grammar_plan.values():
             if (
                 "subjects" in desc_data
@@ -22,12 +23,19 @@ def decide_subject_quantities(grammar_plan):
             ):
                 min_quantity = desc_data.get("y_min_quantity")
                 break
+            else:
+                min_quantity = 1
 
         if "subj_quantities" not in grammar_plan:
             grammar_plan["subj_quantities"] = {}
 
         subj_quantity = random.randint(min_quantity,5)
+        logger.debug(
+            "generated quantity for subject %r: quantity=%s min_quantity=%s max=%s",
+            subj_key, subj_quantity, min_quantity, 5
+        )
         grammar_plan["subj_quantities"][subj_key] = subj_quantity
+    logger.info("generated subject quantities: %r", grammar_plan["subj_quantities"])
 
 
 def choose_subject_ids(desc_plan, grammar_plan):
