@@ -1,7 +1,10 @@
 # Grammar and formatting utilities
-from ..data.loader import GlobalState
 import logging
+
+from ..data.loader import GlobalState
+
 logger = logging.getLogger(__name__)
+
 
 def format_sentence(grammar_plan, sentence_data):
     """
@@ -26,11 +29,10 @@ def format_sentence(grammar_plan, sentence_data):
         quantity = sentence_data["quantities"][subj_key]
         subject_chunks.append(f"{quantity} {subject}")
     
-    # Format list with commas and "and"
+    # Add base text and punctuation
     if len(subject_chunks) == 1:
         subject_line = f"The image is of {subject_chunks[0]}. "
     else:
-        # Join all but last with commas, then add "and [last]"
         all_but_last = ", ".join(subject_chunks[:-1])
         subject_line = f"The image is of {all_but_last}, and {subject_chunks[-1]}. "    
 
@@ -62,12 +64,10 @@ def format_sentence(grammar_plan, sentence_data):
             subj_key = desc_data["subjects"][0]
             subj = sentence_data["subjects"][subj_key]
 
-            # Format as: "The [subj] [verb phrase]. "
             description_lines.append(f"The {subj} {description_text}. ")
 
     logger.info("constructed %s description lines", len(description_lines))
 
-    # Combine all parts into one sentence
     sentence = subject_line + "".join(description_lines)
     return sentence
 
